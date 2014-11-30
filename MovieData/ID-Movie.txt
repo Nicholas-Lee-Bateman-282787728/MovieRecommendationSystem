@@ -1,0 +1,1628 @@
+1	Toy Story
+2	Jumanji
+3	Grumpier Old Men
+4	Waiting to Exhale
+5	Father of the Bride Part II
+6	Heat
+7	Sabrina
+8	Tom and Huck (Tom Sawyer)
+9	Sudden Death
+10	Goldeneye
+11	The American President
+12	Dracula: Dead and Loving It
+13	Balto
+14	Nixon
+15	Cutthroat Island
+16	Casino
+17	Sense and Sensibility
+18	Four Rooms
+19	Ace Ventura: When Nature Calls
+20	Money Train
+21	Get Shorty
+22	Copycat
+23	Assassins
+24	Powder
+25	Leaving Las Vegas
+26	Othello
+27	Now and Then
+28	Persuasion
+29	The City of Lost Children
+30	Shanghai Triad (Yao a yao yao dao waipo yiao)
+31	Dangerous Minds
+32	12 Monkeys
+33	Wings of Courage
+34	Babe
+35	Carrington
+36	Dead Man Walking
+37	Across the Sea of Time: New York 3D
+38	It Takes Two (Me and My Shadow)
+39	Clueless
+40	Cry, The Beloved Country
+41	Richard III
+42	Dead Presidents
+43	Restoration
+44	Mortal Kombat
+45	To Die For
+46	How to Make an American Quilt
+47	Seven
+48	Pocahontas
+49	When Night is Falling
+50	The Usual Suspects
+51	Guardian Angel
+52	Mighty Aphrodite
+53	Lamerica
+54	The Big Green
+55	Georgia
+56	Kids of the Round Table
+57	Home for the Holidays
+58	Il Postino (The Postman)
+59	Le Confessionnal
+60	The Indian in the Cupboard
+61	Eye for an Eye
+62	Mr. Holland's Opus
+63	Don't Be a Menace to South Central While Drinking Your Juice in the Hood
+64	Two If By Sea (Stolen Hearts)
+65	Bio-Dome
+66	Lawnmower Man 2: Jobe's War
+67	Two Bits
+68	French Twist
+69	Friday
+70	From Dusk Till Dawn
+71	Fair Game
+72	Kicking and Screaming
+73	Les Mis�rables (Les Mis�rables du vingti�me si�cle)
+74	Bed of Roses
+75	Big Bully
+76	Screamers
+77	Nico Icon
+78	The Crossing Guard
+79	The Juror
+80	The White Balloon (Badkonake Sefid)
+81	Things to Do in Denver When You're Dead
+82	Antonia's Line
+83	Once Upon a Time... When We Were Colored
+84	Last Summer in the Hamptons
+85	Angels & Insects
+86	White Squall
+87	Dunston Checks In
+88	Black Sheep
+89	Nick of Time
+90	The Journey of August King
+92	Mary Reilly
+93	Vampire in Brooklyn
+94	Beautiful Girls
+95	Broken Arrow
+96	A Midwinter's Tale (In the Bleak Midwinter)
+97	Hate (La Ha�ne)
+98	Shopping
+99	Heidi Fleiss: Hollywood Madam
+100	City Hall
+101	Bottle Rocket
+102	Mr. Wrong
+103	Unforgettable
+104	Happy Gilmore
+105	The Bridges of Madison County
+106	Nobody Loves Me
+107	Muppet Treasure Island
+108	Catwalk
+109	Headless Body in Topless Bar
+110	Braveheart
+111	Taxi Driver (1976)
+112	Rumble in the Bronx (Hong Faan Kui)
+113	Before and After
+114	Margaret's Museum
+115	Le Bonheur est dans le pre
+116	Anne Frank Remembered
+117	The Young Poisoner's Handbook
+118	If Lucy Fell
+119	Steal Big, Steal Little
+120	Race the Sun
+121	The Boys of St. Vincent
+122	Boomerang
+123	Chungking Express
+124	The Star Maker (L'Uomo delle Stelle)
+125	Flirting With Disaster
+126	The NeverEnding Story III
+127	The Silences of the Palace (Saimt el Qusur)
+128	Jupiter's Wife
+129	Pie in the Sky
+130	Angela
+131	Frankie Starlight
+132	Jade
+133	Nueba Yol (Por Fin Llego Balbuena)
+134	Sonic Outlaws
+135	Down Periscope
+136	From the Journals of Jean Seberg
+137	Man of the Year
+138	The Neon Bible
+139	Target
+140	Up Close and Personal
+141	The Birdcage
+142	Shadows (1988)
+143	Gospa
+144	The Brothers McMullen
+145	Bad Boys
+146	The Amazing Panda Adventure
+147	The Basketball Diaries
+148	An Awfully Big Adventure
+149	Amateur
+150	Apollo 13
+151	Rob Roy
+152	The Addiction
+153	Batman Forever
+154	Belle de Jour (1967)
+155	Beyond Rangoon
+156	Blue in the Face
+157	Canadian Bacon
+158	Casper
+159	Clockers
+160	Congo
+161	Crimson Tide
+162	Crumb
+163	Desperado
+164	Devil in a Blue Dress
+165	Die Hard: With a Vengeance
+166	The Doom Generation
+167	Feast of July
+168	First Knight
+169	Free Willy 2: The Adventure Home
+170	Hackers
+171	Jeffrey
+172	Johnny Mnemonic (JM)
+173	Judge Dredd
+174	Jury Duty
+175	Kids
+176	Living in Oblivion
+177	Lord of Illusions
+178	Love and Human Remains
+179	Mad Love
+180	Mallrats
+181	Mighty Morphin Power Rangers: The Movie
+182	Moonlight and Valentino
+183	Mute Witness
+184	Nadja (1994)
+185	The Net
+186	Nine Months
+187	Party Girl
+188	The Prophecy (God's Army)
+189	Reckless
+190	Safe
+191	The Scarlet Letter
+192	The Show
+193	Showgirls
+194	Smoke
+195	Something to Talk About
+196	Species
+197	The Stars Fell on Henrietta
+198	Strange Days
+199	The Umbrellas of Cherbourg (1964)
+200	The Tie That Binds
+201	Three Wishes
+202	Total Eclipse
+203	To Wong Foo, Thanks for Everything! Julie Newmar
+204	Under Siege 2: Dark Territory
+205	Unstrung Heroes
+206	Unzipped
+207	A Walk in the Clouds
+208	Waterworld
+209	White Man's Burden
+210	Wild Bill
+211	The Browning Version
+212	Bushwhacked
+213	Burnt by the Sun
+214	Before the Rain (Pred Dozhdot)
+215	Before Sunrise
+216	Billy Madison
+217	The Babysitter
+218	Boys on the Side
+219	The Cure
+220	Castle Freak
+221	The Courtyard
+222	Circle of Friends
+223	Clerks
+224	Don Juan DeMarco (Don Juan DeMarco and the Centerfold)
+225	Disclosure
+226	Dream Man
+227	Drop Zone
+228	Destiny Turns On The Radio
+229	Death and the Maiden
+230	Dolores Claiborne
+231	Dumb and Dumber
+232	Eat Drink Man Woman
+233	Exotica
+234	Exit to Eden
+235	Ed Wood
+236	French Kiss
+237	Forget Paris
+238	Far From Home: The Adventures of Yellow Dog
+239	A Goofy Movie
+240	Hideaway
+241	Fluke
+242	Farinelli
+243	Gordy
+244	Gumby: The Movie
+245	The Glass Shield
+246	Hoop Dreams
+247	Heavenly Creatures
+248	Houseguest
+249	Immortal Beloved
+250	Heavyweights
+251	The Hunted
+252	I.Q.
+253	Interview with the Vampire
+254	Jefferson in Paris
+255	The Jerky Boys
+256	Junior
+257	Just Cause
+258	A Kid in King Arthur's Court
+259	Kiss of Death
+260	Star Wars
+261	Little Women
+262	A Little Princess
+263	Ladybird Ladybird
+264	L'Enfer
+265	Like Water For Chocolate (Como Agua Para Chocolate)
+266	Legends of the Fall
+267	Major Payne
+268	Little Odessa
+269	My Crazy Life (Mi Vida Loca)
+270	Love Affair
+271	Losing Isaiah
+272	The Madness of King George
+273	Mary Shelley's Frankenstein
+274	Man of the House
+275	Mixed Nuts
+276	Milk Money
+277	Miracle on 34th Street
+278	Miami Rhapsody
+279	My Family (Mi Familia)
+280	Murder in the First
+281	Nobody's Fool
+282	Nell
+283	New Jersey Drive
+284	New York Cop
+285	Nightscare
+286	Nemesis 2: Nebula
+287	Nina Takes a Lover
+288	Natural Born Killers
+289	Only You
+290	Once Were Warriors
+291	Poison Ivy II
+292	Outbreak
+293	The Professional
+294	The Perez Family
+295	A Pyromaniac's Love Story
+296	Pulp Fiction
+297	Panther
+298	Pushing Hands
+299	Priest
+300	Quiz Show
+301	Picture Bride
+302	Queen Margot
+303	The Quick and the Dead
+304	Roommates
+305	Ready to Wear (Pret � Porter)
+306	Three Colors: Red
+307	Three Colors: Blue
+308	Three Colors: White
+309	Red Firecracker, Green Firecracker (Paoda Shuang Deng)
+310	Rent-a-Kid
+311	Relative Fear
+312	Stuart Saves His Family
+313	The Swan Princess
+314	The Secret of Roan Inish
+315	The Specialist
+316	Stargate
+317	The Santa Clause
+318	The Shawshank Redemption
+319	Shallow Grave
+320	Suture
+321	Strawberry and Chocolate (Fresa y chocolate)
+322	Swimming With Sharks
+323	Stephen King's The Langoliers
+324	The Sum of Us
+325	National Lampoon's Senior Trip
+326	To Live (Huozhe)
+327	Tank Girl
+328	Tales From the Crypt Presents: Demon Knight
+329	Star Trek: Generations
+330	Tales From the Hood
+331	Tom and Viv
+332	Village of the Damned
+333	Tommy Boy
+334	Vanya on 42nd Street
+335	The Underneath
+336	The Walking Dead
+337	What's Eating Gilbert Grape?
+338	Virtuosity
+339	While You Were Sleeping
+340	The War
+341	Double Happiness
+342	Muriel's Wedding
+343	The Baby-Sitters Club
+344	Ace Ventura: Pet Detective
+345	The Adventures of Priscilla, Queen of the Desert
+346	Backbeat
+347	Bitter Moon
+348	Bullets Over Broadway
+349	Clear and Present Danger
+350	The Client
+351	Corrina, Corrina
+352	Crooklyn
+353	The Crow
+354	Cobb
+355	The Flintstones
+356	Forrest Gump
+357	Four Weddings and a Funeral
+358	Higher Learning
+359	I Like It Like That
+360	I Love Trouble
+361	It Could Happen to You
+362	The Jungle Book
+363	The Wonderful, Horrible Life of Leni Riefenstahl
+364	The Lion King
+365	Little Buddha
+366	Wes Craven's New Nightmare
+367	The Mask
+368	Maverick
+369	Mrs. Parker and the Vicious Circle
+370	Naked Gun 33 1/3: The Final Insult
+371	The Paper
+372	Reality Bites
+373	Red Rock West
+374	Richie Rich
+375	Safe Passage
+376	The River Wild
+377	Speed
+378	Speechless
+379	Timecop
+380	True Lies
+381	When a Man Loves a Woman
+382	Wolf
+383	Wyatt Earp
+384	Bad Company
+385	A Man of No Importance
+386	S.F.W.
+387	A Low Down Dirty Shame (Mr. Cool)
+388	Boy's Life
+389	Le Colonel Chabert
+390	Faster, Pussycat! Kill! Kill! (1965)
+391	Jason's Lyric
+392	The Secret Adventures of Tom Thumb
+393	Street Fighter
+394	Coldblooded
+395	Desert Winds
+396	Fall Time
+397	The Fear
+398	Frank and Ollie
+399	Girl in the Cadillac
+400	Homage
+401	Mirage
+402	Open Season
+403	Two Crimes (Dos crimenes)
+404	Brother Minister: The Assassination of Malcolm X
+405	Highlander III: The Sorcerer
+406	Federal Hill
+407	In the Mouth of Madness
+408	8 Seconds
+409	Above the Rim
+410	Addams Family Values
+411	You So Crazy
+412	The Age of Innocence
+413	Airheads
+414	The Air Up There
+415	Another Stakeout
+416	Bad Girls
+417	Barcelona
+418	Being Human
+419	The Beverly Hillbillies
+420	Beverly Hills Cop III
+421	Black Beauty
+422	Blink
+423	Blown Away
+424	Blue Chips
+425	Blue Sky
+426	Body Snatchers
+427	Boxing Helena
+428	A Bronx Tale
+429	Cabin Boy
+430	Calendar Girl
+431	Carlito's Way
+432	City Slickers II: The Legend of Curly's Gold
+433	Clean Slate
+434	Cliffhanger
+435	Coneheads
+436	Color of Night
+437	Cops and Robbersons
+438	The Cowboy Way
+439	Dangerous Game (Snake Eyes)
+440	Dave
+441	Dazed and Confused
+442	Demolition Man
+443	The Endless Summer 2
+444	Even Cowgirls Get the Blues
+445	Fatal Instinct
+446	Farewell My Concubine
+447	The Favor
+448	Fearless
+449	Fear of a Black Hat
+450	With Honors
+451	Flesh and Bone
+452	Widow's Peak
+453	For Love or Money
+454	The Firm
+455	Free Willy
+456	Fresh
+457	The Fugitive
+458	Geronimo: An American Legend
+459	The Getaway
+460	Getting Even With Dad
+461	Go Fish
+462	A Good Man in Africa
+463	Guilty As Sin
+464	Hard Target
+465	Heaven and Earth
+466	Hot Shots! Part Deux
+467	Live Nude Girls
+468	The Englishman Who Went Up a Hill But Came Down a Mountain
+469	The House of the Spirits
+470	House Party 3
+471	The Hudsucker Proxy
+472	I'll Do Anything
+473	In the Army Now
+474	In the Line of Fire
+475	In the Name of the Father
+476	The Inkwell (No Ordinary Summer)
+477	What's Love Got To Do With It?
+478	Jimmy Hollywood
+479	Judgment Night
+480	Jurassic Park
+481	Kalifornia
+482	Killing Zoe
+483	King of the Hill
+484	Lassie
+485	Last Action Hero
+486	Life With Mikey (Give Me a Break)
+487	Lightning Jack
+488	M. Butterfly
+489	Made in America
+490	Malice
+491	The Man Without a Face
+492	Manhattan Murder Mystery
+493	Menace II Society
+494	Executive Decision
+495	In the Realm of the Senses (Ai no Corrida) (1976)
+496	What Happened Was...
+497	Much Ado About Nothing
+498	Mr. Jones
+499	Mr. Wonderful
+500	Mrs. Doubtfire
+501	Naked
+502	The Next Karate Kid
+503	The New Age
+504	No Escape (Escape from Absolom)
+505	North
+506	Orlando
+507	A Perfect World
+508	Philadelphia
+509	The Piano
+510	Poetic Justice
+511	The Program
+512	The Puppet Masters
+513	Radioland Murders
+514	The Ref
+515	The Remains of the Day
+516	Renaissance Man
+517	Rising Sun
+518	The Road to Wellville
+519	Robocop 3
+520	Robin Hood: Men in Tights
+521	Romeo is Bleeding
+522	Romper Stomper
+523	Ruby in Paradise
+524	Rudy
+525	The Saint of Fort Washington
+526	Savage Nights (Les Nuits fauves)
+527	Schindler's List
+528	The Scout
+529	Searching For Bobby Fischer
+530	Second Best
+531	The Secret Garden (1993)
+532	Serial Mom
+533	The Shadow
+534	Shadowlands
+535	Short Cuts
+536	A Simple Twist of Fate
+537	Sirens
+538	Six Degrees of Separation
+539	Sleepless in Seattle
+540	Sliver
+541	Blade Runner (1982)
+542	Son in Law
+543	So I Married an Axe Murderer
+544	Striking Distance
+545	Sugar Hill (Harlem)
+546	Super Mario Bros.
+547	Surviving the Game
+548	Terminal Velocity
+549	Thirty-Two Short Films About Glenn Gould
+550	Threesome
+551	Tim Burton's The Nightmare Before Christmas
+552	The Three Musketeers
+553	Tombstone
+554	Trial By Jury
+555	True Romance
+556	The War Room
+557	Mamma Roma (1962)
+558	The Pagemaster
+559	Paris, France
+560	The Beans of Egypt, Maine (Forbidden Choices)
+561	Bulletproof Heart (Killer)
+562	Welcome to the Dollhouse
+563	Germinal
+564	Chasers
+565	Cronos (La Invencion de Cronos)
+566	Naked in New York
+567	Kika
+568	Bhaji on the Beach
+569	Little Big League
+570	The Slingshot (Kaadisbellan)
+571	The Wedding Gift
+572	Foreign Student
+573	Ciao, Professore!
+574	Spanking the Monkey
+575	The Little Rascals
+576	A la Mode (Fausto)
+577	Andre
+578	The Advocate
+579	La Scorta
+580	Princess Caraboo
+581	The Celluloid Closet
+582	Cafe au Lait
+583	Caro Diario (Dear Diary)
+584	I Don't Want to Talk About It (De Eso No Se Habla)
+585	The Brady Bunch Movie
+586	Home Alone
+587	Ghost
+588	Aladdin
+589	Terminator 2: Judgment Day
+590	Dances With Wolves
+591	Tough and Deadly
+592	Batman (1989)
+593	The Silence of the Lambs
+594	Snow White and the Seven Dwarfs (1937)
+595	Beauty and the Beast
+596	Pinocchio (1940)
+597	Pretty Woman
+598	Window to Paris
+599	The Wild Bunch (1969)
+600	Love and a .45
+601	The Wooden Man's Bride (Wukui)
+602	A Great Day in Harlem
+603	Bye Bye, Love
+604	Criminals
+605	One Fine Day
+606	Candyman: Farewell to the Flesh
+607	Century
+608	Fargo
+609	Homeward Bound II: Lost in San Francisco
+610	Heavy Metal (1981)
+611	Hellraiser: Bloodline
+612	The Pallbearer
+613	Jane Eyre
+614	Loaded
+615	Bread and Chocolate (Pane e Cioccolata) (1973)
+616	The Aristocats (1970)
+617	The Flower of My Secret (La Flor de mi Secreto)
+618	Two Much
+619	Ed
+620	Scream of Stone (Schrei aus Stein)
+621	My Favorite Season (Ma Saison Pr�f�r�e)
+623	A Modern Affair (Mr. #247)
+624	Condition Red
+625	Halfaouine: l'Enfant des Terrasses
+626	A Thin Line Between Love and Hate
+627	The Last Supper
+628	Primal Fear
+629	Rude
+630	Carried Away
+631	All Dogs Go to Heaven 2
+632	Land and Freedom (Tierra y libertad)
+633	Denise Calls Up
+634	Theodore Rex
+635	A Family Thing
+636	Frisk
+637	Sgt. Bilko
+638	Jack and Sarah
+639	Girl 6
+640	Diabolique
+641	Little Indian, Big City (Un Indien dans la ville)
+642	Roula
+643	Peanuts - Die Bank zahlt alles
+644	Happy Weekend
+645	Nelly et Monsieur Arnaud
+647	Courage Under Fire
+648	Mission: Impossible
+649	A Koeldum klaka (Cold Fever)
+650	Moll Flanders
+651	Das Superweib (The Superwoman)
+652	301, 302
+653	Dragonheart
+654	Und Keiner Weint Mir Nach
+655	Mutters Courage
+656	Eddie
+657	Yankee Zulu
+658	Billy's Holiday
+659	Purple Noon (1960)
+660	August
+661	James and the Giant Peach
+662	Fear
+663	Kids in the Hall: Brain Candy
+664	Faithful
+665	Underground
+666	Lust och Faegring Stor (All Things Fair)
+667	Bloodsport 2: The Next Kumite
+668	Pather Panchali (Song of the Road) (1955)
+669	Aparajito (The Unvanquished) (1956)
+670	The World of Apu (Apur Sansar) (1959)
+671	Mystery Science Theater 3000: The Movie
+672	Tarantella
+673	Space Jam
+674	Barbarella (1968)
+675	Hostile Intentions
+676	They Bite
+678	Some Folks Call it a Sling Blade
+679	The Run of the Country
+680	Alphaville (1965)
+681	Coup de Torchon (Clean Slate) (1981)
+682	Tigrero: A Film that was Never Made
+683	The Eye of Vichy
+684	Picture Windows
+685	It's My Party
+686	Il Mostro (The Monster)
+687	Country Life
+688	Operation Dumbo Drop
+689	Pre-Madonnas: Rebels Without a Clue
+690	The Promise
+691	Mrs. Winterbourne
+692	Solo
+693	Etz Hadomim Tafus (Under the Domin Tree)
+694	The Substitute
+695	True Crime
+696	Butterfly Kiss
+697	Feeling Minnesota
+698	Delta of Venus
+699	To Cross the Rubicon
+700	Angus
+701	Daens
+702	Faces (1968)
+703	Boys
+704	The Quest
+705	Cosi
+706	Sunset Park
+707	Mulholland Falls
+708	The Truth about Cats and Dogs
+709	Oliver and Company (1988)
+710	Celtic Pride
+711	Flipper
+712	Captives
+713	Of Love and Shadows
+714	Dead Man
+715	The Horseman on the Roof (Le Hussard sur le toit)
+716	Switchblade Sisters (1975)
+717	Mouth to Mouth (Boca a Boca)
+718	The Visitors (Les Visiteurs)
+719	Multiplicity
+720	Wallace & Gromit: The Best of Aardman Animations
+721	Halfmoon (Paul Bowles - Halbmond)
+722	The Haunted World of Edward D. Wood
+723	Two Friends (1986)
+724	The Craft
+725	The Great White Hype
+726	Last Dance
+727	War Stories Our Mother Never Told Us
+728	Cold Comfort Farm
+729	Institute Benjamenta� or This Dream People Call Human Life
+730	The Low Life
+731	Heaven's Prisoners
+732	Original Gangstas
+733	The Rock
+734	Getting Away With Murder
+735	Cemetery Man
+736	Twister
+737	Barb Wire
+738	Le Gar�u
+739	Honigmond
+740	Bridge to the Future
+741	Ghost in the Shell (Kokaku Kidotai)
+742	Thinner
+743	Spy Hard
+744	Brothers in Trouble
+745	A Close Shave
+746	Forces of Evil
+747	The Stupids
+748	The Arrival (Shockwave)
+749	Women from Down Under
+750	Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)
+751	Careful
+752	Vermont is for Lovers
+753	A Month by the Lake
+754	Gold Diggers: The Secret of Bear Mountain
+755	Kim (1950)
+756	Carmen Miranda: Bananas is my Business
+757	Ashes of Time
+758	The Jar
+759	Maya Lin: A Strong Clear Vision
+760	Stalingrad
+761	The Phantom
+762	Striptease
+763	The Last of the High Kings
+764	Heavy
+765	Jack
+766	I Shot Andy Warhol
+767	The Grass Harp
+768	Someone Else's America (L'Am�rique des autres)
+769	Marlene Dietrich: Shadow and Light
+770	Costa Brava
+771	La Vie est belle (Life is Rosy) (1987)
+772	Quartier Mozart
+773	Touki Bouki (Journey of the Hyena) (1973)
+774	Wend Kuuni (God's Gift) (1982)
+775	Spirits of the Dead (1968)
+776	Babyfever
+777	Pharaoh's Army
+778	Trainspotting
+779	'Til There Was You
+780	Independence Day (ID4)
+781	Stealing Beauty (Io Ballo da Sola)
+782	The Fan
+783	The Hunchback of Notre Dame
+784	The Cable Guy
+785	Kingpin
+786	Eraser
+787	The Gate of Heavenly Peace
+788	The Nutty Professor
+789	I, The Worst of All
+790	An Unforgettable Summer
+791	The Last Klezmer
+792	A Hungarian Fairy Tale (1987)
+793	My Life and Times with Antonin Artaud
+794	Midnight Dancers
+795	Somebody to Love
+796	A Very Natural Thing (1974)
+797	The Old Lady Who Walked in the Sea
+798	Daylight
+799	The Frighteners
+800	Lone Star
+801	Harriet the Spy
+802	Phenomenon
+803	Walking and Talking
+804	She's the One
+805	A Time to Kill
+806	American Buffalo
+807	Rendezvous in Paris (Les Rendez-vous de Paris)
+808	Alaska
+809	Fled
+810	Kazaam
+811	Der Bewegte Mann
+812	Buvos Vadasz
+813	Larger than Life
+814	A Boy Called Hate
+815	Power 98
+816	Two Deaths
+817	Guimba, un tyrant, une epoque
+818	A Very Brady Sequel
+819	Stephano Quantestorie
+820	Death in the Garden (Mort en ce Jardin) (1956)
+821	The Crude Oasis
+822	Hedd Wyn
+823	La Collectionneuse (1967)
+824	Kaspar Hauser
+825	Echte Kerle
+826	Diebinnen
+827	The Convent
+828	The Adventures of Pinocchio
+829	Joe's Apartment
+830	The First Wives Club
+831	Stonewall
+832	Ransom
+833	High School High
+834	Phat Beach
+835	Foxfire
+836	Chain Reaction
+837	Matilda
+838	Emma
+839	Crow: The City of Angels
+840	House Arrest
+841	Eyes Without a Face (1959)
+842	Tales From the Crypt Presents: Bordello of Blood
+843	Lotto Land
+844	The Story of Xinghua
+845	The Day The Sun Turned Cold
+846	Flirt
+847	The Big Squeeze
+848	The Spitfire Grill
+849	Escape From L.A.
+850	Cyclo (Xich Lo)
+851	Basquiat
+852	Tin Cup
+853	Dingo
+854	The Ballad of Narayama (Narayama Bushi-Ko)
+855	Every Other Weekend
+856	Mille Bolle Blu
+857	Crows and Sparrows
+858	The Godfather (1972)
+859	The Hippie Revolution
+860	Maybe, Maybe Not
+861	Supercop
+862	Manny & Lo
+863	Celestial Clockwork (Cortazar)
+864	The Wife
+865	Small Faces
+866	Bound
+867	Carpool
+868	Death in Brunswick
+869	Kansas City
+870	Gone Fishin'
+871	Lover's Knot
+872	Aiqing Wansui (Vive l'Amour)
+873	Shadow of Angels
+874	Killer: A Journal of Murder
+875	Nothing to Lose (1994)
+876	Project S (Police Story 4: Project S)
+877	Girls Town
+878	Bye-Bye
+879	The Relic
+880	The Island of Dr. Moreau
+881	First Kid
+882	The Trigger Effect
+883	Daniel Defoe's Robinson Crusoe
+884	Sweet Nothing
+885	Bogus
+886	Bulletproof
+887	Talk of Angels
+888	The Land Before Time III: The Time of the Great Giving
+889	1-900
+890	Baton Rouge (1988)
+891	Halloween: The Curse of Michael Myers
+892	Twelfth Night
+893	Mother Night
+894	Liebelei (1933)
+895	Venice/Venice
+896	Wild Reeds
+897	For Whom the Bell Tolls (1943)
+898	The Philadelphia Story (1940)
+899	Singing in the Rain (1952)
+900	An American in Paris (1951)
+901	Funny Face (1957)
+902	Breakfast at Tiffany's (1961)
+903	Vertigo (1958)
+904	Rear Window (1954)
+905	It Happened One Night (1934)
+906	Gaslight (1944)
+907	The Gay Divorc�e (1934)
+908	North by Northwest (1959)
+909	The Apartment (1960)
+910	Some Like it Hot (1959)
+911	Charade (1963)
+912	Casablanca (1942)
+913	The Maltese Falcon (1941)
+914	My Fair Lady (1964)
+915	Sabrina (1954)
+916	Roman Holiday (1953)
+917	The Little Princess (1939)
+918	Meet Me in St. Louis (1944)
+919	The Wizard of Oz (1939)
+920	Gone with the Wind (1939)
+921	My Favorite Year (1982)
+922	Sunset Boulevard (1950)
+923	Citizen Kane (1941)
+924	2001: A Space Odyssey (1968)
+925	The Golden Earrings (1947)
+926	All About Eve (1950)
+927	The Women (1939)
+928	Rebecca (1940)
+929	Foreign Correspondent (1940)
+930	Notorious (1946)
+931	Spellbound (1945)
+932	An Affair to Remember (1957)
+933	To Catch a Thief (1955)
+934	Father of the Bride (1950)
+935	The Band Wagon (1953)
+936	Ninotchka (1939)
+937	Love in the Afternoon (1957)
+938	Gigi (1958)
+939	The Reluctant Debutante (1958)
+940	The Adventures of Robin Hood (1938)
+941	The Mark of Zorro (1940)
+942	Laura (1944)
+943	The Ghost and Mrs. Muir (1947)
+944	Lost Horizon (1937)
+945	Top Hat (1935)
+946	To Be or Not To Be (1942)
+947	My Man Godfrey (1936)
+948	Giant (1956)
+949	East of Eden (1955)
+950	The Thin Man (1934)
+951	His Girl Friday (1940)
+952	Around the World in 80 Days (1956)
+953	It's a Wonderful Life (1946)
+954	Mr. Smith Goes to Washington (1939)
+955	Bringing Up Baby (1938)
+956	Penny Serenade (1941)
+957	The Scarlet Letter (1926)
+958	Lady of Burlesque (1943)
+959	Of Human Bondage (1934)
+960	Angel on My Shoulder (1946)
+961	Little Lord Fauntleroy (1936)
+962	They Made Me a Criminal (1939)
+963	The Inspector General (1949)
+964	Angel and the Badman (1947)
+965	The 39 Steps (1935)
+966	A Walk in the Sun (1945)
+967	The Outlaw (1943)
+968	Night of the Living Dead (1968)
+969	The African Queen (1951)
+970	Beat the Devil (1954)
+971	Cat on a Hot Tin Roof (1958)
+972	The Last Time I Saw Paris (1954)
+973	Meet John Doe (1941)
+974	Algiers (1938)
+975	Something to Sing About (1937)
+976	A Farewell to Arms (1932)
+977	Moonlight Murder (1936)
+978	The Blue Angel (1930)
+979	Nothing Personal
+980	In the Line of Duty 2 (1987)
+981	Dangerous Ground
+982	Picnic (1955)
+983	Madagascar Skin
+984	The Pompatus of Love
+985	Fiddlefest (Small Wonders)
+986	Fly Away Home
+987	Bliss
+988	Grace of My Heart
+989	Schlafes Bruder (Brother of Sleep)
+990	Maximum Risk
+991	Michael Collins
+992	The Rich Man's Wife
+993	Infinity
+994	Big Night
+995	Loch Ness
+996	Last Man Standing
+997	Caught
+998	Set it Off
+999	2 Days in the Valley
+1000	Curdled
+1001	L'Associ� (1982)
+1002	Ed's Next Move
+1003	Extreme Measures
+1004	The Glimmer Man
+1005	D3: The Mighty Ducks
+1006	The Chamber
+1007	The Apple Dumpling Gang (1975)
+1008	Davy Crockett: King of the Wild Frontier
+1009	Escape to Witch Mountain (1975)
+1010	The Love Bug (1969)
+1011	Herbie Rides Again (1974)
+1012	Old Yeller (1957)
+1013	The Parent Trap (1961)
+1014	Pollyanna (1960)
+1015	Homeward Bound: The Incredible Journey
+1016	The Shaggy Dog (1959)
+1017	Swiss Family Robinson (1960)
+1018	That Darn Cat (1965)
+1019	20,000 Leagues Under the Sea (1954)
+1020	Cool Runnings
+1021	Angels in the Outfield
+1022	Cinderella (1950)
+1023	Winnie the Pooh (Winnie the Pooh and the Blustery Day)
+1024	The Three Caballeros (1945)
+1025	The Sword in the Stone (1963)
+1026	So Dear to My Heart (1948)
+1027	Robin Hood (1984)
+1028	Mary Poppins (1964)
+1029	Dumbo (1941)
+1030	Pete's Dragon (1977)
+1031	Bedknobs and Broomsticks (1971)
+1032	Alice in Wonderland (1951)
+1033	The Fox and the Hound (1981)
+1034	Freeway
+1035	The Sound of Music (1965)
+1036	Die Hard (1988)
+1037	The Lawnmower Man
+1038	Unhook the Stars
+1039	Synthetic Pleasures
+1040	The Secret Agent
+1041	Secrets & Lies
+1042	That Thing You Do!
+1043	To Gillian on Her 37th Birthday
+1044	Surviving Picasso
+1045	Love is All There Is
+1046	Beautiful Thing
+1047	The Long Kiss Goodnight
+1049	The Ghost and The Darkness
+1050	Looking for Richard
+1051	Trees Lounge
+1052	The Proprietor
+1053	Normal Life
+1054	Get on the Bus
+1055	Shadow Conspiracy
+1056	Jude
+1057	Everyone Says I Love You
+1058	Bitter Sugar
+1059	William Shakespeare's Romeo and Juliet (1996)
+1060	Swingers
+1061	Sleepers
+1062	The Sunchaser
+1063	Johns
+1064	Aladdin and the King of Thieves
+1065	The Woman in Question (1950)
+1066	Shall We Dance? (1937)
+1067	A Damsel in Distress (1937)
+1068	Crossfire (1947)
+1069	Murder, My Sweet (1944)
+1070	Macao (1952)
+1071	For the Moment
+1072	The Deadly Cure
+1073	Willy Wonka and the Chocolate Factory (1971)
+1074	Boys in Venice
+1075	The Sexual Life of the Belgians
+1076	The Innocents (1961)
+1077	Sleeper (1973)
+1078	Bananas
+1079	A Fish Called Wanda (1988)
+1080	Monty Python's Life of Brian
+1081	Victor Victoria
+1082	The Candidate (1972)
+1083	The Great Race (1965)
+1084	Bonnie and Clyde (1967)
+1085	The Old Man and the Sea (1958)
+1086	Dial M for Murder (1954)
+1087	Madame Butterfly
+1088	Dirty Dancing (1987)
+1089	Reservoir Dogs
+1090	Platoon (1986)
+1091	Weekend at Bernie's (1989)
+1092	Basic Instinct
+1093	The Doors
+1094	The Crying Game
+1095	Glengarry Glen Ross
+1096	Sophie's Choice (1982)
+1097	E.T.: The Extraterrestrial
+1098	The Search for One-Eye Jimmy
+1099	A Christmas Carol (1938)
+1100	Days of Thunder
+1101	Top Gun (1986)
+1102	American Strays
+1103	Rebel Without a Cause (1955)
+1104	A Streetcar Named Desire (1951)
+1105	Children of the Corn IV: The Gathering
+1106	The Leopard Son
+1107	Loser
+1108	Prerokbe Ognja
+1109	Charms Zwischenfaelle (Charm's Incidents)
+1110	Bird of Prey
+1111	Microcosmos: The People of the Grass (Le Peuple des herbes)
+1112	Palookaville
+1113	The Associate
+1114	The Funeral
+1115	Sleepover
+1116	La fille seule (A Single Girl)
+1117	The Eighth Day (Le huiti�me jour)
+1118	Tashunga
+1119	Drunks
+1120	The People vs. Larry Flynt
+1121	Glory Daze
+1122	The Plutonium Circus
+1123	A Perfect Candidate
+1124	On Golden Pond (1981)
+1125	The Return of the Pink Panther (1974)
+1126	Drop Dead Fred
+1127	The Abyss (1989)
+1128	The Fog (1980)
+1129	Escape from New York (1981)
+1130	The Howling (1981)
+1131	Jean de Florette (1986)
+1132	Manon of the Spring (1986)
+1133	Talking About Sex
+1134	Johnny 100 Pesos
+1135	Private Benjamin (1980)
+1136	Monty Python and The Holy Grail (1974)
+1137	Hustler White
+1138	Dadetown
+1139	Everything Relative
+1140	Entertaining Angels: The Dorothy Day Story
+1141	Hoogste Tijd
+1142	Get Over It
+1143	Three Lives and Only One Death
+1144	The Line King: The Al Hirschfeld Story
+1145	Snowriders
+1146	Curtis's Charm
+1147	When We Were Kings
+1148	The Wrong Trousers
+1149	JLG/JLG
+1150	The Return of Martin Guerre (1982)
+1151	Faust (1994)
+1152	He Walked By Night (1949)
+1153	Raw Deal (1948)
+1154	T-Men (1947)
+1155	The Invitation (1986)
+1156	The Children Are Watching Us (1942)
+1157	La Symphonie pastorale (1946)
+1158	Here Comes Cookie (1935)
+1159	Love in Bloom (1935)
+1160	Six of a Kind (1934)
+1161	The Tin Drum (1979)
+1162	The Ruling Class (1972)
+1163	Mina Tannenbaum
+1164	Two or Three Things I Know About Her� (1966)
+1165	The Bloody Child
+1166	Farmer & Chase
+1167	Dear God
+1168	Bad Moon
+1169	American Dream
+1170	Best of the Best 3: No Turning Back
+1171	Bob Roberts
+1172	Cinema Paradiso (1988)
+1173	The Cook The Thief His Wife and Her Lover (1989)
+1174	Dead Tired (Grosse Fatigue)
+1175	Delicatessen
+1176	The Double Life of Veronique (Podwojne zycie Weroniki)
+1177	Enchanted April
+1178	Paths of Glory (1957)
+1179	The Grifters
+1180	Hear My Song
+1181	Hidden Assassin
+1182	The Innocent
+1183	The English Patient
+1184	Mediterraneo
+1185	My Left Foot (1989)
+1186	Sex, Lies, and Videotape (1989)
+1187	Passion Fish
+1188	Strictly Ballroom
+1189	The Thin Blue Line (1988)
+1190	Tie Me Up! Tie Me Down! (Atame! Atame!)
+1191	Truth or Dare (1991)
+1192	Paris Is Burning
+1193	One Flew Over the Cuckoo's Nest (1975)
+1194	Up in Smoke (1978)
+1195	The Magnificent Seven (1954)
+1196	The Empire Strikes Back
+1197	The Princess Bride (1987)
+1198	Raiders of the Lost Ark (1981)
+1199	Brazil (1985)
+1200	Aliens (1986)
+1201	The Good, The Bad and The Ugly (1966)
+1202	Withnail and I (1987)
+1203	12 Angry Men (1957)
+1204	Lawrence of Arabia (1962)
+1205	The Transformers: The Movie (1986)
+1206	A Clockwork Orange (1971)
+1207	To Kill a Mockingbird (1962)
+1208	Apocalypse Now (1979)
+1209	Once Upon a Time in the West (1969)
+1210	Return of the Jedi
+1211	Wings of Desire (1987)
+1212	The Third Man (1949)
+1213	GoodFellas
+1214	Alien (1979)
+1215	Army of Darkness
+1216	The Big Blue (1988)
+1217	Ran (1985)
+1218	Die xue shuang xiong (The Killer) (1989)
+1219	Psycho (1960)
+1220	The Blues Brothers (1980)
+1221	The Godfather: Part II (1974)
+1222	Full Metal Jacket (1987)
+1223	A Grand Day Out
+1224	Henry V (1989)
+1225	Amadeus (1984)
+1226	The Quiet Man (1952)
+1227	Once Upon a Time in America (1984)
+1228	Raging Bull (1980)
+1229	Lashou Shentan
+1230	Annie Hall (1977)
+1231	The Right Stuff (1983)
+1232	Stalker (1979)
+1233	Das Boot (1981)
+1234	The Sting (1973)
+1235	Harold and Maude (1971)
+1236	Trust
+1237	The Seventh Seal (1957)
+1238	Local Hero (1983)
+1239	C'est arriv� pres de chez vous
+1240	The Terminator (1984)
+1241	Braindead
+1242	Glory (1989)
+1243	Rosencrantz and Guildenstern Are Dead
+1244	Manhattan (1979)
+1245	Miller's Crossing
+1246	Dead Poets Society (1989)
+1247	The Graduate (1967)
+1248	Touch of Evil (1958)
+1249	La Femme Nikita
+1250	The Bridge on the River Kwai (1957)
+1251	8 1/2 (1963)
+1252	Chinatown (1974)
+1253	The Day the Earth Stood Still (1951)
+1254	The Treasure of the Sierra Madre (1948)
+1255	Bad Taste (1987)
+1256	Duck Soup (1933)
+1257	Better Off Dead (1985)
+1258	The Shining (1980)
+1259	Stand by Me (1986)
+1260	M (1931)
+1261	Evil Dead II (1987)
+1262	The Great Escape (1963)
+1263	The Deer Hunter (1978)
+1264	Diva (1981)
+1265	Groundhog Day
+1266	Unforgiven
+1267	The Manchurian Candidate (1962)
+1268	Pump Up the Volume
+1269	Arsenic and Old Lace (1944)
+1270	Back to the Future (1985)
+1271	Fried Green Tomatoes (Fried Green Tomatoes at the Whistle Stop Caf�)
+1272	Patton (1970)
+1273	Down by Law (1986)
+1274	Akira (1988)
+1275	Highlander (1986)
+1276	Cool Hand Luke (1967)
+1277	Cyrano de Bergerac (1990)
+1278	Young Frankenstein (1974)
+1279	Night on Earth
+1280	Raise the Red Lantern
+1281	The Great Dictator (1940)
+1282	Fantasia (1940)
+1283	High Noon (1952)
+1284	The Big Sleep (1946)
+1285	Heathers (1989)
+1286	Somewhere in Time (1980)
+1287	Ben-Hur (1959)
+1288	This Is Spinal Tap (1984)
+1289	Koyaanisqatsi (1983)
+1290	Some Kind of Wonderful (1987)
+1291	Indiana Jones and the Last Crusade (1989)
+1292	Being There (1979)
+1293	Gandhi (1982)
+1294	M*A*S*H (1970)
+1295	The Unbearable Lightness of Being (1988)
+1296	A Room with a View (1986)
+1297	Real Genius (1985)
+1298	Pink Floyd - The Wall (1982)
+1299	The Killing Fields (1984)
+1300	My Life as a Dog (1985)
+1301	Forbidden Planet (1956)
+1302	Field of Dreams (1989)
+1303	The Man Who Would Be King (1975)
+1304	Butch Cassidy and the Sundance Kid (1969)
+1305	Paris, Texas (1984)
+1306	Until the End of the World
+1307	When Harry Met Sally... (1989)
+1308	I Shot a Man in Vegas
+1309	Parallel Sons
+1310	Hype!
+1311	Santa with Muscles
+1312	Female Perversions
+1313	Mad Dog Time
+1314	Breathing Room
+1315	Paris Was a Woman
+1316	Anna
+1317	I'm Not Rappaport
+1318	Blue Juice
+1319	Kids of Survival
+1320	Alien 3
+1321	An American Werewolf in London (1981)
+1322	Amityville 1992: It's About Time
+1323	Amityville 3-D (1983)
+1324	Amityville: Dollhouse
+1325	Amityville: A New Generation
+1326	Amityville II: The Possession (1982)
+1327	The Amityville Horror (1979)
+1328	The Amityville Curse
+1329	Andy Warhol's Dracula (1974)
+1330	April Fool's Day (1986)
+1331	Audrey Rose (1977)
+1332	The Believers (1987)
+1333	The Birds (1963)
+1334	The Blob (1958)
+1335	Blood Beach (1981)
+1336	Body Parts
+1337	The Body Snatcher (1945)
+1338	Body Snatchers (1993)
+1339	Bram Stoker's Dracula
+1340	Bride of Frankenstein (1935)
+1341	Burnt Offerings (1976)
+1342	Candyman
+1343	Cape Fear (1991)
+1344	Cape Fear (1962)
+1345	Carrie (1976)
+1346	Cat People (1982)
+1347	A Nightmare on Elm Street (1984)
+1348	Nosferatu (1922)
+1349	Nosferatu a Venezia (1986)
+1350	The Omen (1976)
+1351	Blood and Wine
+1352	Albino Alligator
+1353	The Mirror Has Two Faces
+1354	Breaking the Waves
+1355	Nightwatch
+1356	Star Trek: First Contact
+1357	Shine
+1358	Sling Blade
+1359	Jingle All the Way
+1360	Identification of a Woman
+1361	Paradise Lost: The Child Murders at Robin Hood Hills (1996)
+1362	The Garden of the Finzi-Continis
+1363	The Preacher's Wife
+1364	Kjaerlighetens kjoetere
+1365	Ridicule
+1366	The Crucible
+1367	101 Dalmatians (1996)
+1368	The Forbidden Christ (Il Cristo Proibito)
+1369	I Can't Sleep
+1370	Die Hard 2
+1371	Star Trek: The Motion Picture (1979)
+1372	Star Trek VI: The Undiscovered Country
+1373	Star Trek V: The Final Frontier (1989)
+1374	Star Trek: The Wrath of Khan (Star Trek II: The Wrath of Khan) (1982)
+1375	Star Trek III: The Search for Spock (1984)
+1376	Star Trek IV: The Voyage Home (1986)
+1377	Batman Returns
+1378	Young Guns (1988)
+1379	Young Guns II
+1380	Grease (1978)
+1381	Grease 2 (1982)
+1382	Marked for Death
+1383	Adrenalin: Fear The Rush
+1384	The Substance of Fire
+1385	Under Siege
+1386	Terror in a Texas Town (1958)
+1387	Jaws (1975)
+1388	Jaws 2 (1978)
+1389	Jaws 3-D (1983)
+1390	My Fellow Americans
+1391	Mars Attacks!
+1392	Citizen Ruth
+1393	Jerry Maguire
+1394	Raising Arizona (1987)
+1395	Tin Men (1987)
+1396	Sneakers
+1397	Bastard Out of Carolina
+1398	In Love and War
+1399	Marvin's Room
+1400	Somebody is Waiting
+1401	Ghosts of Mississippi
+1402	The Honest Courtesan
+1403	The Ice Storm
+1404	Night Falls on Manhattan
+1405	Beavis and Butt-head Do America
+1406	La C�r�monie
+1407	Scream
+1408	The Last of the Mohicans (1992)
+1409	Michael
+1410	The Evening Star
+1411	Hamlet (1996)
+1412	Some Mother's Son
+1413	The Whole Wide World
+1414	Mother
+1415	Thieves (Les Voleurs)
+1416	Evita
+1417	The Portrait of a Lady
+1419	Walkabout (1970)
+1420	Message to Love: The Isle of Wight Festival (1970)
+1421	Grateful Dead
+1422	Murder at 1600
+1423	Hearts and Minds
+1424	Inside
+1425	Fierce Creatures
+1426	Zeus and Roxanne
+1427	Turbulence
+1428	Angel Baby
+1429	Jackie Chan's First Strike
+1430	Underworld
+1431	Beverly Hills Ninja
+1432	Metro
+1433	The Machine
+1434	The Stranger
+1435	Good Morning
+1436	Falling in Love Again (1980)
+1437	The Cement Garden
+1438	Dante's Peak
+1439	Meet Wally Sparks
+1440	Amos & Andrew
+1441	Benny & Joon
+1442	Prefontaine
+1443	A Tickle in the Heart
+1444	Guantanamera
+1445	McHale's Navy
+1446	Kolya
+1447	Gridlock'd
+1448	Fire on the Mountain
+1449	Waiting for Guffman
+1450	Prisoner of the Mountains
+1451	Allies
+1453	The Beautician and the Beast
+1454	SubUrbia
+1455	Hotel de Love
+1456	The Pest
+1457	Fools Rush In
+1458	Touch
+1459	Absolute Power
+1460	That Darn Cat (1997)
+1461	Vegas Vacation
+1462	Unforgotten: Twenty-Five Years After Willowbrook
+1463	That Old Feeling
+1464	Lost Highway
+1465	Rosewood
+1466	Donnie Brasco
+1467	Salut cousin!
+1468	Booty Call
+1469	Hard Eight
+1470	Rhyme & Reason
+1471	Boys Life 2
+1472	City of Industry
+1473	Best Men
+1474	Jungle 2 Jungle
+1475	Kama Sutra: A Tale Of Love
+1476	Private Parts
+1477	Love Jones
+1479	The Saint
+1480	Smilla's Sense of Snow
+1482	The Van
+1483	Crash
+1484	The Daytrippers
+1485	Liar, Liar
+1486	The Quiet Room
+1487	Selena
+1488	The Devil's Own
+1489	Cats Don't Dance
+1490	B.A.P.S.
+1491	Chasing Amy
+1493	Love and Other Catastrophes
+1494	The Sixth Man
+1495	Turbo: A Power Rangers Movie
+1496	Anna Karenina
+1497	Double Team
+1498	Inventing the Abbotts
+1499	Anaconda
+1500	Grosse Pointe Blank
+1501	Keys To Tulsa
+1502	Kissed
+1503	8 Heads in the Duffel Bag
+1504	Hollow Reed
+1507	Paradise Road
+1508	Traveller
+1509	All Over Me
+1510	A Brother's Kiss
+1511	A Chef in Love (Les mille et une recettes du cuisinier amoureux)
+1513	Romy and Michele's High School Reunion
+1514	Temptress Moon (Fengyue)
+1515	Volcano
+1516	Children of the Revolution
+1517	Austin Powers
+1518	Breakdown
+1519	Broken English
+1520	Commandments
+1521	The Designated Mourner
+1522	Ripe
+1523	Truth Or Consequences, N.M.
+1524	The Turning
+1525	Warriors Of Virtue
+1526	Fathers' Day
+1527	The Fifth Element
+1528	Intimate Relations
+1529	Nowhere
+1531	Losing Chase
+1532	Sprung
+1533	La Promesse
+1534	Le Bonheur
+1535	Love! Valour! Compassion!
+1537	Shall We Dance? (1996)
+1538	The Second Jungle Book: Mowgli & Baloo
+1539	Twin Town
+1541	Addicted to Love
+1542	Brassed Off
+1543	Designated Mourner
+1544	The Lost World: Jurassic Park
+1545	Ponette
+1546	Schizopolis
+1547	Shiloh
+1548	The War at Home
+1549	Rough Magic
+1550	Trial and Error
+1551	Buddy
+1552	Con Air
+1553	Late Bloomers
+1554	The Pillow Book
+1555	To Have (or Not) (En avoir (ou pas))
+1556	Speed 2: Cruise Control
+1557	Squeeze
+1558	Sudden Manhattan
+1559	The Next Step
+1560	Ulee's Gold
+1561	Wedding Bell Blues
+1562	Batman and Robin
+1563	Dream With the Fishes
+1564	For Roseanna
+1565	Head Above Water
+1566	Hercules
+1567	The Last Time I Committed Suicide
+1568	MURDER and Murder
+1569	My Best Friend's Wedding
+1570	Tetsuo II: Body Hammer
+1571	When the Cat's Away (Chacun cherche son chat)
+1572	Contempt (Le M�pris)
+1573	Face/Off
+1574	Fall
+1575	Gabbeh
+1577	Mondo
+1578	The Innocent Sleep
+1579	For Ever Mozart
+1580	Men in Black
+1581	Out to Sea
+1582	Wild America
+1583	A Simple Wish
+1584	Contact
+1585	Love Serenade
+1586	George of the Jungle
+1587	Hijacking Hollywood
+1588	Kiss Me Guido
+1590	Mrs. Brown
+1591	Nothing to Lose
+1592	Operation Condor (Feiying Gaiwak)
+1593	The Swan Princess II
+1594	Air Force One
+1595	Alive & Kicking
+1596	Box of Moonlight
+1597	Brilliant Lies
+1598	Diary of a Seducer (Le journal du s�ducteur)
+1599	Good Burger
+1600	Star Maps
+1601	The Winner
+1602	187
+1603	Air Bud
+1604	In the Company of Men
+1605	Paperback Romance
+1606	Picture Perfect
+1607	Spawn
+1608	Career Girls
+1609	Conspiracy Theory
+1610	Desperate Measures
+1611	Free Willy 3: The Rescue
+1613	Cop Land
+1614	Conspirators of Pleasure (Spiklenci Slasti)
+1615	Event Horizon
+1616	Mon homme
+1617	Steel
+1618	The Delta
+1619	The Full Monty
+1620	A Smile Like Yours
+1621	Dirty Dancing
+1622	Fire
+1623	G.I. Jane
+1624	Leave It To Beaver
+1625	Masterminds
+1626	Mimic
+1627	Money Talks
+1628	Pippi Longstocking
+1629	Sunday
+1630	A Self-Made Hero (Un h�ros tr�s discret)
+1631	Excess Baggage
+1632	Hoodlum
+1633	Kull the Conqueror
+1634	She's So Lovely
+1635	Texas Chainsaw Massacre: The Next Generation (The Return of the Texas Chainsaw Massacre)
+1636	The Toilers and the Wayfarers
+1637	Trojan Eddie
+1638	Fire Down Below
+1639	Gravesend
+1641	Julian Po
+1643	Bandwagon
+1644	Different for Girls
+1645	Suicide Kings
+1646	The Disappearance of Garcia Lorca
+1647	The End of Violence
+1648	The Game (1997)
+1649	The Locusts

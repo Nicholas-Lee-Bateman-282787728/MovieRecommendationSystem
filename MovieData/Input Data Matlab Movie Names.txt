@@ -70,7 +70,7 @@ Friday
 From Dusk Till Dawn
 Fair Game
 Kicking and Screaming
-Les Misérables (Les Misérables du vingtième siècle)
+Les Mis�rables (Les Mis�rables du vingti�me si�cle)
 Bed of Roses
 Big Bully
 Screamers
@@ -93,16 +93,18 @@ Vampire in Brooklyn
 Beautiful Girls
 Broken Arrow
 A Midwinter's Tale (In the Bleak Midwinter)
-Hate (La Haïne)
+Hate (La Ha�ne)
 Shopping
 Heidi Fleiss: Hollywood Madam
 City Hall
 Bottle Rocket
 Mr. Wrong
+Unforgettable
 Happy Gilmore
 The Bridges of Madison County
 Nobody Loves Me
 Muppet Treasure Island
+Catwalk
 Headless Body in Topless Bar
 Braveheart
 Taxi Driver (1976)
@@ -115,15 +117,19 @@ The Young Poisoner's Handbook
 If Lucy Fell
 Steal Big, Steal Little
 Race the Sun
+The Boys of St. Vincent
 Boomerang
 Chungking Express
 The Star Maker (L'Uomo delle Stelle)
 Flirting With Disaster
 The NeverEnding Story III
 The Silences of the Palace (Saimt el Qusur)
+Jupiter's Wife
+Pie in the Sky
 Angela
 Frankie Starlight
 Jade
+Nueba Yol (Por Fin Llego Balbuena)
 Sonic Outlaws
 Down Periscope
 From the Journals of Jean Seberg
@@ -133,6 +139,7 @@ Target
 Up Close and Personal
 The Birdcage
 Shadows (1988)
+Gospa
 The Brothers McMullen
 Bad Boys
 The Amazing Panda Adventure
@@ -146,6 +153,7 @@ Batman Forever
 Belle de Jour (1967)
 Beyond Rangoon
 Blue in the Face
+Canadian Bacon
 Casper
 Clockers
 Congo
@@ -166,6 +174,7 @@ Jury Duty
 Kids
 Living in Oblivion
 Lord of Illusions
+Love and Human Remains
 Mad Love
 Mallrats
 Mighty Morphin Power Rangers: The Movie
@@ -176,12 +185,15 @@ The Net
 Nine Months
 Party Girl
 The Prophecy (God's Army)
+Reckless
 Safe
 The Scarlet Letter
+The Show
 Showgirls
 Smoke
 Something to Talk About
 Species
+The Stars Fell on Henrietta
 Strange Days
 The Umbrellas of Cherbourg (1964)
 The Tie That Binds
@@ -196,6 +208,7 @@ Waterworld
 White Man's Burden
 Wild Bill
 The Browning Version
+Bushwhacked
 Burnt by the Sun
 Before the Rain (Pred Dozhdot)
 Before Sunrise
@@ -204,18 +217,24 @@ The Babysitter
 Boys on the Side
 The Cure
 Castle Freak
+The Courtyard
 Circle of Friends
 Clerks
+Don Juan DeMarco (Don Juan DeMarco and the Centerfold)
 Disclosure
 Dream Man
 Drop Zone
 Destiny Turns On The Radio
 Death and the Maiden
+Dolores Claiborne
+Dumb and Dumber
+Eat Drink Man Woman
 Exotica
 Exit to Eden
 Ed Wood
 French Kiss
 Forget Paris
+Far From Home: The Adventures of Yellow Dog
 A Goofy Movie
 Hideaway
 Fluke
@@ -225,11 +244,14 @@ Gumby: The Movie
 The Glass Shield
 Hoop Dreams
 Heavenly Creatures
+Houseguest
 Immortal Beloved
+Heavyweights
 The Hunted
 I.Q.
 Interview with the Vampire
 Jefferson in Paris
+The Jerky Boys
 Junior
 Just Cause
 A Kid in King Arthur's Court
@@ -241,6 +263,7 @@ Ladybird Ladybird
 L'Enfer
 Like Water For Chocolate (Como Agua Para Chocolate)
 Legends of the Fall
+Major Payne
 Little Odessa
 My Crazy Life (Mi Vida Loca)
 Love Affair
@@ -257,6 +280,8 @@ Murder in the First
 Nobody's Fool
 Nell
 New Jersey Drive
+New York Cop
+Nightscare
 Nemesis 2: Nebula
 Nina Takes a Lover
 Natural Born Killers
@@ -264,6 +289,7 @@ Only You
 Once Were Warriors
 Poison Ivy II
 Outbreak
+The Professional
 The Perez Family
 A Pyromaniac's Love Story
 Pulp Fiction
@@ -275,21 +301,25 @@ Picture Bride
 Queen Margot
 The Quick and the Dead
 Roommates
-Ready to Wear (Pret à Porter)
+Ready to Wear (Pret � Porter)
 Three Colors: Red
 Three Colors: Blue
 Three Colors: White
 Red Firecracker, Green Firecracker (Paoda Shuang Deng)
 Rent-a-Kid
 Relative Fear
+Stuart Saves His Family
 The Swan Princess
 The Secret of Roan Inish
 The Specialist
 Stargate
 The Santa Clause
 The Shawshank Redemption
+Shallow Grave
 Suture
 Strawberry and Chocolate (Fresa y chocolate)
+Swimming With Sharks
+Stephen King's The Langoliers
 The Sum of Us
 National Lampoon's Senior Trip
 To Live (Huozhe)
@@ -297,6 +327,7 @@ Tank Girl
 Tales From the Crypt Presents: Demon Knight
 Star Trek: Generations
 Tales From the Hood
+Tom and Viv
 Village of the Damned
 Tommy Boy
 Vanya on 42nd Street
@@ -342,12 +373,14 @@ Red Rock West
 Richie Rich
 Safe Passage
 The River Wild
+Speed
 Speechless
 Timecop
 True Lies
 When a Man Loves a Woman
 Wolf
 Wyatt Earp
+Bad Company
 A Man of No Importance
 S.F.W.
 A Low Down Dirty Shame (Mr. Cool)
@@ -363,10 +396,13 @@ Fall Time
 The Fear
 Frank and Ollie
 Girl in the Cadillac
+Homage
 Mirage
+Open Season
 Two Crimes (Dos crimenes)
 Brother Minister: The Assassination of Malcolm X
 Highlander III: The Sorcerer
+Federal Hill
 In the Mouth of Madness
 8 Seconds
 Above the Rim
@@ -403,6 +439,7 @@ Dangerous Game (Snake Eyes)
 Dave
 Dazed and Confused
 Demolition Man
+The Endless Summer 2
 Even Cowgirls Get the Blues
 Fatal Instinct
 Farewell My Concubine
@@ -424,6 +461,7 @@ Go Fish
 A Good Man in Africa
 Guilty As Sin
 Hard Target
+Heaven and Earth
 Hot Shots! Part Deux
 Live Nude Girls
 The Englishman Who Went Up a Hill But Came Down a Mountain
@@ -520,13 +558,18 @@ The Pagemaster
 Paris, France
 The Beans of Egypt, Maine (Forbidden Choices)
 Bulletproof Heart (Killer)
+Welcome to the Dollhouse
 Germinal
 Chasers
+Cronos (La Invencion de Cronos)
+Naked in New York
 Kika
 Bhaji on the Beach
 Little Big League
 The Slingshot (Kaadisbellan)
+The Wedding Gift
 Foreign Student
+Ciao, Professore!
 Spanking the Monkey
 The Little Rascals
 A la Mode (Fausto)
@@ -534,6 +577,7 @@ Andre
 The Advocate
 La Scorta
 Princess Caraboo
+The Celluloid Closet
 Cafe au Lait
 Caro Diario (Dear Diary)
 I Don't Want to Talk About It (De Eso No Se Habla)
@@ -550,6 +594,7 @@ Snow White and the Seven Dwarfs (1937)
 Beauty and the Beast
 Pinocchio (1940)
 Pretty Woman
+Window to Paris
 The Wild Bunch (1969)
 Love and a .45
 The Wooden Man's Bride (Wukui)
@@ -561,17 +606,21 @@ Candyman: Farewell to the Flesh
 Century
 Fargo
 Homeward Bound II: Lost in San Francisco
+Heavy Metal (1981)
 Hellraiser: Bloodline
 The Pallbearer
 Jane Eyre
 Loaded
+Bread and Chocolate (Pane e Cioccolata) (1973)
 The Aristocats (1970)
 The Flower of My Secret (La Flor de mi Secreto)
 Two Much
 Ed
 Scream of Stone (Schrei aus Stein)
-My Favorite Season (Ma Saison Préférée)
+My Favorite Season (Ma Saison Pr�f�r�e)
+A Modern Affair (Mr. #247)
 Condition Red
+Halfaouine: l'Enfant des Terrasses
 A Thin Line Between Love and Hate
 The Last Supper
 Primal Fear
@@ -580,6 +629,7 @@ Carried Away
 All Dogs Go to Heaven 2
 Land and Freedom (Tierra y libertad)
 Denise Calls Up
+Theodore Rex
 A Family Thing
 Frisk
 Sgt. Bilko
@@ -587,16 +637,19 @@ Jack and Sarah
 Girl 6
 Diabolique
 Little Indian, Big City (Un Indien dans la ville)
+Roula
 Peanuts - Die Bank zahlt alles
 Happy Weekend
 Nelly et Monsieur Arnaud
 Courage Under Fire
 Mission: Impossible
+A Koeldum klaka (Cold Fever)
 Moll Flanders
 Das Superweib (The Superwoman)
 301, 302
 Dragonheart
 Und Keiner Weint Mir Nach
+Mutters Courage
 Eddie
 Yankee Zulu
 Billy's Holiday
@@ -608,21 +661,28 @@ Kids in the Hall: Brain Candy
 Faithful
 Underground
 Lust och Faegring Stor (All Things Fair)
+Bloodsport 2: The Next Kumite
+Pather Panchali (Song of the Road) (1955)
 Aparajito (The Unvanquished) (1956)
 The World of Apu (Apur Sansar) (1959)
 Mystery Science Theater 3000: The Movie
+Tarantella
 Space Jam
 Barbarella (1968)
 Hostile Intentions
+They Bite
 Some Folks Call it a Sling Blade
 The Run of the Country
 Alphaville (1965)
 Coup de Torchon (Clean Slate) (1981)
 Tigrero: A Film that was Never Made
 The Eye of Vichy
+Picture Windows
+It's My Party
 Il Mostro (The Monster)
 Country Life
 Operation Dumbo Drop
+Pre-Madonnas: Rebels Without a Clue
 The Promise
 Mrs. Winterbourne
 Solo
@@ -631,6 +691,7 @@ The Substitute
 True Crime
 Butterfly Kiss
 Feeling Minnesota
+Delta of Venus
 To Cross the Rubicon
 Angus
 Daens
@@ -641,6 +702,7 @@ Cosi
 Sunset Park
 Mulholland Falls
 The Truth about Cats and Dogs
+Oliver and Company (1988)
 Celtic Pride
 Flipper
 Captives
@@ -651,28 +713,37 @@ Switchblade Sisters (1975)
 Mouth to Mouth (Boca a Boca)
 The Visitors (Les Visiteurs)
 Multiplicity
+Wallace & Gromit: The Best of Aardman Animations
 Halfmoon (Paul Bowles - Halbmond)
 The Haunted World of Edward D. Wood
+Two Friends (1986)
 The Craft
 The Great White Hype
 Last Dance
 War Stories Our Mother Never Told Us
-Institute Benjamenta… or This Dream People Call Human Life
+Cold Comfort Farm
+Institute Benjamenta� or This Dream People Call Human Life
+The Low Life
 Heaven's Prisoners
 Original Gangstas
 The Rock
+Getting Away With Murder
 Cemetery Man
 Twister
 Barb Wire
-Le Garçu
+Le Gar�u
 Honigmond
 Bridge to the Future
 Ghost in the Shell (Kokaku Kidotai)
 Thinner
 Spy Hard
+Brothers in Trouble
 A Close Shave
+Forces of Evil
 The Stupids
 The Arrival (Shockwave)
+Women from Down Under
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)
 Careful
 Vermont is for Lovers
 A Month by the Lake
@@ -686,10 +757,12 @@ Stalingrad
 The Phantom
 Striptease
 The Last of the High Kings
+Heavy
 Jack
 I Shot Andy Warhol
 The Grass Harp
-Someone Else's America (L'Amérique des autres)
+Someone Else's America (L'Am�rique des autres)
+Marlene Dietrich: Shadow and Light
 Costa Brava
 La Vie est belle (Life is Rosy) (1987)
 Quartier Mozart
@@ -698,6 +771,8 @@ Wend Kuuni (God's Gift) (1982)
 Spirits of the Dead (1968)
 Babyfever
 Pharaoh's Army
+Trainspotting
+'Til There Was You
 Independence Day (ID4)
 Stealing Beauty (Io Ballo da Sola)
 The Fan
@@ -710,6 +785,8 @@ The Nutty Professor
 I, The Worst of All
 An Unforgettable Summer
 The Last Klezmer
+A Hungarian Fairy Tale (1987)
+My Life and Times with Antonin Artaud
 Midnight Dancers
 Somebody to Love
 A Very Natural Thing (1974)
@@ -731,6 +808,8 @@ Der Bewegte Mann
 Buvos Vadasz
 Larger than Life
 A Boy Called Hate
+Power 98
+Two Deaths
 Guimba, un tyrant, une epoque
 A Very Brady Sequel
 Stephano Quantestorie
@@ -738,7 +817,9 @@ Death in the Garden (Mort en ce Jardin) (1956)
 The Crude Oasis
 Hedd Wyn
 La Collectionneuse (1967)
+Kaspar Hauser
 Echte Kerle
+Diebinnen
 The Convent
 The Adventures of Pinocchio
 Joe's Apartment
@@ -755,7 +836,10 @@ Crow: The City of Angels
 House Arrest
 Eyes Without a Face (1959)
 Tales From the Crypt Presents: Bordello of Blood
+Lotto Land
+The Story of Xinghua
 The Day The Sun Turned Cold
+Flirt
 The Big Squeeze
 The Spitfire Grill
 Escape From L.A.
@@ -766,11 +850,15 @@ Dingo
 The Ballad of Narayama (Narayama Bushi-Ko)
 Every Other Weekend
 Mille Bolle Blu
+Crows and Sparrows
 The Godfather (1972)
 The Hippie Revolution
 Maybe, Maybe Not
 Supercop
+Manny & Lo
 Celestial Clockwork (Cortazar)
+The Wife
+Small Faces
 Bound
 Carpool
 Death in Brunswick
@@ -779,6 +867,7 @@ Gone Fishin'
 Lover's Knot
 Aiqing Wansui (Vive l'Amour)
 Shadow of Angels
+Killer: A Journal of Murder
 Nothing to Lose (1994)
 Project S (Police Story 4: Project S)
 Girls Town
@@ -788,8 +877,10 @@ The Island of Dr. Moreau
 First Kid
 The Trigger Effect
 Daniel Defoe's Robinson Crusoe
+Sweet Nothing
 Bogus
 Bulletproof
+Talk of Angels
 The Land Before Time III: The Time of the Great Giving
 1-900
 Baton Rouge (1988)
@@ -809,7 +900,7 @@ Vertigo (1958)
 Rear Window (1954)
 It Happened One Night (1934)
 Gaslight (1944)
-The Gay Divorcée (1934)
+The Gay Divorc�e (1934)
 North by Northwest (1959)
 The Apartment (1960)
 Some Like it Hot (1959)
@@ -854,6 +945,7 @@ Giant (1956)
 East of Eden (1955)
 The Thin Man (1934)
 His Girl Friday (1940)
+Around the World in 80 Days (1956)
 It's a Wonderful Life (1946)
 Mr. Smith Goes to Washington (1939)
 Bringing Up Baby (1938)
@@ -871,6 +963,7 @@ A Walk in the Sun (1945)
 The Outlaw (1943)
 Night of the Living Dead (1968)
 The African Queen (1951)
+Beat the Devil (1954)
 Cat on a Hot Tin Roof (1958)
 The Last Time I Saw Paris (1954)
 Meet John Doe (1941)
@@ -880,8 +973,10 @@ A Farewell to Arms (1932)
 Moonlight Murder (1936)
 The Blue Angel (1930)
 Nothing Personal
+In the Line of Duty 2 (1987)
 Dangerous Ground
 Picnic (1955)
+Madagascar Skin
 The Pompatus of Love
 Fiddlefest (Small Wonders)
 Fly Away Home
@@ -894,17 +989,19 @@ The Rich Man's Wife
 Infinity
 Big Night
 Loch Ness
+Last Man Standing
 Caught
 Set it Off
 2 Days in the Valley
 Curdled
-L'Associé (1982)
+L'Associ� (1982)
 Ed's Next Move
 Extreme Measures
 The Glimmer Man
 D3: The Mighty Ducks
 The Chamber
 The Apple Dumpling Gang (1975)
+Davy Crockett: King of the Wild Frontier
 Escape to Witch Mountain (1975)
 The Love Bug (1969)
 Herbie Rides Again (1974)
@@ -922,8 +1019,10 @@ Cinderella (1950)
 Winnie the Pooh (Winnie the Pooh and the Blustery Day)
 The Three Caballeros (1945)
 The Sword in the Stone (1963)
+So Dear to My Heart (1948)
 Robin Hood (1984)
 Mary Poppins (1964)
+Dumbo (1941)
 Pete's Dragon (1977)
 Bedknobs and Broomsticks (1971)
 Alice in Wonderland (1951)
@@ -935,6 +1034,7 @@ The Lawnmower Man
 Unhook the Stars
 Synthetic Pleasures
 The Secret Agent
+Secrets & Lies
 That Thing You Do!
 To Gillian on Her 37th Birthday
 Surviving Picasso
@@ -956,6 +1056,7 @@ Swingers
 Sleepers
 The Sunchaser
 Johns
+Aladdin and the King of Thieves
 The Woman in Question (1950)
 Shall We Dance? (1937)
 A Damsel in Distress (1937)
@@ -963,7 +1064,9 @@ Crossfire (1947)
 Murder, My Sweet (1944)
 Macao (1952)
 For the Moment
+The Deadly Cure
 Willy Wonka and the Chocolate Factory (1971)
+Boys in Venice
 The Sexual Life of the Belgians
 The Innocents (1961)
 Sleeper (1973)
@@ -987,6 +1090,7 @@ The Crying Game
 Glengarry Glen Ross
 Sophie's Choice (1982)
 E.T.: The Extraterrestrial
+The Search for One-Eye Jimmy
 A Christmas Carol (1938)
 Days of Thunder
 Top Gun (1986)
@@ -995,13 +1099,17 @@ Rebel Without a Cause (1955)
 A Streetcar Named Desire (1951)
 Children of the Corn IV: The Gathering
 The Leopard Son
+Loser
 Prerokbe Ognja
 Charms Zwischenfaelle (Charm's Incidents)
+Bird of Prey
 Microcosmos: The People of the Grass (Le Peuple des herbes)
+Palookaville
 The Associate
 The Funeral
 Sleepover
 La fille seule (A Single Girl)
+The Eighth Day (Le huiti�me jour)
 Tashunga
 Drunks
 The People vs. Larry Flynt
@@ -1020,16 +1128,20 @@ Manon of the Spring (1986)
 Talking About Sex
 Johnny 100 Pesos
 Private Benjamin (1980)
+Monty Python and The Holy Grail (1974)
 Hustler White
+Dadetown
 Everything Relative
 Entertaining Angels: The Dorothy Day Story
 Hoogste Tijd
 Get Over It
+Three Lives and Only One Death
 The Line King: The Al Hirschfeld Story
 Snowriders
 Curtis's Charm
 When We Were Kings
 The Wrong Trousers
+JLG/JLG
 The Return of Martin Guerre (1982)
 Faust (1994)
 He Walked By Night (1949)
@@ -1038,12 +1150,15 @@ T-Men (1947)
 The Invitation (1986)
 The Children Are Watching Us (1942)
 La Symphonie pastorale (1946)
+Here Comes Cookie (1935)
 Love in Bloom (1935)
 Six of a Kind (1934)
 The Tin Drum (1979)
 The Ruling Class (1972)
 Mina Tannenbaum
+Two or Three Things I Know About Her� (1966)
 The Bloody Child
+Farmer & Chase
 Dear God
 Bad Moon
 American Dream
@@ -1054,10 +1169,12 @@ The Cook The Thief His Wife and Her Lover (1989)
 Dead Tired (Grosse Fatigue)
 Delicatessen
 The Double Life of Veronique (Podwojne zycie Weroniki)
+Enchanted April
 Paths of Glory (1957)
 The Grifters
 Hear My Song
 Hidden Assassin
+The Innocent
 The English Patient
 Mediterraneo
 My Left Foot (1989)
@@ -1080,6 +1197,7 @@ The Good, The Bad and The Ugly (1966)
 Withnail and I (1987)
 12 Angry Men (1957)
 Lawrence of Arabia (1962)
+The Transformers: The Movie (1986)
 A Clockwork Orange (1971)
 To Kill a Mockingbird (1962)
 Apocalypse Now (1979)
@@ -1110,9 +1228,10 @@ Stalker (1979)
 Das Boot (1981)
 The Sting (1973)
 Harold and Maude (1971)
+Trust
 The Seventh Seal (1957)
 Local Hero (1983)
-C'est arrivé pres de chez vous
+C'est arriv� pres de chez vous
 The Terminator (1984)
 Braindead
 Glory (1989)
@@ -1144,7 +1263,7 @@ The Manchurian Candidate (1962)
 Pump Up the Volume
 Arsenic and Old Lace (1944)
 Back to the Future (1985)
-Fried Green Tomatoes (Fried Green Tomatoes at the Whistle Stop Café)
+Fried Green Tomatoes (Fried Green Tomatoes at the Whistle Stop Caf�)
 Patton (1970)
 Down by Law (1986)
 Akira (1988)
@@ -1181,6 +1300,8 @@ Butch Cassidy and the Sundance Kid (1969)
 Paris, Texas (1984)
 Until the End of the World
 When Harry Met Sally... (1989)
+I Shot a Man in Vegas
+Parallel Sons
 Hype!
 Santa with Muscles
 Female Perversions
@@ -1190,14 +1311,20 @@ Paris Was a Woman
 Anna
 I'm Not Rappaport
 Blue Juice
+Kids of Survival
 Alien 3
 An American Werewolf in London (1981)
+Amityville 1992: It's About Time
+Amityville 3-D (1983)
 Amityville: Dollhouse
+Amityville: A New Generation
 Amityville II: The Possession (1982)
 The Amityville Horror (1979)
 The Amityville Curse
 Andy Warhol's Dracula (1974)
+April Fool's Day (1986)
 Audrey Rose (1977)
+The Believers (1987)
 The Birds (1963)
 The Blob (1958)
 Blood Beach (1981)
@@ -1213,23 +1340,28 @@ Cape Fear (1962)
 Carrie (1976)
 Cat People (1982)
 A Nightmare on Elm Street (1984)
+Nosferatu (1922)
 Nosferatu a Venezia (1986)
 The Omen (1976)
+Blood and Wine
 Albino Alligator
 The Mirror Has Two Faces
 Breaking the Waves
+Nightwatch
 Star Trek: First Contact
 Shine
 Sling Blade
 Jingle All the Way
 Identification of a Woman
 Paradise Lost: The Child Murders at Robin Hood Hills (1996)
+The Garden of the Finzi-Continis
 The Preacher's Wife
 Kjaerlighetens kjoetere
 Ridicule
 The Crucible
 101 Dalmatians (1996)
 The Forbidden Christ (Il Cristo Proibito)
+I Can't Sleep
 Die Hard 2
 Star Trek: The Motion Picture (1979)
 Star Trek VI: The Undiscovered Country
@@ -1260,11 +1392,13 @@ Sneakers
 Bastard Out of Carolina
 In Love and War
 Marvin's Room
+Somebody is Waiting
 Ghosts of Mississippi
 The Honest Courtesan
+The Ice Storm
 Night Falls on Manhattan
 Beavis and Butt-head Do America
-La Cérémonie
+La C�r�monie
 Scream
 The Last of the Mohicans (1992)
 Michael
@@ -1273,9 +1407,11 @@ Hamlet (1996)
 Some Mother's Son
 The Whole Wide World
 Mother
+Thieves (Les Voleurs)
 Evita
 The Portrait of a Lady
 Walkabout (1970)
+Message to Love: The Isle of Wight Festival (1970)
 Grateful Dead
 Murder at 1600
 Hearts and Minds
@@ -1285,13 +1421,18 @@ Zeus and Roxanne
 Turbulence
 Angel Baby
 Jackie Chan's First Strike
+Underworld
 Beverly Hills Ninja
 Metro
+The Machine
+The Stranger
 Good Morning
 Falling in Love Again (1980)
 The Cement Garden
 Dante's Peak
 Meet Wally Sparks
+Amos & Andrew
+Benny & Joon
 Prefontaine
 A Tickle in the Heart
 Guantanamera
@@ -1301,19 +1442,27 @@ Gridlock'd
 Fire on the Mountain
 Waiting for Guffman
 Prisoner of the Mountains
+Allies
 The Beautician and the Beast
+SubUrbia
 Hotel de Love
 The Pest
 Fools Rush In
+Touch
 Absolute Power
 That Darn Cat (1997)
 Vegas Vacation
+Unforgotten: Twenty-Five Years After Willowbrook
 That Old Feeling
+Lost Highway
 Rosewood
 Donnie Brasco
 Salut cousin!
 Booty Call
 Hard Eight
+Rhyme & Reason
+Boys Life 2
+City of Industry
 Best Men
 Jungle 2 Jungle
 Kama Sutra: A Tale Of Love
@@ -1324,6 +1473,7 @@ Smilla's Sense of Snow
 The Van
 Crash
 The Daytrippers
+Liar, Liar
 The Quiet Room
 Selena
 The Devil's Own
@@ -1338,8 +1488,10 @@ Double Team
 Inventing the Abbotts
 Anaconda
 Grosse Pointe Blank
+Keys To Tulsa
 Kissed
 8 Heads in the Duffel Bag
+Hollow Reed
 Paradise Road
 Traveller
 All Over Me
@@ -1352,6 +1504,7 @@ Children of the Revolution
 Austin Powers
 Breakdown
 Broken English
+Commandments
 The Designated Mourner
 Ripe
 Truth Or Consequences, N.M.
@@ -1365,6 +1518,7 @@ Losing Chase
 Sprung
 La Promesse
 Le Bonheur
+Love! Valour! Compassion!
 Shall We Dance? (1996)
 The Second Jungle Book: Mowgli & Baloo
 Twin Town
@@ -1373,6 +1527,7 @@ Brassed Off
 Designated Mourner
 The Lost World: Jurassic Park
 Ponette
+Schizopolis
 Shiloh
 The War at Home
 Rough Magic
@@ -1380,8 +1535,12 @@ Trial and Error
 Buddy
 Con Air
 Late Bloomers
+The Pillow Book
 To Have (or Not) (En avoir (ou pas))
+Speed 2: Cruise Control
 Squeeze
+Sudden Manhattan
+The Next Step
 Ulee's Gold
 Wedding Bell Blues
 Batman and Robin
@@ -1394,11 +1553,12 @@ MURDER and Murder
 My Best Friend's Wedding
 Tetsuo II: Body Hammer
 When the Cat's Away (Chacun cherche son chat)
-Contempt (Le Mépris)
+Contempt (Le M�pris)
 Face/Off
 Fall
 Gabbeh
 Mondo
+The Innocent Sleep
 For Ever Mozart
 Men in Black
 Out to Sea
@@ -1411,20 +1571,25 @@ Hijacking Hollywood
 Kiss Me Guido
 Mrs. Brown
 Nothing to Lose
+Operation Condor (Feiying Gaiwak)
 The Swan Princess II
 Air Force One
 Alive & Kicking
 Box of Moonlight
 Brilliant Lies
+Diary of a Seducer (Le journal du s�ducteur)
 Good Burger
 Star Maps
 The Winner
 187
+Air Bud
 In the Company of Men
 Paperback Romance
 Picture Perfect
+Spawn
 Career Girls
 Conspiracy Theory
+Desperate Measures
 Free Willy 3: The Rescue
 Cop Land
 Conspirators of Pleasure (Spiklenci Slasti)
@@ -1440,9 +1605,10 @@ G.I. Jane
 Leave It To Beaver
 Masterminds
 Mimic
+Money Talks
 Pippi Longstocking
 Sunday
-A Self-Made Hero (Un héros très discret)
+A Self-Made Hero (Un h�ros tr�s discret)
 Excess Baggage
 Hoodlum
 Kull the Conqueror
@@ -1453,6 +1619,7 @@ Trojan Eddie
 Fire Down Below
 Gravesend
 Julian Po
+Bandwagon
 Different for Girls
 Suicide Kings
 The Disappearance of Garcia Lorca

@@ -526,6 +526,7 @@ canadian
 canary
 cancer
 candian
+candidate
 candle
 candy
 cane
@@ -1034,6 +1035,8 @@ dollar
 dolphin
 domestic
 dominant
+dominatrix
+dominican
 dominoes
 donald
 donut
@@ -1210,6 +1213,7 @@ expedition
 experience
 experiment
 experimental
+experimentation
 exploding
 exploitation
 exploration
@@ -2321,6 +2325,7 @@ norms
 north
 northern
 nose
+nosebleed
 nostalgia
 nostra
 notre
@@ -3592,6 +3597,7 @@ verne
 vertigo
 vespa
 vet
+veterinarian
 vichy
 victim
 victimization

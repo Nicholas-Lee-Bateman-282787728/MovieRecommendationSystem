@@ -1,4 +1,4 @@
-1,'Toy Story'
+1,Toy Story
 2,Jumanji
 3,Grumpier Old Men
 4,Waiting to Exhale
@@ -70,7 +70,7 @@
 70,From Dusk Till Dawn
 71,Fair Game
 72,Kicking and Screaming
-73,Les Misérables (Les Misérables du vingtième siècle)
+73,Les Mis�rables (Les Mis�rables du vingti�me si�cle)
 74,Bed of Roses
 75,Big Bully
 76,Screamers
@@ -93,16 +93,18 @@
 94,Beautiful Girls
 95,Broken Arrow
 96,A Midwinter's Tale (In the Bleak Midwinter)
-97,Hate (La Haïne)
+97,Hate (La Ha�ne)
 98,Shopping
 99,Heidi Fleiss: Hollywood Madam
 100,City Hall
 101,Bottle Rocket
 102,Mr. Wrong
+103,Unforgettable
 104,Happy Gilmore
 105,The Bridges of Madison County
 106,Nobody Loves Me
 107,Muppet Treasure Island
+108,Catwalk
 109,Headless Body in Topless Bar
 110,Braveheart
 111,Taxi Driver (1976)
@@ -115,15 +117,19 @@
 118,If Lucy Fell
 119,"Steal Big, Steal Little"
 120,Race the Sun
+121,The Boys of St. Vincent
 122,Boomerang
 123,Chungking Express
 124,The Star Maker (L'Uomo delle Stelle)
 125,Flirting With Disaster
 126,The NeverEnding Story III
 127,The Silences of the Palace (Saimt el Qusur)
+128,Jupiter's Wife
+129,Pie in the Sky
 130,Angela
 131,Frankie Starlight
 132,Jade
+133,Nueba Yol (Por Fin Llego Balbuena)
 134,Sonic Outlaws
 135,Down Periscope
 136,From the Journals of Jean Seberg
@@ -133,6 +139,7 @@
 140,Up Close and Personal
 141,The Birdcage
 142,Shadows (1988)
+143,Gospa
 144,The Brothers McMullen
 145,Bad Boys
 146,The Amazing Panda Adventure
@@ -146,6 +153,7 @@
 154,Belle de Jour (1967)
 155,Beyond Rangoon
 156,Blue in the Face
+157,Canadian Bacon
 158,Casper
 159,Clockers
 160,Congo
@@ -166,6 +174,7 @@
 175,Kids
 176,Living in Oblivion
 177,Lord of Illusions
+178,Love and Human Remains
 179,Mad Love
 180,Mallrats
 181,Mighty Morphin Power Rangers: The Movie
@@ -176,12 +185,15 @@
 186,Nine Months
 187,Party Girl
 188,The Prophecy (God's Army)
+189,Reckless
 190,Safe
 191,The Scarlet Letter
+192,The Show
 193,Showgirls
 194,Smoke
 195,Something to Talk About
 196,Species
+197,The Stars Fell on Henrietta
 198,Strange Days
 199,The Umbrellas of Cherbourg (1964)
 200,The Tie That Binds
@@ -196,6 +208,7 @@
 209,White Man's Burden
 210,Wild Bill
 211,The Browning Version
+212,Bushwhacked
 213,Burnt by the Sun
 214,Before the Rain (Pred Dozhdot)
 215,Before Sunrise
@@ -204,18 +217,24 @@
 218,Boys on the Side
 219,The Cure
 220,Castle Freak
+221,The Courtyard
 222,Circle of Friends
 223,Clerks
+224,Don Juan DeMarco (Don Juan DeMarco and the Centerfold)
 225,Disclosure
 226,Dream Man
 227,Drop Zone
 228,Destiny Turns On The Radio
 229,Death and the Maiden
+230,Dolores Claiborne
+231,Dumb and Dumber
+232,Eat Drink Man Woman
 233,Exotica
 234,Exit to Eden
 235,Ed Wood
 236,French Kiss
 237,Forget Paris
+238,Far From Home: The Adventures of Yellow Dog
 239,A Goofy Movie
 240,Hideaway
 241,Fluke
@@ -225,11 +244,14 @@
 245,The Glass Shield
 246,Hoop Dreams
 247,Heavenly Creatures
+248,Houseguest
 249,Immortal Beloved
+250,Heavyweights
 251,The Hunted
 252,I.Q.
 253,Interview with the Vampire
 254,Jefferson in Paris
+255,The Jerky Boys
 256,Junior
 257,Just Cause
 258,A Kid in King Arthur's Court
@@ -241,6 +263,7 @@
 264,L'Enfer
 265,Like Water For Chocolate (Como Agua Para Chocolate)
 266,Legends of the Fall
+267,Major Payne
 268,Little Odessa
 269,My Crazy Life (Mi Vida Loca)
 270,Love Affair
@@ -257,6 +280,8 @@
 281,Nobody's Fool
 282,Nell
 283,New Jersey Drive
+284,New York Cop
+285,Nightscare
 286,Nemesis 2: Nebula
 287,Nina Takes a Lover
 288,Natural Born Killers
@@ -264,6 +289,7 @@
 290,Once Were Warriors
 291,Poison Ivy II
 292,Outbreak
+293,The Professional
 294,The Perez Family
 295,A Pyromaniac's Love Story
 296,Pulp Fiction
@@ -275,21 +301,25 @@
 302,Queen Margot
 303,The Quick and the Dead
 304,Roommates
-305,Ready to Wear (Pret à Porter)
+305,Ready to Wear (Pret � Porter)
 306,Three Colors: Red
 307,Three Colors: Blue
 308,Three Colors: White
 309,"Red Firecracker, Green Firecracker (Paoda Shuang Deng)"
 310,Rent-a-Kid
 311,Relative Fear
+312,Stuart Saves His Family
 313,The Swan Princess
 314,The Secret of Roan Inish
 315,The Specialist
 316,Stargate
 317,The Santa Clause
 318,The Shawshank Redemption
+319,Shallow Grave
 320,Suture
 321,Strawberry and Chocolate (Fresa y chocolate)
+322,Swimming With Sharks
+323,Stephen King's The Langoliers
 324,The Sum of Us
 325,National Lampoon's Senior Trip
 326,To Live (Huozhe)
@@ -297,6 +327,7 @@
 328,Tales From the Crypt Presents: Demon Knight
 329,Star Trek: Generations
 330,Tales From the Hood
+331,Tom and Viv
 332,Village of the Damned
 333,Tommy Boy
 334,Vanya on 42nd Street
@@ -342,12 +373,14 @@
 374,Richie Rich
 375,Safe Passage
 376,The River Wild
+377,Speed
 378,Speechless
 379,Timecop
 380,True Lies
 381,When a Man Loves a Woman
 382,Wolf
 383,Wyatt Earp
+384,Bad Company
 385,A Man of No Importance
 386,S.F.W.
 387,A Low Down Dirty Shame (Mr. Cool)
@@ -363,10 +396,13 @@
 397,The Fear
 398,Frank and Ollie
 399,Girl in the Cadillac
+400,Homage
 401,Mirage
+402,Open Season
 403,Two Crimes (Dos crimenes)
 404,Brother Minister: The Assassination of Malcolm X
 405,Highlander III: The Sorcerer
+406,Federal Hill
 407,In the Mouth of Madness
 408,8 Seconds
 409,Above the Rim
@@ -403,6 +439,7 @@
 440,Dave
 441,Dazed and Confused
 442,Demolition Man
+443,The Endless Summer 2
 444,Even Cowgirls Get the Blues
 445,Fatal Instinct
 446,Farewell My Concubine
@@ -424,6 +461,7 @@
 462,A Good Man in Africa
 463,Guilty As Sin
 464,Hard Target
+465,Heaven and Earth
 466,Hot Shots! Part Deux
 467,Live Nude Girls
 468,The Englishman Who Went Up a Hill But Came Down a Mountain
@@ -520,13 +558,18 @@
 559,"Paris, France"
 560,"The Beans of Egypt, Maine (Forbidden Choices)"
 561,Bulletproof Heart (Killer)
+562,Welcome to the Dollhouse
 563,Germinal
 564,Chasers
+565,Cronos (La Invencion de Cronos)
+566,Naked in New York
 567,Kika
 568,Bhaji on the Beach
 569,Little Big League
 570,The Slingshot (Kaadisbellan)
+571,The Wedding Gift
 572,Foreign Student
+573,"Ciao, Professore!"
 574,Spanking the Monkey
 575,The Little Rascals
 576,A la Mode (Fausto)
@@ -534,6 +577,7 @@
 578,The Advocate
 579,La Scorta
 580,Princess Caraboo
+581,The Celluloid Closet
 582,Cafe au Lait
 583,Caro Diario (Dear Diary)
 584,I Don't Want to Talk About It (De Eso No Se Habla)
@@ -550,6 +594,7 @@
 595,Beauty and the Beast
 596,Pinocchio (1940)
 597,Pretty Woman
+598,Window to Paris
 599,The Wild Bunch (1969)
 600,Love and a .45
 601,The Wooden Man's Bride (Wukui)
@@ -561,17 +606,21 @@
 607,Century
 608,Fargo
 609,Homeward Bound II: Lost in San Francisco
+610,Heavy Metal (1981)
 611,Hellraiser: Bloodline
 612,The Pallbearer
 613,Jane Eyre
 614,Loaded
+615,Bread and Chocolate (Pane e Cioccolata) (1973)
 616,The Aristocats (1970)
 617,The Flower of My Secret (La Flor de mi Secreto)
 618,Two Much
 619,Ed
 620,Scream of Stone (Schrei aus Stein)
-621,My Favorite Season (Ma Saison Préférée)
+621,My Favorite Season (Ma Saison Pr�f�r�e)
+623,A Modern Affair (Mr. #247)
 624,Condition Red
+625,Halfaouine: l'Enfant des Terrasses
 626,A Thin Line Between Love and Hate
 627,The Last Supper
 628,Primal Fear
@@ -580,6 +629,7 @@
 631,All Dogs Go to Heaven 2
 632,Land and Freedom (Tierra y libertad)
 633,Denise Calls Up
+634,Theodore Rex
 635,A Family Thing
 636,Frisk
 637,Sgt. Bilko
@@ -587,16 +637,19 @@
 639,Girl 6
 640,Diabolique
 641,"Little Indian, Big City (Un Indien dans la ville)"
+642,Roula
 643,Peanuts - Die Bank zahlt alles
 644,Happy Weekend
 645,Nelly et Monsieur Arnaud
 647,Courage Under Fire
 648,Mission: Impossible
+649,A Koeldum klaka (Cold Fever)
 650,Moll Flanders
 651,Das Superweib (The Superwoman)
 652,"301, 302"
 653,Dragonheart
 654,Und Keiner Weint Mir Nach
+655,Mutters Courage
 656,Eddie
 657,Yankee Zulu
 658,Billy's Holiday
@@ -608,21 +661,28 @@
 664,Faithful
 665,Underground
 666,Lust och Faegring Stor (All Things Fair)
+667,Bloodsport 2: The Next Kumite
+668,Pather Panchali (Song of the Road) (1955)
 669,Aparajito (The Unvanquished) (1956)
 670,The World of Apu (Apur Sansar) (1959)
 671,Mystery Science Theater 3000: The Movie
+672,Tarantella
 673,Space Jam
 674,Barbarella (1968)
 675,Hostile Intentions
+676,They Bite
 678,Some Folks Call it a Sling Blade
 679,The Run of the Country
 680,Alphaville (1965)
 681,Coup de Torchon (Clean Slate) (1981)
 682,Tigrero: A Film that was Never Made
 683,The Eye of Vichy
+684,Picture Windows
+685,It's My Party
 686,Il Mostro (The Monster)
 687,Country Life
 688,Operation Dumbo Drop
+689,Pre-Madonnas: Rebels Without a Clue
 690,The Promise
 691,Mrs. Winterbourne
 692,Solo
@@ -631,6 +691,7 @@
 695,True Crime
 696,Butterfly Kiss
 697,Feeling Minnesota
+698,Delta of Venus
 699,To Cross the Rubicon
 700,Angus
 701,Daens
@@ -641,6 +702,7 @@
 706,Sunset Park
 707,Mulholland Falls
 708,The Truth about Cats and Dogs
+709,Oliver and Company (1988)
 710,Celtic Pride
 711,Flipper
 712,Captives
@@ -651,28 +713,37 @@
 717,Mouth to Mouth (Boca a Boca)
 718,The Visitors (Les Visiteurs)
 719,Multiplicity
+720,Wallace & Gromit: The Best of Aardman Animations
 721,Halfmoon (Paul Bowles - Halbmond)
 722,The Haunted World of Edward D. Wood
+723,Two Friends (1986)
 724,The Craft
 725,The Great White Hype
 726,Last Dance
 727,War Stories Our Mother Never Told Us
-729,Institute Benjamenta… or This Dream People Call Human Life
+728,Cold Comfort Farm
+729,Institute Benjamenta� or This Dream People Call Human Life
+730,The Low Life
 731,Heaven's Prisoners
 732,Original Gangstas
 733,The Rock
+734,Getting Away With Murder
 735,Cemetery Man
 736,Twister
 737,Barb Wire
-738,Le Garçu
+738,Le Gar�u
 739,Honigmond
 740,Bridge to the Future
 741,Ghost in the Shell (Kokaku Kidotai)
 742,Thinner
 743,Spy Hard
+744,Brothers in Trouble
 745,A Close Shave
+746,Forces of Evil
 747,The Stupids
 748,The Arrival (Shockwave)
+749,Women from Down Under
+750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)
 751,Careful
 752,Vermont is for Lovers
 753,A Month by the Lake
@@ -686,10 +757,12 @@
 761,The Phantom
 762,Striptease
 763,The Last of the High Kings
+764,Heavy
 765,Jack
 766,I Shot Andy Warhol
 767,The Grass Harp
-768,Someone Else's America (L'Amérique des autres)
+768,Someone Else's America (L'Am�rique des autres)
+769,Marlene Dietrich: Shadow and Light
 770,Costa Brava
 771,La Vie est belle (Life is Rosy) (1987)
 772,Quartier Mozart
@@ -698,6 +771,8 @@
 775,Spirits of the Dead (1968)
 776,Babyfever
 777,Pharaoh's Army
+778,Trainspotting
+779,'Til There Was You
 780,Independence Day (ID4)
 781,Stealing Beauty (Io Ballo da Sola)
 782,The Fan
@@ -710,6 +785,8 @@
 789,"I, The Worst of All"
 790,An Unforgettable Summer
 791,The Last Klezmer
+792,A Hungarian Fairy Tale (1987)
+793,My Life and Times with Antonin Artaud
 794,Midnight Dancers
 795,Somebody to Love
 796,A Very Natural Thing (1974)
@@ -731,6 +808,8 @@
 812,Buvos Vadasz
 813,Larger than Life
 814,A Boy Called Hate
+815,Power 98
+816,Two Deaths
 817,"Guimba, un tyrant, une epoque"
 818,A Very Brady Sequel
 819,Stephano Quantestorie
@@ -738,7 +817,9 @@
 821,The Crude Oasis
 822,Hedd Wyn
 823,La Collectionneuse (1967)
+824,Kaspar Hauser
 825,Echte Kerle
+826,Diebinnen
 827,The Convent
 828,The Adventures of Pinocchio
 829,Joe's Apartment
@@ -755,7 +836,10 @@
 840,House Arrest
 841,Eyes Without a Face (1959)
 842,Tales From the Crypt Presents: Bordello of Blood
+843,Lotto Land
+844,The Story of Xinghua
 845,The Day The Sun Turned Cold
+846,Flirt
 847,The Big Squeeze
 848,The Spitfire Grill
 849,Escape From L.A.
@@ -766,11 +850,15 @@
 854,The Ballad of Narayama (Narayama Bushi-Ko)
 855,Every Other Weekend
 856,Mille Bolle Blu
+857,Crows and Sparrows
 858,The Godfather (1972)
 859,The Hippie Revolution
 860,"Maybe, Maybe Not"
 861,Supercop
+862,Manny & Lo
 863,Celestial Clockwork (Cortazar)
+864,The Wife
+865,Small Faces
 866,Bound
 867,Carpool
 868,Death in Brunswick
@@ -779,6 +867,7 @@
 871,Lover's Knot
 872,Aiqing Wansui (Vive l'Amour)
 873,Shadow of Angels
+874,Killer: A Journal of Murder
 875,Nothing to Lose (1994)
 876,Project S (Police Story 4: Project S)
 877,Girls Town
@@ -788,8 +877,10 @@
 881,First Kid
 882,The Trigger Effect
 883,Daniel Defoe's Robinson Crusoe
+884,Sweet Nothing
 885,Bogus
 886,Bulletproof
+887,Talk of Angels
 888,The Land Before Time III: The Time of the Great Giving
 889,1-900
 890,Baton Rouge (1988)
@@ -809,7 +900,7 @@
 904,Rear Window (1954)
 905,It Happened One Night (1934)
 906,Gaslight (1944)
-907,The Gay Divorcée (1934)
+907,The Gay Divorc�e (1934)
 908,North by Northwest (1959)
 909,The Apartment (1960)
 910,Some Like it Hot (1959)
@@ -854,6 +945,7 @@
 949,East of Eden (1955)
 950,The Thin Man (1934)
 951,His Girl Friday (1940)
+952,Around the World in 80 Days (1956)
 953,It's a Wonderful Life (1946)
 954,Mr. Smith Goes to Washington (1939)
 955,Bringing Up Baby (1938)
@@ -871,6 +963,7 @@
 967,The Outlaw (1943)
 968,Night of the Living Dead (1968)
 969,The African Queen (1951)
+970,Beat the Devil (1954)
 971,Cat on a Hot Tin Roof (1958)
 972,The Last Time I Saw Paris (1954)
 973,Meet John Doe (1941)
@@ -880,8 +973,10 @@
 977,Moonlight Murder (1936)
 978,The Blue Angel (1930)
 979,Nothing Personal
+980,In the Line of Duty 2 (1987)
 981,Dangerous Ground
 982,Picnic (1955)
+983,Madagascar Skin
 984,The Pompatus of Love
 985,Fiddlefest (Small Wonders)
 986,Fly Away Home
@@ -894,17 +989,19 @@
 993,Infinity
 994,Big Night
 995,Loch Ness
+996,Last Man Standing
 997,Caught
 998,Set it Off
 999,2 Days in the Valley
 1000,Curdled
-1001,L'Associé (1982)
+1001,L'Associ� (1982)
 1002,Ed's Next Move
 1003,Extreme Measures
 1004,The Glimmer Man
 1005,D3: The Mighty Ducks
 1006,The Chamber
 1007,The Apple Dumpling Gang (1975)
+1008,Davy Crockett: King of the Wild Frontier
 1009,Escape to Witch Mountain (1975)
 1010,The Love Bug (1969)
 1011,Herbie Rides Again (1974)
@@ -922,8 +1019,10 @@
 1023,Winnie the Pooh (Winnie the Pooh and the Blustery Day)
 1024,The Three Caballeros (1945)
 1025,The Sword in the Stone (1963)
+1026,So Dear to My Heart (1948)
 1027,Robin Hood (1984)
 1028,Mary Poppins (1964)
+1029,Dumbo (1941)
 1030,Pete's Dragon (1977)
 1031,Bedknobs and Broomsticks (1971)
 1032,Alice in Wonderland (1951)
@@ -935,6 +1034,7 @@
 1038,Unhook the Stars
 1039,Synthetic Pleasures
 1040,The Secret Agent
+1041,Secrets & Lies
 1042,That Thing You Do!
 1043,To Gillian on Her 37th Birthday
 1044,Surviving Picasso
@@ -956,6 +1056,7 @@
 1061,Sleepers
 1062,The Sunchaser
 1063,Johns
+1064,Aladdin and the King of Thieves
 1065,The Woman in Question (1950)
 1066,Shall We Dance? (1937)
 1067,A Damsel in Distress (1937)
@@ -963,7 +1064,9 @@
 1069,"Murder, My Sweet (1944)"
 1070,Macao (1952)
 1071,For the Moment
+1072,The Deadly Cure
 1073,Willy Wonka and the Chocolate Factory (1971)
+1074,Boys in Venice
 1075,The Sexual Life of the Belgians
 1076,The Innocents (1961)
 1077,Sleeper (1973)
@@ -987,6 +1090,7 @@
 1095,Glengarry Glen Ross
 1096,Sophie's Choice (1982)
 1097,E.T.: The Extraterrestrial
+1098,The Search for One-Eye Jimmy
 1099,A Christmas Carol (1938)
 1100,Days of Thunder
 1101,Top Gun (1986)
@@ -995,13 +1099,17 @@
 1104,A Streetcar Named Desire (1951)
 1105,Children of the Corn IV: The Gathering
 1106,The Leopard Son
+1107,Loser
 1108,Prerokbe Ognja
 1109,Charms Zwischenfaelle (Charm's Incidents)
+1110,Bird of Prey
 1111,Microcosmos: The People of the Grass (Le Peuple des herbes)
+1112,Palookaville
 1113,The Associate
 1114,The Funeral
 1115,Sleepover
 1116,La fille seule (A Single Girl)
+1117,The Eighth Day (Le huiti�me jour)
 1118,Tashunga
 1119,Drunks
 1120,The People vs. Larry Flynt
@@ -1020,16 +1128,20 @@
 1133,Talking About Sex
 1134,Johnny 100 Pesos
 1135,Private Benjamin (1980)
+1136,Monty Python and The Holy Grail (1974)
 1137,Hustler White
+1138,Dadetown
 1139,Everything Relative
 1140,Entertaining Angels: The Dorothy Day Story
 1141,Hoogste Tijd
 1142,Get Over It
+1143,Three Lives and Only One Death
 1144,The Line King: The Al Hirschfeld Story
 1145,Snowriders
 1146,Curtis's Charm
 1147,When We Were Kings
 1148,The Wrong Trousers
+1149,JLG/JLG
 1150,The Return of Martin Guerre (1982)
 1151,Faust (1994)
 1152,He Walked By Night (1949)
@@ -1038,12 +1150,15 @@
 1155,The Invitation (1986)
 1156,The Children Are Watching Us (1942)
 1157,La Symphonie pastorale (1946)
+1158,Here Comes Cookie (1935)
 1159,Love in Bloom (1935)
 1160,Six of a Kind (1934)
 1161,The Tin Drum (1979)
 1162,The Ruling Class (1972)
 1163,Mina Tannenbaum
+1164,Two or Three Things I Know About Her� (1966)
 1165,The Bloody Child
+1166,Farmer & Chase
 1167,Dear God
 1168,Bad Moon
 1169,American Dream
@@ -1054,10 +1169,12 @@
 1174,Dead Tired (Grosse Fatigue)
 1175,Delicatessen
 1176,The Double Life of Veronique (Podwojne zycie Weroniki)
+1177,Enchanted April
 1178,Paths of Glory (1957)
 1179,The Grifters
 1180,Hear My Song
 1181,Hidden Assassin
+1182,The Innocent
 1183,The English Patient
 1184,Mediterraneo
 1185,My Left Foot (1989)
@@ -1080,6 +1197,7 @@
 1202,Withnail and I (1987)
 1203,12 Angry Men (1957)
 1204,Lawrence of Arabia (1962)
+1205,The Transformers: The Movie (1986)
 1206,A Clockwork Orange (1971)
 1207,To Kill a Mockingbird (1962)
 1208,Apocalypse Now (1979)
@@ -1110,9 +1228,10 @@
 1233,Das Boot (1981)
 1234,The Sting (1973)
 1235,Harold and Maude (1971)
+1236,Trust
 1237,The Seventh Seal (1957)
 1238,Local Hero (1983)
-1239,C'est arrivé pres de chez vous
+1239,C'est arriv� pres de chez vous
 1240,The Terminator (1984)
 1241,Braindead
 1242,Glory (1989)
@@ -1144,7 +1263,7 @@
 1268,Pump Up the Volume
 1269,Arsenic and Old Lace (1944)
 1270,Back to the Future (1985)
-1271,Fried Green Tomatoes (Fried Green Tomatoes at the Whistle Stop Café)
+1271,Fried Green Tomatoes (Fried Green Tomatoes at the Whistle Stop Caf�)
 1272,Patton (1970)
 1273,Down by Law (1986)
 1274,Akira (1988)
@@ -1181,6 +1300,8 @@
 1305,"Paris, Texas (1984)"
 1306,Until the End of the World
 1307,When Harry Met Sally... (1989)
+1308,I Shot a Man in Vegas
+1309,Parallel Sons
 1310,Hype!
 1311,Santa with Muscles
 1312,Female Perversions
@@ -1190,14 +1311,20 @@
 1316,Anna
 1317,I'm Not Rappaport
 1318,Blue Juice
+1319,Kids of Survival
 1320,Alien 3
 1321,An American Werewolf in London (1981)
+1322,Amityville 1992: It's About Time
+1323,Amityville 3-D (1983)
 1324,Amityville: Dollhouse
+1325,Amityville: A New Generation
 1326,Amityville II: The Possession (1982)
 1327,The Amityville Horror (1979)
 1328,The Amityville Curse
 1329,Andy Warhol's Dracula (1974)
+1330,April Fool's Day (1986)
 1331,Audrey Rose (1977)
+1332,The Believers (1987)
 1333,The Birds (1963)
 1334,The Blob (1958)
 1335,Blood Beach (1981)
@@ -1213,23 +1340,28 @@
 1345,Carrie (1976)
 1346,Cat People (1982)
 1347,A Nightmare on Elm Street (1984)
+1348,Nosferatu (1922)
 1349,Nosferatu a Venezia (1986)
 1350,The Omen (1976)
+1351,Blood and Wine
 1352,Albino Alligator
 1353,The Mirror Has Two Faces
 1354,Breaking the Waves
+1355,Nightwatch
 1356,Star Trek: First Contact
 1357,Shine
 1358,Sling Blade
 1359,Jingle All the Way
 1360,Identification of a Woman
 1361,Paradise Lost: The Child Murders at Robin Hood Hills (1996)
+1362,The Garden of the Finzi-Continis
 1363,The Preacher's Wife
 1364,Kjaerlighetens kjoetere
 1365,Ridicule
 1366,The Crucible
 1367,101 Dalmatians (1996)
 1368,The Forbidden Christ (Il Cristo Proibito)
+1369,I Can't Sleep
 1370,Die Hard 2
 1371,Star Trek: The Motion Picture (1979)
 1372,Star Trek VI: The Undiscovered Country
@@ -1260,11 +1392,13 @@
 1397,Bastard Out of Carolina
 1398,In Love and War
 1399,Marvin's Room
+1400,Somebody is Waiting
 1401,Ghosts of Mississippi
 1402,The Honest Courtesan
+1403,The Ice Storm
 1404,Night Falls on Manhattan
 1405,Beavis and Butt-head Do America
-1406,La Cérémonie
+1406,La C�r�monie
 1407,Scream
 1408,The Last of the Mohicans (1992)
 1409,Michael
@@ -1273,9 +1407,11 @@
 1412,Some Mother's Son
 1413,The Whole Wide World
 1414,Mother
+1415,Thieves (Les Voleurs)
 1416,Evita
 1417,The Portrait of a Lady
 1419,Walkabout (1970)
+1420,Message to Love: The Isle of Wight Festival (1970)
 1421,Grateful Dead
 1422,Murder at 1600
 1423,Hearts and Minds
@@ -1285,13 +1421,18 @@
 1427,Turbulence
 1428,Angel Baby
 1429,Jackie Chan's First Strike
+1430,Underworld
 1431,Beverly Hills Ninja
 1432,Metro
+1433,The Machine
+1434,The Stranger
 1435,Good Morning
 1436,Falling in Love Again (1980)
 1437,The Cement Garden
 1438,Dante's Peak
 1439,Meet Wally Sparks
+1440,Amos & Andrew
+1441,Benny & Joon
 1442,Prefontaine
 1443,A Tickle in the Heart
 1444,Guantanamera
@@ -1301,19 +1442,27 @@
 1448,Fire on the Mountain
 1449,Waiting for Guffman
 1450,Prisoner of the Mountains
+1451,Allies
 1453,The Beautician and the Beast
+1454,SubUrbia
 1455,Hotel de Love
 1456,The Pest
 1457,Fools Rush In
+1458,Touch
 1459,Absolute Power
 1460,That Darn Cat (1997)
 1461,Vegas Vacation
+1462,Unforgotten: Twenty-Five Years After Willowbrook
 1463,That Old Feeling
+1464,Lost Highway
 1465,Rosewood
 1466,Donnie Brasco
 1467,Salut cousin!
 1468,Booty Call
 1469,Hard Eight
+1470,Rhyme & Reason
+1471,Boys Life 2
+1472,City of Industry
 1473,Best Men
 1474,Jungle 2 Jungle
 1475,Kama Sutra: A Tale Of Love
@@ -1324,6 +1473,7 @@
 1482,The Van
 1483,Crash
 1484,The Daytrippers
+1485,"Liar, Liar"
 1486,The Quiet Room
 1487,Selena
 1488,The Devil's Own
@@ -1338,8 +1488,10 @@
 1498,Inventing the Abbotts
 1499,Anaconda
 1500,Grosse Pointe Blank
+1501,Keys To Tulsa
 1502,Kissed
 1503,8 Heads in the Duffel Bag
+1504,Hollow Reed
 1507,Paradise Road
 1508,Traveller
 1509,All Over Me
@@ -1352,6 +1504,7 @@
 1517,Austin Powers
 1518,Breakdown
 1519,Broken English
+1520,Commandments
 1521,The Designated Mourner
 1522,Ripe
 1523,"Truth Or Consequences, N.M."
@@ -1365,6 +1518,7 @@
 1532,Sprung
 1533,La Promesse
 1534,Le Bonheur
+1535,Love! Valour! Compassion!
 1537,Shall We Dance? (1996)
 1538,The Second Jungle Book: Mowgli & Baloo
 1539,Twin Town
@@ -1373,6 +1527,7 @@
 1543,Designated Mourner
 1544,The Lost World: Jurassic Park
 1545,Ponette
+1546,Schizopolis
 1547,Shiloh
 1548,The War at Home
 1549,Rough Magic
@@ -1380,8 +1535,12 @@
 1551,Buddy
 1552,Con Air
 1553,Late Bloomers
+1554,The Pillow Book
 1555,To Have (or Not) (En avoir (ou pas))
+1556,Speed 2: Cruise Control
 1557,Squeeze
+1558,Sudden Manhattan
+1559,The Next Step
 1560,Ulee's Gold
 1561,Wedding Bell Blues
 1562,Batman and Robin
@@ -1394,11 +1553,12 @@
 1569,My Best Friend's Wedding
 1570,Tetsuo II: Body Hammer
 1571,When the Cat's Away (Chacun cherche son chat)
-1572,Contempt (Le Mépris)
+1572,Contempt (Le M�pris)
 1573,Face/Off
 1574,Fall
 1575,Gabbeh
 1577,Mondo
+1578,The Innocent Sleep
 1579,For Ever Mozart
 1580,Men in Black
 1581,Out to Sea
@@ -1411,20 +1571,25 @@
 1588,Kiss Me Guido
 1590,Mrs. Brown
 1591,Nothing to Lose
+1592,Operation Condor (Feiying Gaiwak)
 1593,The Swan Princess II
 1594,Air Force One
 1595,Alive & Kicking
 1596,Box of Moonlight
 1597,Brilliant Lies
+1598,Diary of a Seducer (Le journal du s�ducteur)
 1599,Good Burger
 1600,Star Maps
 1601,The Winner
 1602,187
+1603,Air Bud
 1604,In the Company of Men
 1605,Paperback Romance
 1606,Picture Perfect
+1607,Spawn
 1608,Career Girls
 1609,Conspiracy Theory
+1610,Desperate Measures
 1611,Free Willy 3: The Rescue
 1613,Cop Land
 1614,Conspirators of Pleasure (Spiklenci Slasti)
@@ -1440,9 +1605,10 @@
 1624,Leave It To Beaver
 1625,Masterminds
 1626,Mimic
+1627,Money Talks
 1628,Pippi Longstocking
 1629,Sunday
-1630,A Self-Made Hero (Un héros très discret)
+1630,A Self-Made Hero (Un h�ros tr�s discret)
 1631,Excess Baggage
 1632,Hoodlum
 1633,Kull the Conqueror
@@ -1453,8 +1619,10 @@
 1638,Fire Down Below
 1639,Gravesend
 1641,Julian Po
+1643,Bandwagon
 1644,Different for Girls
 1645,Suicide Kings
 1646,The Disappearance of Garcia Lorca
 1647,The End of Violence
 1648,The Game (1997)
+1649,The Locusts

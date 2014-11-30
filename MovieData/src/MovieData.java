@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -147,6 +148,7 @@ public class MovieData {
 		}
 		brWrite.close();
 		// Write to file for SOM Toolbox
+//		HashSet<String> movies = new HashSet<String>();
 		outputFileName = "Input Data SOM toolbox.data";
 		brWrite = new BufferedWriter(new FileWriter(outputFileName));
 		brWrite.write(""+inputSet.size());
@@ -165,11 +167,19 @@ public class MovieData {
 				brWrite.write(" " + inputData[i][j]);
 			}
 			brWrite.write(" "+inputData[i][0]);
+//			movies.add(inputData[i][0]);
 			brWrite.newLine();
 		}
 		brWrite.flush();
 		brWrite.close();
-//		// Write to file for SOM Toolbox with Movie Names as labels
+//		for (String id : IdMovieMap.keySet()) {
+//			if (!movies.contains(id)) {
+//				System.out.println(id);
+//			}
+//		}
+		
+		
+		// Write to file for SOM Toolbox with Movie Names as labels
 //		outputFileName = "Input Data SOM toolbox Movie Names.data";
 //		brWrite = new BufferedWriter(new FileWriter(outputFileName));
 //		brWrite.write(""+inputSet.size());
@@ -196,12 +206,40 @@ public class MovieData {
 		// Write to File for MATLAB
 		outputFileName = "Input Data Matlab Movie Names.txt";
 		brWrite = new BufferedWriter(new FileWriter(outputFileName));
-		for (int i = 1; i <= 1649; i++) {
-			if (inputData[i][0] == "-1") {
+		ArrayList<String> keyList = new ArrayList<String>();
+		keyList.addAll(IdMovieMap.keySet());
+		ArrayList<Integer> keyInts = new ArrayList<Integer>();
+		for (String key : keyList) {
+			keyInts.add(Integer.parseInt(key));
+		}
+		Collections.sort(keyInts);
+		for (int key : keyInts) {
+			if (!IdMovieMap.containsKey(""+key)) {
 				continue;
 			}
 //			brWrite.write(inputData[i][0]);
-			brWrite.write(IdMovieMap.get(inputData[i][0]));
+			brWrite.write(IdMovieMap.get(""+key));
+			brWrite.newLine();
+		}
+		brWrite.close();
+		outputFileName = "Input Data Matlab Movie IDs.txt";
+		brWrite = new BufferedWriter(new FileWriter(outputFileName));
+		for (int key : keyInts) {
+			if (!IdMovieMap.containsKey(""+key)) {
+				continue;
+			}
+			brWrite.write(""+key);
+//			brWrite.write(IdMovieMap.get(""+key));
+			brWrite.newLine();
+		}
+		brWrite.close();
+		outputFileName = "Movie IDs in SOM.txt";
+		brWrite = new BufferedWriter(new FileWriter(outputFileName));
+		for (int i = 0; i <= 1649; i++) {
+			if (inputData[i][0] == "-1") {
+				continue;
+			}
+			brWrite.write(inputData[i][0]);
 			brWrite.newLine();
 		}
 		brWrite.close();
