@@ -1,8 +1,9 @@
-function [ MovieName ] = RowNumberToMovieName( RowNumber, Labels)
+function [ MovieName ] = RowNumberToMovieName( RowNumber)
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 load('IDToMovieNameMap.mat');
-MovieName = IDToMovieMap(str2double(Labels(RowNumber,2)));
+load('MovieData.mat');
+MovieName = IDToMovieMap(str2double(MovieData.labels(RowNumber,2)));
 return;
 end
 
