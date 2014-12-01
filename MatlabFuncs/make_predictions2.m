@@ -3,7 +3,9 @@ function [ finalMatrix ] = make_predictions2(sM, sD, inputMovies, k, n)
 %input movies, and return a list of n movie predictions chosen from k best
 %matching map units. 
 % Making predictions by taking all movies from the BMUs and picking the
-% best ones. 
+% best ones. Takes the combinbed input and reduces it to 1. 
+% inputMovies and sD should be in un-normalized format.
+% sM should have been generated using un-normalized data.
 
 % Combining input movies into one vector
 combinedInput = sum(inputMovies);
@@ -47,18 +49,19 @@ for i=1:k
     distanceMatrix = zeros(numberOfMovies,2);
     for j=1:numberOfMovies
         movieID = movieBin(j);
-        inputVector = sD.data(movieID,:);
+        movieVector = sD.data(movieID,:);
         inputMatch = 0;
         inputMoviesNo = size(inputMovies,1);
         for k=1:inputMoviesNo
-            if inputVector==inputMovies(i,:)
+            if movieVector==inputMovies(k,:)
                 inputMatch = 1;
+                inputMatch
                 break;
             end
         end
         if inputMatch==0
             distanceMatrix(j,1) = movieID;
-            distanceMatrix(j,2) = som_eucdist2(combinedInput, inputVector);
+            distanceMatrix(j,2) = som_eucdist2(combinedInput, movieVector);
         end
     end;
     %Sort distance matrix on the basis of distance

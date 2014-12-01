@@ -1,17 +1,15 @@
-function [ MovieMatrix ] = GetUserMovieData( UserMovieIds )
+function [ MovieMatrix ] = GetUserMovieData( UserMovieIds , MovieData )
 %GETUSERMOVIEDATA Summary of this function goes here
 %   Returns a matrix where each row corresponds to the movie that the user
 %   likes. Required input is a list of movie ids of the movies the user
 %   likes.
 load('MovieIDsToRows.mat');
-load('MovieData.mat');
 a=find(isnan(UserMovieIds(1,:))==1);
 if size(a,2)==0
     n=length(UserMovieIds);
 else
     n=a(1)-1;
 end
-n
 MovieMatrix = zeros(n,size(MovieData.data,2));
 count = 1;
 emptyCount = 0;

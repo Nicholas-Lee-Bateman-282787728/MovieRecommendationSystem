@@ -1,16 +1,22 @@
-function [ finalMatrix ] = make_predictions1(sM, sD, inputMovies, k, n)
+function [ finalMatrix ] = make_predictions3(sM, sD, inputMovies, k, n, normMethod)
 %MAKE_PREDICTIONS Accept a matrix containing vector representations of
 %input movies, and return a list of n movie predictions chosen from k best
 %matching map units. 
 % Making predictions by taking all movies from the BMUs and picking the
-% best ones. Takes combined input and doesn't normalize or reduce to 1.
-% inputMovies entered can be normalized or un-normalized. sD should match
-% the normalization of inputMovies.
-% sM should have been generated using inputMovies normalization techinique
-% if any.
+% best ones. Takes the combined input and normalizes it according to the
+% normMethod
+% inputMovies should be in un-normalized format. sD should be in
+% normalized format.
+% sM should have been generated using normalized data.
 
 % Combining input movies into one vector
 combinedInput = sum(inputMovies);
+
+% Normalizing inputs
+combinedInput = som_normalize(combinedInput, sD.comp_norm{1});
+
+% Taking the norm of input movies according to the input data
+inputMoviesNorm = som_normalize(inputMovies, sD.comp_norm{1});
 
 % Finding the top k BMUs for the combined input.
 BMUs = som_bmus(sM, combinedInput, [1:k]);
@@ -49,7 +55,7 @@ for i=1:k
         inputMatch = 0;
         inputMoviesNo = size(inputMovies,1);
         for k=1:inputMoviesNo
-            if movieVector==inputMovies(k,:)
+            if movieVector==inputMoviesNorm(k,:)
                 inputMatch = 1;
                 inputMatch
                 break;

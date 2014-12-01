@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 
 import jxl.*;
@@ -16,6 +17,7 @@ public class UserMovieData {
 	public static void main(String[] args) throws Exception {
 		HashMap<String, ArrayList<Tuple<String, Integer>>> userMap = createUserDataMap();
 		writeUserDataForSOM(userMap);
+		writeUserDataForReference(userMap);
 	}
 
 	private static HashMap<String, ArrayList<Tuple<String, Integer>>> createUserDataMap() throws IOException, BiffException {
@@ -43,6 +45,7 @@ public class UserMovieData {
 		for (int col = 3; col < filledCols; col++) {
 			ArrayList<Tuple<String, Integer>> movieIDs = new ArrayList<Tuple<String,Integer>>();
 			for (int row = 2; row < filledRows; row++) {
+				System.out.println(col + " " + row);
 //				System.out.println(movieDataSheet.getCell(col, 0).getContents()+"  "+row);
 				int likes = (int)((NumberCell)movieDataSheet.getCell(col, row)).getValue();
 				if (likes == 1) {
@@ -70,6 +73,7 @@ public class UserMovieData {
 		}
 		for (String userName : userMap.keySet()) {
 			ArrayList<Tuple<String, Integer>> movieList = userMap.get(userName);
+			Collections.shuffle(movieList);
 			String write = "";
 			for (int i = 0; i < maxSize; i++) {
 				if (i < movieList.size()) {
@@ -86,5 +90,33 @@ public class UserMovieData {
 		brWrite.close();
 		System.out.println("Exiting writeUserDataForSOM");
 	}
-
+	
+	public static void writeUserDataForReference(HashMap<String, ArrayList<Tuple<String, Integer>>> userMap) throws Exception {
+		String outputFileName = "User Movie Data Reference.txt";
+		BufferedWriter brWrite = new BufferedWriter(new FileWriter(outputFileName));
+		int maxSize = 0;
+		for (String userName : userMap.keySet()) {
+			ArrayList<Tuple<String, Integer>> movieList = userMap.get(userName);
+			if (movieList.size() > maxSize) {
+				maxSize = movieList.size();
+			}
+		}
+		for (String userName : userMap.keySet()) {
+			ArrayList<Tuple<String, Integer>> movieList = userMap.get(userName);
+			String write = userName + "\t";
+			for (int i = 0; i < maxSize; i++) {
+				if (i < movieList.size()) {
+					write = write + movieList.get(i).movieID + "\t";
+				} else {
+					write = write + "Nan" + "\t";
+				}
+			}
+//			System.out.println(userName + ": " + write.substring(0, write.length()-1));
+			brWrite.write(write.substring(0, write.length()-1));
+			brWrite.newLine();
+		}
+		brWrite.flush();
+		brWrite.close();
+		System.out.println("Exiting writeUserDataForReference");
+	}
 }
