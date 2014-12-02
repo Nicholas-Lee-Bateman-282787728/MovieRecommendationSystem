@@ -38,7 +38,7 @@ elseif strcmp(predictionMethod, 'addandnorm')
     sDataNorm = som_normalize(sData, sMap.comp_norm{1});
     UserInput = GetUserMovieData(UserData(UserNo,:), sData);
     UserInputToMP = UserInput(1:ceil(end/2),:);
-    RecMoviesRows = make_predictions3(sMap, sDataNorm, UserInputToMP, k, n, normMethod);
+    RecMoviesRows = make_predictions3(sMap, sDataNorm, UserInputToMP, k, n);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 else
     error('predictionMethod did not match anything : %s', predictionMethod);

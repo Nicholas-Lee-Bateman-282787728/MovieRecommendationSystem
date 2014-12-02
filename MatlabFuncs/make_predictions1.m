@@ -32,17 +32,16 @@ BMUs = som_bmus(sM, combinedInput, [1:k]);
 % sum0+sum1
 
 
-resultMatrix = zeros(n, 2);
-temp=1;
 %perBin = ceil(n/k) + 2;
 % moreMovies = 0;
 %I{BMUs(1)}
 
 % '2' contains the movie ID in sD.labels
+distanceMatrix = zeros(1,2);
 for i=1:k
     movieBin = I{BMUs(i)};
     numberOfMovies = length(movieBin);
-    distanceMatrix = zeros(numberOfMovies,2);
+    total=total + numberOfMovies;
     for j=1:numberOfMovies
         movieID = movieBin(j);
         movieVector = sD.data(movieID,:);
@@ -51,29 +50,26 @@ for i=1:k
         for k=1:inputMoviesNo
             if movieVector==inputMovies(k,:)
                 inputMatch = 1;
+                common=common+1;
                 break;
             end
         end
         if inputMatch==0
-            distanceMatrix(j,1) = movieID;
-            distanceMatrix(j,2) = som_eucdist2(combinedInput, movieVector);
+            distanceMatrix(end+1,1) = movieID;
+            distanceMatrix(end,2) = som_eucdist2(combinedInput, movieVector);
         end
     end;
     %Sort distance matrix on the basis of distance
-    distanceMatrix = sortrows(distanceMatrix,2);
-    noOfMovies = size(distanceMatrix,1);
-    resultMatrix(temp:temp+noOfMovies-1,1:2) = distanceMatrix(1:noOfMovies,1:2);
-    temp=temp+noOfMovies;
 end;
-
-resultMatrix = sortrows(resultMatrix,2);
-numberOfResults = length(resultMatrix);
-if(numberOfResults > n)
-    resultMatrix = resultMatrix(1:n+1,:);
-end;
+resultMatrix = sortrows(distanceMatrix,2);
 tempMatrix = resultMatrix;
 nonZeroIndex = find(tempMatrix(:,1)~=0,1);
-finalMatrix = tempMatrix(nonZeroIndex:end,:);
+resultMatrix = tempMatrix(nonZeroIndex:end,:);
+numberOfResults = length(resultMatrix);
+if(numberOfResults > n)
+    resultMatrix = resultMatrix(1:n,:);
+end;
+finalMatrix = resultMatrix;
 return;
 end
 
