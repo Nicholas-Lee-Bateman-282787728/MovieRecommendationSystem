@@ -41,7 +41,6 @@ distanceMatrix = zeros(1,2);
 for i=1:k
     movieBin = I{BMUs(i)};
     numberOfMovies = length(movieBin);
-    total=total + numberOfMovies;
     for j=1:numberOfMovies
         movieID = movieBin(j);
         movieVector = sD.data(movieID,:);
@@ -50,7 +49,6 @@ for i=1:k
         for k=1:inputMoviesNo
             if movieVector==inputMovies(k,:)
                 inputMatch = 1;
-                common=common+1;
                 break;
             end
         end
@@ -59,7 +57,6 @@ for i=1:k
             distanceMatrix(end,2) = som_eucdist2(combinedInput, movieVector);
         end
     end;
-    %Sort distance matrix on the basis of distance
 end;
 resultMatrix = sortrows(distanceMatrix,2);
 tempMatrix = resultMatrix;
