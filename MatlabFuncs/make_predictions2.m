@@ -55,7 +55,6 @@ for i=1:k
         for k=1:inputMoviesNo
             if movieVector==inputMovies(k,:)
                 inputMatch = 1;
-                inputMatch
                 break;
             end
         end

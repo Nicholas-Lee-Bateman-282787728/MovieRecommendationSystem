@@ -1,25 +1,22 @@
-function [ RecMovies ] = RecommendMoviesForUser( UserNo, UserData, sMap, sData, k, n, predictionMethod )
+function [ RecMovies, RecMoviesRows ] = RecommendMoviesForUser( UserNo, UserData, sMap, sData, k, n, predictionMethod )
 %GETPREDICTIONSFORUSER Summary of this function goes here
 %   Detailed explanation goes here
 RecMovies = [];
+RecMoviesRows = [];
 if strcmp(predictionMethod,'add')
     'add'
     if isempty(sMap.comp_norm{1})
         'no norm'
         UserInput = GetUserMovieData(UserData(UserNo,:), sData);
         UserInputToMP = UserInput(1:ceil(end/2),:);
-        UserInput(1,:)
-        UserInputToMP(1,:)
-        RecMoviesRows = make_predictions1(sMap, sData, UserInputToMP, 5, 40);
+        RecMoviesRows = make_predictions1(sMap, sData, UserInputToMP, k, n);
         RecMovies = GetMovieNamesFromRows(RecMoviesRows);
     else
         'norm'
         sDataNorm = som_normalize(sData, sMap.comp_norm{1});
         UserInput = GetUserMovieData(UserData(UserNo,:), sDataNorm);
         UserInputToMP = UserInput(1:ceil(end/2),:);
-        UserInput(1,:)
-        UserInputToMP(1,:)
-        RecMoviesRows = make_predictions1(sMap, sDataNorm, UserInputToMP, 5, 40);
+        RecMoviesRows = make_predictions1(sMap, sDataNorm, UserInputToMP, k, n);
         RecMovies = GetMovieNamesFromRows(RecMoviesRows);
     end
 elseif strcmp(predictionMethod,'addandreduceto1')
@@ -30,9 +27,7 @@ elseif strcmp(predictionMethod,'addandreduceto1')
     end
     UserInput = GetUserMovieData(UserData(UserNo,:), sData);
     UserInputToMP = UserInput(1:ceil(end/2),:);
-    UserInput(1,:)
-    UserInputToMP(1,:)
-    RecMoviesRows = make_predictions2(sMap, sData, UserInputToMP, 5, 40);
+    RecMoviesRows = make_predictions2(sMap, sData, UserInputToMP, k, n);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 elseif strcmp(predictionMethod, 'addandnorm')
     'addandnorm'
@@ -43,9 +38,7 @@ elseif strcmp(predictionMethod, 'addandnorm')
     sDataNorm = som_normalize(sData, sMap.comp_norm{1});
     UserInput = GetUserMovieData(UserData(UserNo,:), sData);
     UserInputToMP = UserInput(1:ceil(end/2),:);
-    UserInput(1,:)
-    UserInputToMP(1,:)
-    RecMoviesRows = make_predictions3(sMap, sDataNorm, UserInputToMP, 5, 40, normMethod);
+    RecMoviesRows = make_predictions3(sMap, sDataNorm, UserInputToMP, k, n, normMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 else
     error('predictionMethod did not match anything : %s', predictionMethod);
