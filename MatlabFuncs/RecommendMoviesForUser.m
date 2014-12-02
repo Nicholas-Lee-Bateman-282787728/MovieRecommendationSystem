@@ -2,6 +2,7 @@ function [ RecMovies, RecMoviesRows ] = RecommendMoviesForUser( UserNo, UserData
 %GETPREDICTIONSFORUSER Summary of this function goes here
 %   Detailed explanation goes here
 RecMovies = [];
+RecMoviesRows = [];
 if strcmp(predictionMethod,'add')
     'add'
     if isempty(sMap.comp_norm{1})
@@ -25,8 +26,7 @@ elseif strcmp(predictionMethod,'addandreduceto1')
         return;
     end
     UserInput = GetUserMovieData(UserData(UserNo,:), sData);
-    numberOfMovies = length(UserInput(:,1));
-    UserInputToMP = UserInput(1:ceil(numberOfMovies/2),:);
+    UserInputToMP = UserInput(1:ceil(end/2),:);
     RecMoviesRows = make_predictions2(sMap, sData, UserInputToMP, k, n);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 elseif strcmp(predictionMethod, 'addandnorm')
