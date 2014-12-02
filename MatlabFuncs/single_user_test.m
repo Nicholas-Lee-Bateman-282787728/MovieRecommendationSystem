@@ -1,8 +1,9 @@
-function [ accuracy, RecMovies ] = single_user_test(UserNo, sM, sD, k, n, predictionMethod , amount)
+function [ accuracy, RecMovies, noOfInputs ] = single_user_test(UserNo, sM, sD, k, n, predictionMethod , amount)
 %SINGLE_USER_TEST Summary of this function goes here
 %   Detailed explanation goes here
 load('UserDataFromExcel.mat');
 UserInput = GetUserMovieIds(UserNo, amount);
+noOfInputs = size(UserInput,2);
 if n==0
     n = size(UserInput,2);
 end
