@@ -16,7 +16,7 @@ public class UserMovieData {
 
 	public static void main(String[] args) throws Exception {
 		HashMap<String, ArrayList<Tuple<String, Integer>>> userMap = createUserDataMap();
-		writeUserDataForSOM(userMap);
+//		writeUserDataForSOM(userMap);
 		writeUserDataForReference(userMap);
 	}
 
@@ -45,7 +45,7 @@ public class UserMovieData {
 		for (int col = 3; col < filledCols; col++) {
 			ArrayList<Tuple<String, Integer>> movieIDs = new ArrayList<Tuple<String,Integer>>();
 			for (int row = 2; row < filledRows; row++) {
-				System.out.println(col + " " + row);
+//				System.out.println(col + " " + row);
 //				System.out.println(movieDataSheet.getCell(col, 0).getContents()+"  "+row);
 				int likes = (int)((NumberCell)movieDataSheet.getCell(col, row)).getValue();
 				if (likes == 1) {
@@ -103,6 +103,7 @@ public class UserMovieData {
 		}
 		for (String userName : userMap.keySet()) {
 			ArrayList<Tuple<String, Integer>> movieList = userMap.get(userName);
+			Collections.sort(movieList);
 			String write = userName + "\t";
 			for (int i = 0; i < maxSize; i++) {
 				if (i < movieList.size()) {

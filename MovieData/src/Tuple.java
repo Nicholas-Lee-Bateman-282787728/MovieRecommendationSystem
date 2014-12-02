@@ -1,4 +1,4 @@
-public class Tuple<X, Y> {
+public class Tuple<X, Y> implements Comparable<Tuple<X, Y>>{
 	public X movieName;
 	public Y movieID;
 	public Tuple(X movieName, Y movieId) {
@@ -9,5 +9,10 @@ public class Tuple<X, Y> {
 	@Override
 	public String toString() {
 		return this.movieID + " : " + this.movieName;
+	}
+
+	@Override
+	public int compareTo(Tuple<X, Y> o) {
+		return ((Integer)this.movieID).compareTo((Integer)o.movieID);
 	}
 }
