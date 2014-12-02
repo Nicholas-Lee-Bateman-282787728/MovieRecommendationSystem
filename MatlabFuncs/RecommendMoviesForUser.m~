@@ -26,7 +26,7 @@ elseif strcmp(predictionMethod,'addandreduceto1')
     end
     UserInput = GetUserMovieData(UserData(UserNo,:), sData);
     numberOfMovies = length(UserInput(:,1));
-    UserInputToMP = UserInput(1:ceil(numberOfMovies/2),:);
+    UserInputToMP = UserInput(1:ceil(numberOfMov/2),:);
     RecMoviesRows = make_predictions2(sMap, sData, UserInputToMP, k, n);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 elseif strcmp(predictionMethod, 'addandnorm')
