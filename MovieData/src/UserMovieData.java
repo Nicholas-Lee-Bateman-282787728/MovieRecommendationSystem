@@ -16,7 +16,7 @@ public class UserMovieData {
 
 	public static void main(String[] args) throws Exception {
 		HashMap<String, ArrayList<Tuple<String, Integer>>> userMap = createUserDataMap();
-//		writeUserDataForSOM(userMap);
+		writeUserDataForSOM(userMap);
 		writeUserDataForReference(userMap);
 	}
 

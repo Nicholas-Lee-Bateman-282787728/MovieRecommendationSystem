@@ -4,16 +4,16 @@ function [ RecMovies, RecMoviesRows ] = RecommendMoviesForUser( UserData, sMap, 
 RecMovies = [];
 RecMoviesRows = [];
 if strcmp(predictionMethod,'add')
-    'add'
+    %'add'
     if isempty(sMap.comp_norm{1})
-        'no norm'
+        %'no norm'
         UserInput = GetUserMovieData(UserData(1,:), sData);
         %UserInputToMP = UserInput(1:ceil(end/2),:);
         %n = size(UserInput,1)-size(UserInputToMP,1);
         RecMoviesRows = make_predictions1(sMap, sData, UserInput, k, n);
         RecMovies = GetMovieNamesFromRows(RecMoviesRows);
     else
-        'norm'
+        %'norm'
         sDataNorm = som_normalize(sData, sMap.comp_norm{1});
         UserInput = GetUserMovieData(UserData(1,:), sDataNorm);
         %UserInputToMP = UserInput(1:ceil(end/2),:);
@@ -22,7 +22,7 @@ if strcmp(predictionMethod,'add')
         RecMovies = GetMovieNamesFromRows(RecMoviesRows);
     end
 elseif strcmp(predictionMethod,'addandreduceto1')
-    'addandreduceto1'
+    %'addandreduceto1'
     if ~isempty(sMap.comp_norm{1})
         error('sMap generated using normalized data. Should be un-normalized data');
         return;
@@ -33,7 +33,7 @@ elseif strcmp(predictionMethod,'addandreduceto1')
     RecMoviesRows = make_predictions2(sMap, sData, UserInput, k, n);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 elseif strcmp(predictionMethod, 'addandnorm')
-    'addandnorm'
+    %'addandnorm'
     if isempty(sMap.comp_norm{1})
         error('sMap generated using un-normalized data. Should be normalized data');
         return;

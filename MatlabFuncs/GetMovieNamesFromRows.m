@@ -4,8 +4,8 @@ function [ MovieNameIDs ] = GetMovieNamesFromRows( RowNos )
 %   a cell array of MovieName and IDs. First column Movie Name and second
 %   ID
 
-MovieNameIDs=cell(length(RowNos), 2);
-n=length(RowNos);
+MovieNameIDs=cell(size(RowNos,1), 2);
+n=size(RowNos,1);
 for i=1:n
     Row = RowNos(i,1);
     [MovieName, MovieID] = RowNumberToMovieName(Row);
