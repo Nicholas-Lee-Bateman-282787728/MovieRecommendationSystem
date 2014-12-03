@@ -38,9 +38,12 @@ BMUs = som_bmus(sM, combinedInput, [1:k]);
 
 % '2' contains the movie ID in sD.labels
 distanceMatrix = zeros(1,2);
+%total=0;
+%count=0;
 for i=1:k
     movieBin = I{BMUs(i)};
     numberOfMovies = length(movieBin);
+    %total=total+numberOfMovies;
     for j=1:numberOfMovies
         movieID = movieBin(j);
         movieVector = sD.data(movieID,:);
@@ -49,6 +52,7 @@ for i=1:k
         for k=1:inputMoviesNo
             if movieVector==inputMovies(k,:)
                 inputMatch = 1;
+                %count=count+1;
                 break;
             end
         end
@@ -58,6 +62,10 @@ for i=1:k
         end
     end;
 end;
+%total
+%count
+%size(distanceMatrix)
+%BMUs
 resultMatrix = sortrows(distanceMatrix,2);
 tempMatrix = resultMatrix;
 nonZeroIndex = find(tempMatrix(:,1)~=0,1);
