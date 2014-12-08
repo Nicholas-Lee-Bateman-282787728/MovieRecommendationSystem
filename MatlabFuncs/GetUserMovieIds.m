@@ -3,8 +3,10 @@ function [ MovieIDs ] = GetUserMovieIds( UserNo, inputAmount )
 % Gets the movie IDs of the user. Amount specifies how many are needed
 load('UserDataFromExcel.mat');
 MovieIDs = UserData(UserNo, ~isnan(UserData(UserNo,:)));
-if strcmp(inputAmount,'half')
-    MovieIDs = MovieIDs(1,1:ceil(end/2));
+if ~isempty(strfind(inputAmount,'%'))
+    percent = str2double(strrep(inputAmount,'%',''))/100;
+    n = floor(percent*size(MovieIDs,2));
+    MovieIDs = MovieIDs(1,1:n);
 else
     n = str2double(inputAmount);
     if (size(MovieIDs,2) > n)

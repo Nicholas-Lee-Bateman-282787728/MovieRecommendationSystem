@@ -1,4 +1,4 @@
-function [ finalMatrix ] = make_predictions3(sM, sD, inputMovies, k, n)
+function [ finalMatrix ] = make_predictions3(sM, sD, inputMovies, n)
 %MAKE_PREDICTIONS Accept a matrix containing vector representations of
 %input movies, and return a list of n movie predictions chosen from k best
 %matching map units. 
@@ -8,9 +8,12 @@ function [ finalMatrix ] = make_predictions3(sM, sD, inputMovies, k, n)
 % inputMovies should be in un-normalized format. sD should be in
 % normalized format.
 % sM should have been generated using normalized data.
+% TODO : The match part is not working. Return movies from input too. Fix
+% that
 
 % Combining input movies into one vector
 combinedInput = sum(inputMovies);
+k=1;
 
 % Normalizing inputs
 combinedInput = som_normalize(combinedInput, sD.comp_norm{1});
@@ -44,17 +47,21 @@ BMUs = som_bmus(sM, combinedInput, [1:k]);
 
 % '2' contains the movie ID in sD.labels
 distanceMatrix = zeros(1,2);
+total = 0;
+count=0;
 for i=1:k
     movieBin = I{BMUs(i)};
     numberOfMovies = length(movieBin);
+    total=total+numberOfMovies;
     for j=1:numberOfMovies
         movieID = movieBin(j);
         movieVector = sD.data(movieID,:);
         inputMatch = 0;
-        inputMoviesNo = size(inputMovies,1);
+        inputMoviesNo = size(inputMoviesNorm,1);
         for k=1:inputMoviesNo
             if movieVector==inputMoviesNorm(k,:)
                 inputMatch = 1;
+                count=count+1;
                 break;
             end
         end
@@ -64,6 +71,9 @@ for i=1:k
         end
     end;
 end;
+%total
+%count
+%size(distanceMatrix)
 resultMatrix = sortrows(distanceMatrix,2);
 tempMatrix = resultMatrix;
 nonZeroIndex = find(tempMatrix(:,1)~=0,1);
