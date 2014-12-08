@@ -1,4 +1,4 @@
-function [sMap, MovieData] = movie_map( fileName, normMethod )
+function [sMap, MovieData] = movie_map( fileName, normMethod, mapSize )
 %MOVIE_MAP Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -9,8 +9,10 @@ if strcmp(normMethod,'none')
     TRAIN0.tracking = '0';
     TRAIN0.length_type = 'epochs';
     TRAIN0.oder = 'random';
-    %sMap = som_lininit(MovieData);
-    sMap = som_lininit(MovieData, 'msize', [20 15], 'hexa');
+    sMap = som_lininit(MovieData);
+    if strcmp(mapSize,'big')
+        sMap = som_lininit(MovieData, 'msize', [20 15], 'hexa');
+    end;
     sMap = som_seqtrain(sMap, MovieData, 'train',TRAIN1,TRAIN0.length_type,TRAIN0.oder);
     sMap = som_seqtrain(sMap,MovieData, 'train',TRAIN2,'tracking',1,TRAIN0.length_type, TRAIN0.oder);
     sMap = som_autolabel(sMap, MovieData, 'vote');
@@ -21,8 +23,10 @@ else
     TRAIN0.tracking = '0';
     TRAIN0.length_type = 'epochs';
     TRAIN0.oder = 'random';
-    %sMap = som_lininit(MovieDataNorm);
-    sMap = som_lininit(MovieDataNorm, 'msize', [20 15], 'hexa');
+    sMap = som_lininit(MovieDataNorm);
+    if strcmp(mapSize,'big')
+        sMap = som_lininit(MovieDataNorm, 'msize', [20 15], 'hexa');
+    end;
     sMap = som_seqtrain(sMap, MovieDataNorm, 'train',TRAIN1,TRAIN0.length_type,TRAIN0.oder);
     sMap = som_seqtrain(sMap,MovieDataNorm, 'train',TRAIN2,'tracking',1,TRAIN0.length_type, TRAIN0.oder);
     sMap = som_autolabel(sMap, MovieDataNorm, 'vote');

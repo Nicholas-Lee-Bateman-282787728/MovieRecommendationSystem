@@ -9,7 +9,7 @@ function [ finalMatrix ] = make_predictions2(sM, sD, inputMovies, n)
 
 % Combining input movies into one vector
 combinedInput = sum(inputMovies);
-k=1;
+k=15;
 
 % Clamping inputs - no value should be greater than 1
 gtOne = find(combinedInput>1);

@@ -13,7 +13,7 @@ function [ finalMatrix ] = make_predictions3(sM, sD, inputMovies, n)
 
 % Combining input movies into one vector
 combinedInput = sum(inputMovies);
-k=1;
+k=15;
 
 % Normalizing inputs
 combinedInput = som_normalize(combinedInput, sD.comp_norm{1});
