@@ -1,10 +1,12 @@
 function [ RecMovies, RecMoviesRows ] = RecommendMoviesForUser( UserInputData, sMap, sData, n, predictionMethod, collectionMethod )
 %GETPREDICTIONSFORUSER Summary of this function goes here
-%   Detailed explanation goes here
+%   Need to take care of the normalized vs unnormalized case here -
+%   currently most of the functions work for unnormalized data, not sure if
+%   they will work as-is for normalized data. 
 RecMovies = [];
 RecMoviesRows = [];
-if strcmp(predictionMethod,'default')
-    %'default'
+if strcmp(predictionMethod,'minimumDistance')
+    %Minimum of distances to each input movie
     if isempty(sMap.comp_norm{1})
         %'no norm'
         UserInput = GetUserMovieData(UserInputData(1,:), sData);
@@ -17,6 +19,15 @@ if strcmp(predictionMethod,'default')
         RecMoviesRows = make_predictions1(sMap, sDataNorm, UserInput, n, collectionMethod);
         RecMovies = GetMovieNamesFromRows(RecMoviesRows);
     end
+elseif strcmp(predictionMethod,'sumOfDistances')
+    %Sum of distances from each input movie
+    if ~isempty(sMap.comp_norm{1})
+        error('sMap generated using normalized data. Should be un-normalized data');
+        return;
+    end
+    UserInput = GetUserMovieData(UserInputData(1,:), sData);
+    RecMoviesRows = make_predictions2(sMap, sData, UserInput, n, collectionMethod);
+    RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 elseif strcmp(predictionMethod,'addandreduceto1')
     %'addandreduceto1'
     if ~isempty(sMap.comp_norm{1})
@@ -24,7 +35,7 @@ elseif strcmp(predictionMethod,'addandreduceto1')
         return;
     end
     UserInput = GetUserMovieData(UserInputData(1,:), sData);
-    RecMoviesRows = make_predictions2(sMap, sData, UserInput, n, collectionMethod);
+    RecMoviesRows = make_predictions3(sMap, sData, UserInput, n, collectionMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 elseif strcmp(predictionMethod, 'cosine')
     %'cosine'
@@ -34,7 +45,7 @@ elseif strcmp(predictionMethod, 'cosine')
         return;
     end
     UserInput = GetUserMovieData(UserInputData(1,:), sData);
-    RecMoviesRows = make_predictions3(sMap, sData, UserInput, n, collectionMethod);
+    RecMoviesRows = make_predictions4(sMap, sData, UserInput, n, collectionMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 
 elseif strcmp(predictionMethod, 'addandnorm')

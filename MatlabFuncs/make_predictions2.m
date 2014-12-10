@@ -1,128 +1,62 @@
 function [ finalMatrix ] = make_predictions2(sM, sD, inputMovies, n, collectionMethod)
-%MAKE_PREDICTIONS Accept a matrix containing vector representations of
-%input movies, and return a list of n movie predictions chosen from k best
-%matching map units. 
-% Making predictions by taking all movies from the BMUs and picking the
-% best ones. Takes the combinbed input and reduces it to 1. 
-% inputMovies and sD should be in un-normalized format.
-% sM should have been generated using un-normalized data.
-
-% Combining input movies into one vector
-combinedInput = sum(inputMovies);
-k=15;
-
-% Clamping inputs - no value should be greater than 1
-gtOne = find(combinedInput>1);
-for i=1:length(gtOne)
-    combinedInput(gtOne(i)) = 1;
-end;
-
-% MovieSet = [];
-% BMUSet = [];
-% kCounter = 1;
-% 
-% [V,I] = som_divide(sM, sD);
-% 
-% while size(MovieSet,1) < (2*n)
-%     BMU = som_bmus(sM, combinedInput, kCounter);
-%     BMUSet(end+1, 1) = BMU;
-%     MovieSet = [MovieSet; I{BMU}];
-%     kCounter = kCounter+1;
-% end;
-% 
-% MovieSet = unique(MovieSet);
-
-[MovieSet, BMUSet] = CollectMoviesForComparison(inputMovies, sM, sD, n, collectionMethod);
-    
-% Finding the top k BMUs for the combined input.
-% BMUs = som_bmus(sM, combinedInput, [1:k]);
+% MAKE_PREDICTIONS Accept a matrix containing vector representations of
+% input movies, and return a list of n movie predictions chosen from k best
+% matching map units. 
+% Making predictions by taking all movies from the BMUs and collecting the
+% ones with minimum distance to any of the input movies.
+% Collects 2n movies in total from the BMUs of each input movie
+% progressively increasing from the first BMU.
+% inputMovies entered can be normalized or un-normalized. sD should match
+% the normalization of inputMovies.
+% sM should have been generated using inputMovies normalization techinique
+% if any.
 
 
-
-
-% inputVector = sD.data(find(ismember(sD.labels(:,2), '42')),:);
-% sum0 = 0;
-% sum1 = 0;
-% for i=1:3771
-%     if(isempty(inputVector(i)))
-%         i
-%     elseif(inputVector(i)==1)
-%         sum1=sum1+1;
-%     elseif(inputVector(i)==0)
-%         sum0=sum0+1;
-%     end;
-% end;
-% sum0+sum1
-
-
-%perBin = ceil(n/k) + 2;
-% moreMovies = 0;
-%I{BMUs(1)}
-
-% '2' contains the movie ID in sD.labels
-distanceMatrix = zeros(1,2);
-total=0;
-count=0;
-
-numberOfComparisons = size(MovieSet,1);
 inputMoviesSize = size(inputMovies,1);
 
-for i=1:numberOfComparisons
+[MovieSet, BMUSet] = CollectMoviesForComparison(inputMovies, sM, sD, n, collectionMethod);
+
+distanceMatrix = zeros(1,1+inputMoviesSize);
+count=0;
+MovieSetSize = size(MovieSet,1);
+
+distanceMatrix = zeros(1,1);
+count=0;
+MovieSetSize = size(MovieSet,1);
+for i=1:MovieSetSize
     movieRowNo = MovieSet(i,1);
     movieVector = sD.data(movieRowNo,:);
-    match=0;
+    distances=zeros(1,inputMoviesSize);
     for j = 1:inputMoviesSize
         inputMovieVector = inputMovies(j,:);
         if inputMovieVector==movieVector
-            match=1;
+            distances(1,:) = [inf];
             count=count+1;
             break;
+        else
+            distances(1,j) = som_eucdist2(movieVector,inputMovieVector);
         end;
-    end;
-    if match == 1
-        distanceMatrix(end+1,1) = movieRowNo;
-        distanceMatrix(end, 2) = inf;
-    else
-        distanceMatrix(end+1,1) = movieRowNo;
-        distanceMatrix(end, 2) = som_eucdist2(movieVector, combinedInput);
-    end;
+     end;
+    distances = sort(distances);
+    distanceMatrix(end+1,1) = movieRowNo;
+    distanceMatrix(end,2) = sum(distances);
 end;
 
+% size(distanceMatrix,1)
 
-% for i=1:k
-%     movieBin = I{BMUs(i)};
-%     numberOfMovies = length(movieBin);
-%     total=total+numberOfMovies;
-%     for j=1:numberOfMovies
-%         movieID = movieBin(j);
-%         movieVector = sD.data(movieID,:);
-%         inputMatch = 0;
-%         inputMoviesNo = size(inputMovies,1);
-%         for k=1:inputMoviesNo
-%             if movieVector==inputMovies(k,:)
-%                 inputMatch = 1;
-%                 count=count+1;
-%                 break;
-%             end
-%         end
-%         if inputMatch==0
-%             distanceMatrix(end+1,1) = movieID;
-%             distanceMatrix(end,2) = som_eucdist2(combinedInput, movieVector);
-%         end
-%     end;
-% end;
-%total
-%count
-%size(distanceMatrix)
+% MovieSetSize
+% count
+% size(distanceMatrix)
+% BMUs
 resultMatrix = sortrows(distanceMatrix,2);
+%resultMatrix(1:10,:)
 tempMatrix = resultMatrix;
 nonZeroIndex = find(tempMatrix(:,1)~=0,1);
 resultMatrix = tempMatrix(nonZeroIndex:end,:);
 numberOfResults = length(resultMatrix);
 if(numberOfResults > n)
-    resultMatrix = resultMatrix(1:n,:);
+    resultMatrix = resultMatrix(1:n,1:2);
 end;
 finalMatrix = resultMatrix;
 return;
 end
-
