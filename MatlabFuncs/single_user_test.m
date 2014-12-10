@@ -21,5 +21,6 @@ for i=1:numberOfMovies
     end;
 end;
 accuracy = count/numberOfMovies*100;
+% recall = count*2/size(WatchedMovies,1); 
 end
 
