@@ -1,8 +1,7 @@
 function [ finalMatrix ] = make_predictions1(sM, sD, inputMovies, n)
-%MAKE_PREDICTIONS Accept a matrix containing vector representations of
-%input movies, and return a list of n movie predictions chosen from k best
-%matching map units. 
-% Making predictions by taking all movies from the BMUs and collecting the
+% MAKE_PREDICTIONS Accept a matrix containing vector representations of
+% input movies, and return a list of n movie predictions.
+% Makes predictions by taking all movies from the BMUs and collecting the
 % ones with minimum distance to any of the input movies.
 % Collects 2n movies in total from the BMUs of each input movie
 % progressively increasing from the first BMU.
