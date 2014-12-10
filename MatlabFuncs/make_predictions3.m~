@@ -35,7 +35,7 @@ kCounter = 1;
 % 
 % MovieSet = unique(MovieSet);
 
-[MovieSet, BMUSet] = CollectMoviesForComparison(inputMovies, sM, sD, n, collectionMethod);
+[MovieSet, BMUSet] = CollectMoviesForComparison(inputMovies, sM, sD, 
     
 % Finding the top k BMUs for the combined input.
 %BMUs = som_bmus(sM, combinedInput, [1:k]);

@@ -1,5 +1,4 @@
 function [ MovieNameIDs ] = GetMovieNamesFromRows( RowNos )
-%GETMOVIENAMESFROMROWS Summary of this function goes here
 %   Get a list of movie names and ids from the list of row numbers. Returns
 %   a cell array of MovieName and IDs. First column Movie Name and second
 %   ID
