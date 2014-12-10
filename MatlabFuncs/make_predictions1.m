@@ -1,4 +1,4 @@
-function [ finalMatrix ] = make_predictions1(sM, sD, inputMovies, n)
+function [ finalMatrix ] = make_predictions1(sM, sD, inputMovies, n, collectionMethod)
 %MAKE_PREDICTIONS Accept a matrix containing vector representations of
 %input movies, and return a list of n movie predictions chosen from k best
 %matching map units. 
@@ -11,27 +11,30 @@ function [ finalMatrix ] = make_predictions1(sM, sD, inputMovies, n)
 % sM should have been generated using inputMovies normalization techinique
 % if any.
 
-[V,I] = som_divide(sM, sD);
-MovieSet = [];
-BMUSet = [];
-kCounter = 1;
+
 inputMoviesSize = size(inputMovies,1);
-while size(MovieSet,1) < (2*n)
-    for i = 1:inputMoviesSize
-        BMU = som_bmus(sM, inputMovies(i,:), kCounter);
-        BMUSet(end+1,1) = BMU;
-        MovieSet = [MovieSet; I{BMU}];
-    end;
-    BMUSet = unique(BMUSet);
-    MovieSet = unique(MovieSet);
-    kCounter = kCounter+1;
-end;
+
+% [V,I] = som_divide(sM, sD);
+% MovieSet = [];
+% BMUSet = [];
+% kCounter = 1;
+% while size(MovieSet,1) < (2*n)
+%     for i = 1:inputMoviesSize
+%         BMU = som_bmus(sM, inputMovies(i,:), kCounter);
+%         BMUSet(end+1,1) = BMU;
+%         MovieSet = [MovieSet; I{BMU}];
+%     end;
+%     BMUSet = unique(BMUSet);
+%     MovieSet = unique(MovieSet);
+%     kCounter = kCounter+1;
+% end;
 %size(MovieSet,1)
 %size(BMUSet,1)
 %MovieSet
 %kCounter
 % '2' contains the movie ID in sD.labels
 
+[MovieSet, BMUSet] = CollectMoviesForComparison(inputMovies, sM, sD, n, collectionMethod);
 
 distanceMatrix = zeros(1,1+inputMoviesSize);
 count=0;

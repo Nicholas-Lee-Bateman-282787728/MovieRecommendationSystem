@@ -1,4 +1,4 @@
-function [ finalMatrix ] = make_predictions2(sM, sD, inputMovies, n)
+function [ finalMatrix ] = make_predictions2(sM, sD, inputMovies, n, collectionMethod)
 %MAKE_PREDICTIONS Accept a matrix containing vector representations of
 %input movies, and return a list of n movie predictions chosen from k best
 %matching map units. 
@@ -17,20 +17,22 @@ for i=1:length(gtOne)
     combinedInput(gtOne(i)) = 1;
 end;
 
-MovieSet = [];
-BMUSet = [];
-kCounter = 1;
+% MovieSet = [];
+% BMUSet = [];
+% kCounter = 1;
+% 
+% [V,I] = som_divide(sM, sD);
+% 
+% while size(MovieSet,1) < (2*n)
+%     BMU = som_bmus(sM, combinedInput, kCounter);
+%     BMUSet(end+1, 1) = BMU;
+%     MovieSet = [MovieSet; I{BMU}];
+%     kCounter = kCounter+1;
+% end;
+% 
+% MovieSet = unique(MovieSet);
 
-[V,I] = som_divide(sM, sD);
-
-while size(MovieSet,1) < (2*n)
-    BMU = som_bmus(sM, combinedInput, kCounter);
-    BMUSet(end+1, 1) = BMU;
-    MovieSet = [MovieSet; I{BMU}];
-    kCounter = kCounter+1;
-end;
-
-MovieSet = unique(MovieSet);
+[MovieSet, BMUSet] = CollectMoviesForComparison(inputMovies, sM, sD, n, collectionMethod);
     
 % Finding the top k BMUs for the combined input.
 % BMUs = som_bmus(sM, combinedInput, [1:k]);
@@ -66,8 +68,8 @@ numberOfComparisons = size(MovieSet,1);
 inputMoviesSize = size(inputMovies,1);
 
 for i=1:numberOfComparisons
-    movieID = MovieSet(i,1);
-    movieVector = sD.data(movieID,:);
+    movieRowNo = MovieSet(i,1);
+    movieVector = sD.data(movieRowNo,:);
     match=0;
     for j = 1:inputMoviesSize
         inputMovieVector = inputMovies(j,:);
@@ -78,10 +80,10 @@ for i=1:numberOfComparisons
         end;
     end;
     if match == 1
-        distanceMatrix(end+1,1) = movieID;
+        distanceMatrix(end+1,1) = movieRowNo;
         distanceMatrix(end, 2) = inf;
     else
-        distanceMatrix(end+1,1) = movieID;
+        distanceMatrix(end+1,1) = movieRowNo;
         distanceMatrix(end, 2) = som_eucdist2(movieVector, combinedInput);
     end;
 end;

@@ -8,13 +8,13 @@ if strcmp(predictionMethod,'default')
     if isempty(sMap.comp_norm{1})
         %'no norm'
         UserInput = GetUserMovieData(UserInputData(1,:), sData);
-        RecMoviesRows = make_predictions1(sMap, sData, UserInput, n);
+        RecMoviesRows = make_predictions1(sMap, sData, UserInput, n, collectionMethod);
         RecMovies = GetMovieNamesFromRows(RecMoviesRows);
     else
         %'norm'
         sDataNorm = som_normalize(sData, sMap.comp_norm{1});
         UserInput = GetUserMovieData(UserInputData(1,:), sDataNorm);
-        RecMoviesRows = make_predictions1(sMap, sDataNorm, UserInput, n);
+        RecMoviesRows = make_predictions1(sMap, sDataNorm, UserInput, n, collectionMethod);
         RecMovies = GetMovieNamesFromRows(RecMoviesRows);
     end
 elseif strcmp(predictionMethod,'addandreduceto1')
@@ -24,7 +24,7 @@ elseif strcmp(predictionMethod,'addandreduceto1')
         return;
     end
     UserInput = GetUserMovieData(UserInputData(1,:), sData);
-    RecMoviesRows = make_predictions2(sMap, sData, UserInput, n);
+    RecMoviesRows = make_predictions2(sMap, sData, UserInput, n, collectionMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 elseif strcmp(predictionMethod, 'cosine')
     %'cosine'
