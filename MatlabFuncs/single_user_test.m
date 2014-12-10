@@ -1,26 +1,36 @@
 function [ accuracy, RecMovies, noOfInputs ] = single_user_test(UserNo, sM, sD, n, predictionMethod , inputAmount)
 %SINGLE_USER_TEST Summary of this function goes here
-%   Detailed explanation goes here
+% A little order to the convoluted code - 
+% User input data is basically movie IDs
+% The movie data is stored as vectors with labels corresponding to the
+% movie ID. The row number and the movie ID do not match up. 
+% UserInputToSystem and WatchedMovies below are lists of movie IDs. 
+
 load('UserDataFromExcel.mat');
-UserInput = GetUserMovieIds(UserNo, inputAmount);
-noOfInputs = size(UserInput,2);
+UserInputToSystem = GetUserMovieIds(UserNo, inputAmount);
+noOfInputs = size(UserInputToSystem,2);
+
+
 WatchedMovies = UserData(UserNo,~isnan(UserData(UserNo, :)));
 if n==0
-    n = size(WatchedMovies, 2) - size(UserInput,2);
+    n = size(WatchedMovies, 2) - size(UserInputToSystem,2);
 end
-[RecMovies, RecMoviesRows] = RecommendMoviesForUser(UserInput, sM, sD, n, predictionMethod);
+[RecMovies, RecMoviesRows] = RecommendMoviesForUser(UserInputToSystem, sM, sD, n, predictionMethod);
 
-numberOfMovies = size(RecMovies,1);
+numberOfRecMovies = size(RecMovies,1);
 count = 0;
-matchingRecommendedMovies = zeros(2,2);
-for i=1:numberOfMovies
+matchingRecMovies = zeros(2,2);
+for i=1:numberOfRecMovies
     if(find(WatchedMovies == cell2mat(RecMovies(i,1))))
         count = count + 1;
     else
-        matchingRecommendedMovies = RecMovies(i,:);
+        matchingRecMovies = RecMovies(i,:);
     end;
 end;
-accuracy = count/numberOfMovies*100;
-% recall = count*2/size(WatchedMovies,1); 
+accuracy = count/numberOfRecMovies*100;
+
+
+
+recall = count*2/size(WatchedMovies,1); 
 end
 

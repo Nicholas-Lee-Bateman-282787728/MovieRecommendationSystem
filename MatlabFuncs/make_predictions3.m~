@@ -36,7 +36,7 @@ end;
 MovieSet = unique(MovieSet);
     
 % Finding the top k BMUs for the combined input.
-%BMUs = som_bmus(sM, combinedInput, [1:k]);
+BMUs = som_bmus(sM, combinedInput, [1:k]);
 
 
 
@@ -66,29 +66,12 @@ total=0;
 count=0;
 
 numberOfComparisons = size(MovieSet,1);
-inputMoviesSize = size(inputMovies,1);
 
 for i=1:numberOfComparisons
-    movieRowNo = MovieSet(i,1);
-    movieVector = sD.data(movieRowNo,:);
-    match=0;
-    for j = 1:inputMoviesSize
-        inputMovieVector = inputMovies(j,:);
-        if inputMovieVector==movieVector
-            match=1;
-            count=count+1;
-            break;
-        end;
-    end;
-    if match == 1
-        distanceMatrix(end+1,1) = movieRowNo;
-        distanceMatrix(end, 2) = inf;
-    else
-        distanceMatrix(end+1,1) = movieRowNo;
-        distanceMatrix(end, 2) = pdist2(combinedInput, sD.data(movieRowNo,:), 'cosine');
-    end;
+    movieRowNo = MovieSet(i);
+    distanceMatrix(end+1,1) = movieRowNo;
+    distanceMatrix(end,2) = pdist2(combinedInput, sD.data(movieRowNo,:));
 end;
-
 
 
 % for i=1:k
@@ -117,7 +100,6 @@ end;
 %count
 %size(distanceMatrix)
 resultMatrix = sortrows(distanceMatrix,2);
-resultMatrix = flipud(resultMatrix);
 tempMatrix = resultMatrix;
 nonZeroIndex = find(tempMatrix(:,1)~=0,1);
 resultMatrix = tempMatrix(nonZeroIndex:end,:);
