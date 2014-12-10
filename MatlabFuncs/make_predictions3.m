@@ -64,7 +64,6 @@ kCounter = 1;
 
 % '2' contains the movie ID in sD.labels
 distanceMatrix = zeros(1,2);
-total=0;
 count=0;
 
 numberOfComparisons = size(MovieSet,1);
@@ -90,34 +89,10 @@ for i=1:numberOfComparisons
         distanceMatrix(end, 2) = pdist2(combinedInput, sD.data(movieRowNo,:), 'cosine');
     end;
 end;
-
-
-
-% for i=1:k
-%     movieBin = I{BMUs(i)};
-%     numberOfMovies = length(movieBin);
-%     total=total+numberOfMovies;
-%     for j=1:numberOfMovies
-%         movieID = movieBin(j);
-%         movieVector = sD.data(movieID,:);
-%         inputMatch = 0;
-%         inputMoviesNo = size(inputMovies,1);
-%         for k=1:inputMoviesNo
-%             if movieVector==inputMovies(k,:)
-%                 inputMatch = 1;
-%                 count=count+1;
-%                 break;
-%             end
-%         end
-%         if inputMatch==0
-%             distanceMatrix(end+1,1) = movieID;
-%             distanceMatrix(end,2) = som_eucdist2(combinedInput, movieVector);
-%         end
-%     end;
-% end;
-%total
-%count
-%size(distanceMatrix)
+size(inputMovies)
+size(MovieSet)
+count
+size(distanceMatrix)
 resultMatrix = sortrows(distanceMatrix,2);
 resultMatrix = flipud(resultMatrix);
 tempMatrix = resultMatrix;
