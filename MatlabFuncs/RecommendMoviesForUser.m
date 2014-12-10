@@ -1,4 +1,4 @@
-function [ RecMovies, RecMoviesRows ] = RecommendMoviesForUser( UserInputData, sMap, sData, n, predictionMethod )
+function [ RecMovies, RecMoviesRows ] = RecommendMoviesForUser( UserInputData, sMap, sData, n, predictionMethod, collectionMethod )
 %GETPREDICTIONSFORUSER Summary of this function goes here
 %   Detailed explanation goes here
 RecMovies = [];
@@ -34,7 +34,7 @@ elseif strcmp(predictionMethod, 'cosine')
         return;
     end
     UserInput = GetUserMovieData(UserInputData(1,:), sData);
-    RecMoviesRows = make_predictions3(sMap, sData, UserInput, n);
+    RecMoviesRows = make_predictions3(sMap, sData, UserInput, n, collectionMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 
 elseif strcmp(predictionMethod, 'addandnorm')

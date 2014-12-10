@@ -16,7 +16,7 @@ MovieSet = [];
 BMUSet = [];
 kCounter = 1;
 inputMoviesSize = size(inputMovies,1);
-while size(MovieSet,1) < (1.5*n)
+while size(MovieSet,1) < (2*n)
     for i = 1:inputMoviesSize
         BMU = som_bmus(sM, inputMovies(i,:), kCounter);
         BMUSet(end+1,1) = BMU;

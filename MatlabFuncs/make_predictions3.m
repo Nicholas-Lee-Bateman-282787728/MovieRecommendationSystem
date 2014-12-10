@@ -1,4 +1,4 @@
-function [ finalMatrix ] = make_predictions3(sM, sD, inputMovies, n)
+function [ finalMatrix ] = make_predictions3(sM, sD, inputMovies, n, collectionMethod)
 %MAKE_PREDICTIONS Accept a matrix containing vector representations of
 %input movies, and return a list of n movie predictions chosen from k best
 %matching map units. 
@@ -20,20 +20,22 @@ MovieSet = [];
 BMUSet = [];
 kCounter = 1;
 
-[V,I] = som_divide(sM, sD);
+%[V,I] = som_divide(sM, sD);
 
 
 %Current method of movie collection - find BMUs corresponding to combined
 %inputs. For any one approach, test both ways of movie collection to see
 %how it turns out. This can even be parametrized. 
-while size(MovieSet,1) < (2*n)
-    BMU = som_bmus(sM, combinedInput, kCounter);
-    BMUSet(end+1, 1) = BMU;
-    MovieSet = [MovieSet; I{BMU}];
-    kCounter = kCounter+1;
-end;
+% while size(MovieSet,1) < (2*n)
+%     BMU = som_bmus(sM, combinedInput, kCounter);
+%     BMUSet(end+1, 1) = BMU;
+%     MovieSet = [MovieSet; I{BMU}];
+%     kCounter = kCounter+1;
+% end;
+% 
+% MovieSet = unique(MovieSet);
 
-MovieSet = unique(MovieSet);
+[MovieSet, BMUSet] = CollectMoviesForComparison(inputMovies, sM, sD, n, collectionMethod);
     
 % Finding the top k BMUs for the combined input.
 %BMUs = som_bmus(sM, combinedInput, [1:k]);

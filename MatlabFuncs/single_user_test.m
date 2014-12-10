@@ -1,4 +1,4 @@
-function [ accuracy, RecMovies, noOfInputs ] = single_user_test(UserNo, sM, sD, n, predictionMethod , inputAmount)
+function [ accuracy, RecMovies, noOfInputs ] = single_user_test(UserNo, sM, sD, n, inputAmount, predictionMethod , collectionMethod)
 %SINGLE_USER_TEST Summary of this function goes here
 % A little order to the convoluted code - 
 % User input data is basically movie IDs
@@ -15,7 +15,7 @@ WatchedMovies = UserData(UserNo,~isnan(UserData(UserNo, :)));
 if n==0
     n = size(WatchedMovies, 2) - size(UserInputToSystem,2);
 end
-[RecMovies, RecMoviesRows] = RecommendMoviesForUser(UserInputToSystem, sM, sD, n, predictionMethod);
+[RecMovies, RecMoviesRows] = RecommendMoviesForUser(UserInputToSystem, sM, sD, n, predictionMethod, collectionMethod);
 
 numberOfRecMovies = size(RecMovies,1);
 count = 0;
