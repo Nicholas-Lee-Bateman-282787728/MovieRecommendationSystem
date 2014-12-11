@@ -46,7 +46,6 @@ for i=1:MovieSetSize
     end;
 end;
 resultMatrix = sortrows(distanceMatrix,2);
-% resultMatrix = flipud(resultMatrix);
 tempMatrix = resultMatrix;
 nonZeroIndex = find(tempMatrix(:,1)~=0,1);
 resultMatrix = tempMatrix(nonZeroIndex:end,:);

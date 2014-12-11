@@ -1,4 +1,4 @@
-function [ finalMatrix ] = make_predictions6(sM, sD, inputMovies, n, collectionMethod)
+function [ finalMatrix ] = make_predictions7(sM, sD, inputMovies, n, collectionMethod)
 %MAKE_PREDICTIONS Accept a matrix containing vector representations of
 %input movies, and return a list of n movie predictions chosen from k best
 %matching map units. 
@@ -7,7 +7,7 @@ function [ finalMatrix ] = make_predictions6(sM, sD, inputMovies, n, collectionM
 % inputMovies and sD should be in un-normalized format.
 % sM should have been generated using un-normalized data.
 
-%'cosineWithoutReduction'
+%'cosine'
 
 % Combining input movies into one vector
 combinedInput = sum(inputMovies);
@@ -30,19 +30,16 @@ for i=1:MovieSetSize
             break;
         end;
     end;
-    if match == 1
-%         Don't insert repeating movies in the set
+    if match == 0
         distanceMatrix(end+1,1) = movieRowNo;
-        distanceMatrix(end, 2) = inf;
-    else
-        distanceMatrix(end+1,1) = movieRowNo;
-        distanceMatrix(end, 2) = pdist2(combinedInput, sD.data(movieRowNo,:), 'cosine');
+        distanceMatrix(end, 2) = dot(combinedInput, movieVector);
     end;
 end;
 resultMatrix = sortrows(distanceMatrix,2);
 tempMatrix = resultMatrix;
 nonZeroIndex = find(tempMatrix(:,1)~=0,1);
 resultMatrix = tempMatrix(nonZeroIndex:end,:);
+resultMatrix = flipud(resultMatrix);
 numberOfResults = length(resultMatrix);
 if(numberOfResults > n)
     resultMatrix = resultMatrix(1:n,:);
