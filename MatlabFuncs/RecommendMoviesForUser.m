@@ -5,7 +5,7 @@ function [ RecMovies, RecMoviesRows ] = RecommendMoviesForUser( UserInputData, s
 %   they will work as-is for normalized data. 
 RecMovies = [];
 RecMoviesRows = [];
-if strcmp(predictionMethod,'minimumDistance')
+if strcmp(predictionMethod,'minimumdistance')
     %Minimum of distances to each input movie
     if isempty(sMap.comp_norm{1})
         %'no norm'
@@ -19,7 +19,7 @@ if strcmp(predictionMethod,'minimumDistance')
         RecMoviesRows = make_predictions1(sMap, sDataNorm, UserInput, n, collectionMethod);
         RecMovies = GetMovieNamesFromRows(RecMoviesRows);
     end
-elseif strcmp(predictionMethod,'sumOfDistances')
+elseif strcmp(predictionMethod,'sumdistances')
     %Sum of distances from each input movie
     if ~isempty(sMap.comp_norm{1})
         error('sMap generated using normalized data. Should be un-normalized data');
@@ -37,7 +37,7 @@ elseif strcmp(predictionMethod,'addandreduceto1')
     UserInput = GetUserMovieData(UserInputData(1,:), sData);
     RecMoviesRows = make_predictions3(sMap, sData, UserInput, n, collectionMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
-elseif strcmp(predictionMethod, 'cosine')
+elseif strcmp(predictionMethod, 'cosinereduceto1')
     %'cosine'
     %This should work on normalized data - fix accordingly. 
     if ~isempty(sMap.comp_norm{1})
@@ -56,7 +56,7 @@ elseif strcmp(predictionMethod,'add')
     UserInput = GetUserMovieData(UserInputData(1,:), sData);
     RecMoviesRows = make_predictions5(sMap, sData, UserInput, n, collectionMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
-elseif strcmp(predictionMethod, 'cosineWithoutReduction')
+elseif strcmp(predictionMethod, 'cosinecombined')
     %'cosine'
     %This should work on normalized data - fix accordingly. 
     if ~isempty(sMap.comp_norm{1})
