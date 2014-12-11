@@ -69,7 +69,6 @@ for i=1:MovieSetSize
     distanceMatrix(end,2:end) = distances;
 end;
 
-
 % MovieSetSize
 % count
 % size(distanceMatrix)

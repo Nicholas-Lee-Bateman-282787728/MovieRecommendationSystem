@@ -68,53 +68,54 @@ kCounter = 1;
 numberOfComparisons = size(MovieSet,1);
 inputMoviesSize = size(inputMovies,1);
 
-% distanceMatrix = zeros(1,1+inputMoviesSize);
-% count=0;
-% MovieSetSize = size(MovieSet,1);
-% for i=1:MovieSetSize
-%     movieRowNo = MovieSet(i,1);
-%     movieVector = sD.data(movieRowNo,:);
-%     distances=zeros(1,inputMoviesSize);
-%     for j = 1:inputMoviesSize
-%         inputMovieVector = inputMovies(j,:);
-%         if inputMovieVector==movieVector
-%             distances(1,:) = [inf];
-%             count=count+1;
-%             break;
-%         else
-%             distances(1,j) = pdist2(inputMovieVector, movieVector, 'cosine');
-%         end;
-%      end;
-%     distances = sort(distances);
-%     distanceMatrix(end+1,1) = movieRowNo;
-%     distanceMatrix(end,2:end) = distances;
-% end;
-
-
-distanceMatrix = zeros(1,2);
+distanceMatrix = zeros(1,1+inputMoviesSize);
 count=0;
-for i=1:numberOfComparisons
+MovieSetSize = size(MovieSet,1);
+for i=1:MovieSetSize
     movieRowNo = MovieSet(i,1);
     movieVector = sD.data(movieRowNo,:);
-    match=0;
+    distances=zeros(1,inputMoviesSize);
     for j = 1:inputMoviesSize
         inputMovieVector = inputMovies(j,:);
         if inputMovieVector==movieVector
-            match=1;
+            distances(1,:) = [inf];
             count=count+1;
             break;
+        else
+            distances(1,j) = pdist2(inputMovieVector, movieVector, 'cosine');
+%             som_eucdist2(movieVector,inputMovieVector);
         end;
-    end;
-    if match == 1
-%         Don't insert repeating movies in the set
-%         distanceMatrix(end+1,1) = movieRowNo;
-%         distanceMatrix(end, 2) = inf;
-    else
-        distanceMatrix(end+1,1) = movieRowNo;
-        distanceMatrix(end, 2) = pdist2(combinedInput, sD.data(movieRowNo,:), 'cosine');
-    end;
+     end;
+    distances = sort(distances);
+    distanceMatrix(end+1,1) = movieRowNo;
+    distanceMatrix(end,2:end) = distances;
 end;
 
+
+% distanceMatrix = zeros(1,2);
+% count=0;
+% for i=1:numberOfComparisons
+%     movieRowNo = MovieSet(i,1);
+%     movieVector = sD.data(movieRowNo,:);
+%     match=0;
+%     for j = 1:inputMoviesSize
+%         inputMovieVector = inputMovies(j,:);
+%         if inputMovieVector==movieVector
+%             match=1;
+%             count=count+1;
+%             break;
+%         end;
+%     end;
+%     if match == 1
+% %         Don't insert repeating movies in the set
+% %         distanceMatrix(end+1,1) = movieRowNo;
+% %         distanceMatrix(end, 2) = inf;
+%     else
+%         distanceMatrix(end+1,1) = movieRowNo;
+%         distanceMatrix(end, 2) = pdist2(combinedInput, sD.data(movieRowNo,:), 'cosine');
+%     end;
+% end;
+% distanceMatrix
 resultMatrix = sortrows(distanceMatrix,2);
 % resultMatrix = flipud(resultMatrix);
 tempMatrix = resultMatrix;
