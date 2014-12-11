@@ -20,13 +20,24 @@ if strcmp(collectionMethod,'individual')
         BMUSet = unique(BMUSet);
         MovieSet = unique(MovieSet);
     end;
-elseif strcmp(collectionMethod,'combined')
+elseif strcmp(collectionMethod,'combinedto1')
     % Need to decide whether to clamp combinedInput or not. 
     combinedInput = sum(inputMovies);
     gtOne = find(combinedInput>1);
     for i=1:length(gtOne)
         combinedInput(gtOne(i)) = 1;
     end;
+    while size(MovieSet,1) < (2*n)
+        BMU = som_bmus(sM, combinedInput, kCounter);
+        BMUSet(end+1, 1) = BMU;
+        MovieSet = [MovieSet; I{BMU}];
+        kCounter = kCounter+1;
+    end;
+    BMUSet = unique(BMUSet);
+    MovieSet = unique(MovieSet);
+elseif strcmp(collectionMethod,'combined')
+    % Need to decide whether to clamp combinedInput or not. 
+    combinedInput = sum(inputMovies);
     while size(MovieSet,1) < (2*n)
         BMU = som_bmus(sM, combinedInput, kCounter);
         BMUSet(end+1, 1) = BMU;

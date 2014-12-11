@@ -19,37 +19,6 @@ inputMoviesSize = size(inputMovies,1);
 distanceMatrix = zeros(1,1+inputMoviesSize);
 count=0;
 MovieSetSize = size(MovieSet,1);
-
-%Compare collected movies with 'combined movies' as that seems to be giving
-%better results - this is now a replication of make_predictions2 and needs
-%to be changed back to the original method of comparing with individual
-%input movies. 
-% combinedInput = sum(inputMovies);
-% count=0;
-% for i=1:MovieSetSize
-%     movieID = MovieSet(i,1);
-%     movieVector = sD.data(movieID,:);
-%     match=0;
-%     for j = 1:inputMoviesSize
-%         inputMovieVector = inputMovies(j,:);
-%         if inputMovieVector==movieVector
-%             match=1;
-%             count=count+1;
-%             break;
-%         end;
-%     end;
-%     if match == 1
-%         distanceMatrix(end+1,1) = movieID;
-%         distanceMatrix(end, 2) = inf;
-%     else
-%         distanceMatrix(end+1,1) = movieID;
-%         distanceMatrix(end, 2) = som_eucdist2(movieVector, combinedInput);
-%     end;
-% end;
-
-distanceMatrix = zeros(1,1+inputMoviesSize);
-count=0;
-MovieSetSize = size(MovieSet,1);
 for i=1:MovieSetSize
     movieRowNo = MovieSet(i,1);
     movieVector = sD.data(movieRowNo,:);
@@ -74,7 +43,6 @@ end;
 % size(distanceMatrix)
 % BMUs
 resultMatrix = sortrows(distanceMatrix,2);
-%resultMatrix(1:10,:)
 tempMatrix = resultMatrix;
 nonZeroIndex = find(tempMatrix(:,1)~=0,1);
 resultMatrix = tempMatrix(nonZeroIndex:end,:);

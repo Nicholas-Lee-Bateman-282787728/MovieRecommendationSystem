@@ -47,17 +47,14 @@ elseif strcmp(predictionMethod, 'cosine')
     UserInput = GetUserMovieData(UserInputData(1,:), sData);
     RecMoviesRows = make_predictions4(sMap, sData, UserInput, n, collectionMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
-
-elseif strcmp(predictionMethod, 'addandnorm')
-    %'addandnorm'
-    if isempty(sMap.comp_norm{1})
-        error('sMap generated using un-normalized data. Should be normalized data');
+elseif strcmp(predictionMethod,'add')
+    %'add and compare'
+    if ~isempty(sMap.comp_norm{1})
+        error('sMap generated using normalized data. Should be un-normalized data');
         return;
     end
-    sDataNorm = som_normalize(sData, sMap.comp_norm{1});
     UserInput = GetUserMovieData(UserInputData(1,:), sData);
-    %make_predictions9 - breaking this for now
-    RecMoviesRows = make_predictions9(sMap, sDataNorm, UserInput, n);
+    RecMoviesRows = make_predictions5(sMap, sData, UserInput, n, collectionMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 else
     error('predictionMethod did not match anything : %s', predictionMethod);

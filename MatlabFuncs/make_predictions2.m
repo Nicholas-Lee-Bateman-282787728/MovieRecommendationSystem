@@ -16,10 +16,6 @@ inputMoviesSize = size(inputMovies,1);
 
 [MovieSet, BMUSet] = CollectMoviesForComparison(inputMovies, sM, sD, n, collectionMethod);
 
-distanceMatrix = zeros(1,1+inputMoviesSize);
-count=0;
-MovieSetSize = size(MovieSet,1);
-
 distanceMatrix = zeros(1,1);
 count=0;
 MovieSetSize = size(MovieSet,1);
@@ -37,25 +33,22 @@ for i=1:MovieSetSize
             distances(1,j) = som_eucdist2(movieVector,inputMovieVector);
         end;
      end;
-    distances = sort(distances);
     distanceMatrix(end+1,1) = movieRowNo;
     distanceMatrix(end,2) = sum(distances);
 end;
 
 % size(distanceMatrix,1)
-
 % MovieSetSize
 % count
 % size(distanceMatrix)
 % BMUs
 resultMatrix = sortrows(distanceMatrix,2);
-%resultMatrix(1:10,:)
 tempMatrix = resultMatrix;
 nonZeroIndex = find(tempMatrix(:,1)~=0,1);
 resultMatrix = tempMatrix(nonZeroIndex:end,:);
 numberOfResults = length(resultMatrix);
 if(numberOfResults > n)
-    resultMatrix = resultMatrix(1:n,1:2);
+    resultMatrix = resultMatrix(1:n,:);
 end;
 finalMatrix = resultMatrix;
 return;
