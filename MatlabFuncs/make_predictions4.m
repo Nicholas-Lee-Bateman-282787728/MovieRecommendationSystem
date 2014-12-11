@@ -7,6 +7,8 @@ function [ finalMatrix ] = make_predictions4(sM, sD, inputMovies, n, collectionM
 % inputMovies and sD should be in un-normalized format.
 % sM should have been generated using un-normalized data.
 
+%'cosine'
+
 % Combining input movies into one vector
 combinedInput = sum(inputMovies);
 
