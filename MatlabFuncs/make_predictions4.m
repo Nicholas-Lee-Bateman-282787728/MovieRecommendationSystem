@@ -16,70 +16,13 @@ for i=1:length(gtOne)
     combinedInput(gtOne(i)) = 1;
 end;
 
-MovieSet = [];
-BMUSet = [];
-kCounter = 1;
-
-
 [MovieSet, BMUSet] = CollectMoviesForComparison(inputMovies, sM, sD, n, collectionMethod);
     
-% Finding the top k BMUs for the combined input.
-%BMUs = som_bmus(sM, combinedInput, [1:k]);
-
-
-
-
-% inputVector = sD.data(find(ismember(sD.labels(:,2), '42')),:);
-% sum0 = 0;
-% sum1 = 0;
-% for i=1:3771
-%     if(isempty(inputVector(i)))
-%         i
-%     elseif(inputVector(i)==1)
-%         sum1=sum1+1;
-%     elseif(inputVector(i)==0)
-%         sum0=sum0+1;
-%     end;
-% end;
-% sum0+sum1
-
-
-%perBin = ceil(n/k) + 2;
-% moreMovies = 0;
-%I{BMUs(1)}
-
-% '2' contains the movie ID in sD.labels
-
-
-numberOfComparisons = size(MovieSet,1);
+MovieSetSize = size(MovieSet,1);
 inputMoviesSize = size(inputMovies,1);
-
-% distanceMatrix = zeros(1,1+inputMoviesSize);
-% count=0;
-% MovieSetSize = size(MovieSet,1);
-% for i=1:MovieSetSize
-%     movieRowNo = MovieSet(i,1);
-%     movieVector = sD.data(movieRowNo,:);
-%     distances=zeros(1,inputMoviesSize);
-%     for j = 1:inputMoviesSize
-%         inputMovieVector = inputMovies(j,:);
-%         if inputMovieVector==movieVector
-%             distances(1,:) = [inf];
-%             count=count+1;
-%             break;
-%         else
-%             distances(1,j) = pdist2(inputMovieVector, movieVector, 'cosine');
-%         end;
-%      end;
-%     distances = sort(distances);
-%     distanceMatrix(end+1,1) = movieRowNo;
-%     distanceMatrix(end,2:end) = distances;
-% end;
-
-
 distanceMatrix = zeros(1,2);
 count=0;
-for i=1:numberOfComparisons
+for i=1:MovieSetSize
     movieRowNo = MovieSet(i,1);
     movieVector = sD.data(movieRowNo,:);
     match=0;
@@ -93,14 +36,13 @@ for i=1:numberOfComparisons
     end;
     if match == 1
 %         Don't insert repeating movies in the set
-%         distanceMatrix(end+1,1) = movieRowNo;
-%         distanceMatrix(end, 2) = inf;
+        distanceMatrix(end+1,1) = movieRowNo;
+        distanceMatrix(end, 2) = inf;
     else
         distanceMatrix(end+1,1) = movieRowNo;
         distanceMatrix(end, 2) = pdist2(combinedInput, sD.data(movieRowNo,:), 'cosine');
     end;
 end;
-
 resultMatrix = sortrows(distanceMatrix,2);
 % resultMatrix = flipud(resultMatrix);
 tempMatrix = resultMatrix;

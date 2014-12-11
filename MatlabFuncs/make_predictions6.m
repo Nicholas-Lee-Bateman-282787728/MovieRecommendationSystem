@@ -1,4 +1,4 @@
-function [ finalMatrix ] = make_predictions5(sM, sD, inputMovies, n, collectionMethod)
+function [ finalMatrix ] = make_predictions6(sM, sD, inputMovies, n, collectionMethod)
 %MAKE_PREDICTIONS Accept a matrix containing vector representations of
 %input movies, and return a list of n movie predictions chosen from k best
 %matching map units. 
@@ -7,18 +7,15 @@ function [ finalMatrix ] = make_predictions5(sM, sD, inputMovies, n, collectionM
 % inputMovies and sD should be in un-normalized format.
 % sM should have been generated using un-normalized data.
 
-%'add'
-
 % Combining input movies into one vector
 combinedInput = sum(inputMovies);
 
 [MovieSet, BMUSet] = CollectMoviesForComparison(inputMovies, sM, sD, n, collectionMethod);
     
-distanceMatrix = zeros(1,2);
-count=0;
 MovieSetSize = size(MovieSet,1);
 inputMoviesSize = size(inputMovies,1);
-
+distanceMatrix = zeros(1,2);
+count=0;
 for i=1:MovieSetSize
     movieRowNo = MovieSet(i,1);
     movieVector = sD.data(movieRowNo,:);
@@ -32,16 +29,16 @@ for i=1:MovieSetSize
         end;
     end;
     if match == 1
+%         Don't insert repeating movies in the set
         distanceMatrix(end+1,1) = movieRowNo;
         distanceMatrix(end, 2) = inf;
     else
         distanceMatrix(end+1,1) = movieRowNo;
-        distanceMatrix(end, 2) = som_eucdist2(movieVector, combinedInput);
+        distanceMatrix(end, 2) = pdist2(combinedInput, sD.data(movieRowNo,:), 'cosine');
     end;
 end;
-%count
-%size(distanceMatrix)
 resultMatrix = sortrows(distanceMatrix,2);
+% resultMatrix = flipud(resultMatrix);
 tempMatrix = resultMatrix;
 nonZeroIndex = find(tempMatrix(:,1)~=0,1);
 resultMatrix = tempMatrix(nonZeroIndex:end,:);
@@ -52,4 +49,3 @@ end;
 finalMatrix = resultMatrix;
 return;
 end
-
