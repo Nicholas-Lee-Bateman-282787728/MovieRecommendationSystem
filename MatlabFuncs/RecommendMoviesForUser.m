@@ -5,21 +5,16 @@ function [ RecMovies, RecMoviesRows ] = RecommendMoviesForUser( UserInputData, s
 %   they will work as-is for normalized data. 
 RecMovies = [];
 RecMoviesRows = [];
-if strcmp(predictionMethod,'minimumDistance')
+if strcmp(predictionMethod,'minimumdistance')
     %Minimum of distances to each input movie
-    if isempty(sMap.comp_norm{1})
-        %'no norm'
-        UserInput = GetUserMovieData(UserInputData(1,:), sData);
-        RecMoviesRows = make_predictions1(sMap, sData, UserInput, n, collectionMethod);
-        RecMovies = GetMovieNamesFromRows(RecMoviesRows);
-    else
-        %'norm'
-        sDataNorm = som_normalize(sData, sMap.comp_norm{1});
-        UserInput = GetUserMovieData(UserInputData(1,:), sDataNorm);
-        RecMoviesRows = make_predictions1(sMap, sDataNorm, UserInput, n, collectionMethod);
-        RecMovies = GetMovieNamesFromRows(RecMoviesRows);
+    if ~isempty(sMap.comp_norm{1})
+        error('sMap generated using normalized data. Should be un-normalized data');
+        return;
     end
-elseif strcmp(predictionMethod,'sumOfDistances')
+    UserInput = GetUserMovieData(UserInputData(1,:), sData);
+    RecMoviesRows = make_predictions1(sMap, sData, UserInput, n, collectionMethod);
+    RecMovies = GetMovieNamesFromRows(RecMoviesRows);
+elseif strcmp(predictionMethod,'sumdistances')
     %Sum of distances from each input movie
     if ~isempty(sMap.comp_norm{1})
         error('sMap generated using normalized data. Should be un-normalized data');
@@ -37,7 +32,7 @@ elseif strcmp(predictionMethod,'addandreduceto1')
     UserInput = GetUserMovieData(UserInputData(1,:), sData);
     RecMoviesRows = make_predictions3(sMap, sData, UserInput, n, collectionMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
-elseif strcmp(predictionMethod, 'cosine')
+elseif strcmp(predictionMethod, 'cosinereduceto1')
     %'cosine'
     %This should work on normalized data - fix accordingly. 
     if ~isempty(sMap.comp_norm{1})
@@ -56,7 +51,7 @@ elseif strcmp(predictionMethod,'add')
     UserInput = GetUserMovieData(UserInputData(1,:), sData);
     RecMoviesRows = make_predictions5(sMap, sData, UserInput, n, collectionMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
-elseif strcmp(predictionMethod, 'cosineWithoutReduction')
+elseif strcmp(predictionMethod, 'cosinecombined')
     %'cosine'
     %This should work on normalized data - fix accordingly. 
     if ~isempty(sMap.comp_norm{1})
@@ -65,6 +60,36 @@ elseif strcmp(predictionMethod, 'cosineWithoutReduction')
     end
     UserInput = GetUserMovieData(UserInputData(1,:), sData);
     RecMoviesRows = make_predictions6(sMap, sData, UserInput, n, collectionMethod);
+    RecMovies = GetMovieNamesFromRows(RecMoviesRows);
+elseif strcmp(predictionMethod, 'dotproductcombined')
+    %'dotproduct comparison with combined input'
+    %This should work on normalized data - fix accordingly. 
+    if ~isempty(sMap.comp_norm{1})
+        error('sMap generated using normalized data. Should be un-normalized data');
+        return;
+    end
+    UserInput = GetUserMovieData(UserInputData(1,:), sData);
+    RecMoviesRows = make_predictions7(sMap, sData, UserInput, n, collectionMethod);
+    RecMovies = GetMovieNamesFromRows(RecMoviesRows);
+elseif strcmp(predictionMethod, 'dotproductreduceto1')
+    %'dotproduct comparison with combined input reduced to 1'
+    %This should work on normalized data - fix accordingly. 
+    if ~isempty(sMap.comp_norm{1})
+        error('sMap generated using normalized data. Should be un-normalized data');
+        return;
+    end
+    UserInput = GetUserMovieData(UserInputData(1,:), sData);
+    RecMoviesRows = make_predictions8(sMap, sData, UserInput, n, collectionMethod);
+    RecMovies = GetMovieNamesFromRows(RecMoviesRows);
+elseif strcmp(predictionMethod, 'dotproduct')
+    %'dotproduct comparison with combined input reduced to 1'
+    %This should work on normalized data - fix accordingly. 
+    if ~isempty(sMap.comp_norm{1})
+        error('sMap generated using normalized data. Should be un-normalized data');
+        return;
+    end
+    UserInput = GetUserMovieData(UserInputData(1,:), sData);
+    RecMoviesRows = make_predictions9(sMap, sData, UserInput, n, collectionMethod);
     RecMovies = GetMovieNamesFromRows(RecMoviesRows);
 else
     error('predictionMethod did not match anything : %s', predictionMethod);
