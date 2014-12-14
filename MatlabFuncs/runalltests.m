@@ -36,9 +36,9 @@ if strcmp(mapSize, 'big')
     finalResultsdotproductreducedto12 = batch_test(BigMovieMap, MovieData, '50%', 0, 'dotproductreduceto1', 'combined');
     finalResultsdotproductreducedto13 = batch_test(BigMovieMap, MovieData, '50%', 0, 'dotproductreduceto1', 'combinedto1');
     
-    finalResultsdotproduct = batch_test(BigMovieMap, MovieData, '50%', 0, 'dotproduct', 'individual');
-    finalResultsdotproduct = batch_test(BigMovieMap, MovieData, '50%', 0, 'dotproduct', 'combined');
-    finalResultsdotproduct = batch_test(BigMovieMap, MovieData, '50%', 0, 'dotproduct', 'combinedto1');
+    finalResultsdotproduct1 = batch_test(BigMovieMap, MovieData, '50%', 0, 'dotproduct', 'individual');
+    finalResultsdotproduct2 = batch_test(BigMovieMap, MovieData, '50%', 0, 'dotproduct', 'combined');
+    finalResultsdotproduct3 = batch_test(BigMovieMap, MovieData, '50%', 0, 'dotproduct', 'combinedto1');
     save('CS394n/Project/MovieRecommendationSystem/MatlabFuncs/Results/BigMapResults.mat');
 else
     load('MovieMap.mat');
@@ -74,9 +74,9 @@ else
     finalResultsdotproductreducedto12 = batch_test(MovieMap, MovieData, '50%', 0, 'dotproductreduceto1', 'combined');
     finalResultsdotproductreducedto13 = batch_test(MovieMap, MovieData, '50%', 0, 'dotproductreduceto1', 'combinedto1');
     
-    finalResultsdotproduct = batch_test(MovieMap, MovieData, '50%', 0, 'dotproduct', 'individual');
-    finalResultsdotproduct = batch_test(MovieMap, MovieData, '50%', 0, 'dotproduct', 'combined');
-    finalResultsdotproduct = batch_test(MovieMap, MovieData, '50%', 0, 'dotproduct', 'combinedto1');
+    finalResultsdotproduct1 = batch_test(MovieMap, MovieData, '50%', 0, 'dotproduct', 'individual');
+    finalResultsdotproduct2 = batch_test(MovieMap, MovieData, '50%', 0, 'dotproduct', 'combined');
+    finalResultsdotproduct3 = batch_test(MovieMap, MovieData, '50%', 0, 'dotproduct', 'combinedto1');
     save('CS394n/Project/MovieRecommendationSystem/MatlabFuncs/Results/SmallMapResults.mat');
 end
 end
