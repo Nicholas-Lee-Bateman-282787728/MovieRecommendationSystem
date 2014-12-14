@@ -1,4 +1,4 @@
-function [ accuracy, RecMovies, noOfInputs ] = single_user_test(UserNo, sM, sD, n, inputAmount, predictionMethod , collectionMethod)
+function [ accuracy, RecMovies, noOfInputs, truePositives ] = single_user_test(UserNo, sM, sD, n, inputAmount, predictionMethod , collectionMethod)
 %SINGLE_USER_TEST Summary of this function goes here
 % A little order to the convoluted code - 
 % User input data is basically movie IDs
@@ -30,7 +30,8 @@ end;
 accuracy = count/numberOfRecMovies*100;
 
 
-
-recall = count*2/size(WatchedMovies,1); 
+recall = count*2/size(WatchedMovies,1);
+truePositives = count;
+return;
 end
 
