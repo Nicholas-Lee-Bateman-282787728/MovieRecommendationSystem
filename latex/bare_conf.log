@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2012.10.5)  14 DEC 2014 21:23
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2012.10.5)  14 DEC 2014 22:13
 entering extended mode
  %&-line parsing enabled.
 **bare_conf.tex
@@ -122,36 +122,55 @@ File: pdftex.def 2008/09/08 v0.04l Graphics/color for pdfTeX
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
+) (/v/filer4b/software/texlive/2008/texmf-dist/tex/latex/subfigure/subfigure.st
+y
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen119
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen120
+\subfiglabelskip=\skip47
+\c@subfigure=\count92
+\c@lofdepth=\count93
+\c@subtable=\count94
+\c@lotdepth=\count95
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/v/filer4b/software/texlive/2008/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip48
+\subfig@bottom=\skip49
 ) (./bare_conf.aux)
 \openout1 = `bare_conf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 (/v/filer4b/software/texlive/2008/texmf-dist/tex/context/base/supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count92
-\scratchdimen=\dimen119
+\scratchcounter=\count96
+\scratchdimen=\dimen121
 \scratchbox=\box27
-\nofMPsegments=\count93
-\nofMParguments=\count94
+\nofMPsegments=\count97
+\nofMParguments=\count98
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count95
-\MPscratchDim=\dimen120
-\MPnumerator=\count96
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen122
+\MPnumerator=\count100
 \everyMPtoPDFconversion=\toks17
 )
-Underfull \hbox (badness 1796) in paragraph at lines 447--448
+Underfull \hbox (badness 1796) in paragraph at lines 55--56
 []\OT1/ptm/m/n/10 SOMs, by virtue of their abil-ity to rep-re-sent high-
  []
 
@@ -200,7 +219,56 @@ Missing character: There is no ™ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
- [3]
+ <1.jpg, id=12, 651.43375pt x 764.8575pt>
+File: 1.jpg Graphic file (type jpg)
+ <use 1.jpg>
+<3.jpg, id=13, 836.12375pt x 904.37875pt>
+File: 3.jpg Graphic file (type jpg)
+ <use 3.jpg>
+<2.jpg, id=14, 674.52pt x 751.80875pt>
+File: 2.jpg Graphic file (type jpg)
+ <use 2.jpg>
+<4.jpg, id=15, 824.07875pt x 893.3375pt>
+File: 4.jpg Graphic file (type jpg)
+ <use 4.jpg> [3] [4 <./1.jpg> <./3.jpg> <./2.jpg> <./4.jpg>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 152.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 152.
+
+Overfull \hbox (9.94421pt too wide) in paragraph at lines 152--162
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--162
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 162.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 162.
+
+Overfull \hbox (9.94421pt too wide) in paragraph at lines 167--176
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--176
+
+ []
+
+
+Underfull \vbox (badness 1292) has occurred while \output is active []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+ [5]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -210,100 +278,11 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [4]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--683
-[]\OT1/ptm/m/n/8 Resnick, Paul, and Hal R. Var-ian. ``Rec-om-mender sys-tems."
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 681--683
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 684--686
-
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 687--689
-[]\OT1/ptm/m/n/8 Kohonen, Teuvo, and Self-Organizing Maps. ``Springer se-ries i
-n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 687--689
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 690--692
-
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 693--695
-\OT1/ptm/m/n/8 in con-tent based rec-om-men-da-tion sys-tem us-ing so-cial net-
-work
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 693--695
-
- []
-
-
-Underfull \hbox (badness 3579) in paragraph at lines 696--698
-\OT1/ptm/m/n/8 as clas-si-fi-ca-tion: Us-ing so-cial and content-based in-for-m
-a-tion in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 696--698
-
- []
-
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 699--701
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--707
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 708--710
-
- []
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 711--713
+[6]
+Underfull \hbox (badness 2173) in paragraph at lines 248--249
 []\OT1/ptm/m/n/8 Kohonen, Teuvo. ``Learn-ing vec-tor quan-ti-za-tion." Self-Org
 anizing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 711--713
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 714--716
-
  []
 
 
@@ -317,24 +296,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5] (./bare_conf.aux) ) 
+[7
+
+] (./bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 1578 strings out of 493876
- 25031 string characters out of 1147346
- 83410 words of memory out of 3000000
- 4898 multiletter control sequences out of 10000+50000
- 33007 words of font info for 62 fonts, out of 3000000 for 5000
+ 1783 strings out of 493876
+ 27732 string characters out of 1147346
+ 87358 words of memory out of 3000000
+ 5083 multiletter control sequences out of 10000+50000
+ 37632 words of font info for 71 fonts, out of 3000000 for 5000
  717 hyphenation exceptions out of 8191
- 26i,6n,21p,1364b,192s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/v/filer4b/software/texlive/2008/texmf-dist/fonts/enc/d
-vips/base/8r.enc}</v/filer4b/software/texlive/2008/texmf-dist/fonts/type1/urw/t
-imes/utmb8a.pfb></v/filer4b/software/texlive/2008/texmf-dist/fonts/type1/urw/ti
-mes/utmbi8a.pfb></v/filer4b/software/texlive/2008/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb></v/filer4b/software/texlive/2008/texmf-dist/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on bare_conf.pdf (5 pages, 80341 bytes).
+ 26i,7n,24p,1364b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/v/filer4b/software/texlive/2008/texmf-dist/fonts/enc/dvi
+ps/base/8r.enc}</v/filer4b/software/texlive/2008/texmf-dist/fonts/type1/bluesky
+/cm/cmr8.pfb></v/filer4b/software/texlive/2008/texmf-dist/fonts/type1/bluesky/c
+m/cmsy8.pfb></v/filer4b/software/texlive/2008/texmf-dist/fonts/type1/urw/times/
+utmb8a.pfb></v/filer4b/software/texlive/2008/texmf-dist/fonts/type1/urw/times/u
+tmbi8a.pfb></v/filer4b/software/texlive/2008/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></v/filer4b/software/texlive/2008/texmf-dist/fonts/type1/urw/times/ut
+mri8a.pfb>
+Output written on bare_conf.pdf (7 pages, 1155308 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
