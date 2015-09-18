@@ -1,6 +1,6 @@
-MovieRecommendationSystem
-Kaivan Wadia and Pulkit Gupta
+Movie Recommendation System using SOM
 =========================
+Kaivan Wadia and Pulkit Gupta
 
 Project for Neural Networks Class
 
